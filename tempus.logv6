@@ -1,0 +1,2765 @@
+[06/23 15:10:18      0s] 
+[06/23 15:10:18      0s] Cadence Tempus(TM) Timing Solution.
+[06/23 15:10:18      0s] Copyright 2024 Cadence Design Systems, Inc. All rights reserved worldwide.
+[06/23 15:10:18      0s] 
+[06/23 15:10:18      0s] Version:	v23.13-s084_1, built Fri Nov 22 17:27:06 PST 2024
+[06/23 15:10:18      0s] Options:	
+[06/23 15:10:18      0s] Date:		Tue Jun 23 15:10:18 2026
+[06/23 15:10:18      0s] Host:		cadence (x86_64 w/Linux 4.18.0-425.3.1.el8.x86_64) (8cores*16cpus*Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz 16384KB)
+[06/23 15:10:18      0s] OS:		Red Hat Enterprise Linux 8.7 (Ootpa)
+[06/23 15:10:18      0s] 
+[06/23 15:10:18      0s] License:
+[06/23 15:10:18      0s] 		[15:10:18.094081] Configured Lic search path (23.02-s006): 5280@cadence
+
+[06/23 15:10:18      0s] 		tpsxl	Tempus Timing Signoff Solution XL	23.1	checkout succeeded
+[06/23 15:10:18      0s] 		16 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[06/23 15:10:18      0s] **ERROR: (IMPOAX-8053):	Could not open shared library libtempusoax22.so : liboaPrivateCDS.so: cannot open shared object file: No such file or directory.
+**ERROR: (IMPOAX-8053):	Could not open shared library libcdsSkillPcell.so : /home/install/SSV231/tools.lnx86/ssv/bin/64bit/../../../lib/64bit/libcdsSkillPcell.so: undefined symbol: _ZTIN12OpenAccess_413oaFSComponentE.
+**ERROR: (IMPOAX-8033):	OpenAccess features will be disabled in this session.
+Memory management switch to non-aggressive memory release mode.
+[06/23 15:10:29     11s] 
+[06/23 15:10:29     11s] OS Mmap count monitoring thread starts. Limit of OS Mmap count is 65530
+[06/23 15:10:29     11s] 
+[06/23 15:10:29     11s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Tempus Timing Solution v23.13-s084_1 (64bit) 11/22/2024 17:27 (Linux 3.10.0-693.el7.x86_64)
+[06/23 15:10:31     13s] @(#)CDS: NanoRoute 23.13-s084_1 NR241029-2256/23_13-UB (database version 18.20.652) {superthreading v2.20}
+[06/23 15:10:31     13s] @(#)CDS: AAE 23.13-s022 (64bit) 11/22/2024 (Linux 3.10.0-693.el7.x86_64)
+[06/23 15:10:31     13s] @(#)CDS: CTE 23.13-s030_1 () Nov 21 2024 17:17:38 ( )
+[06/23 15:10:31     13s] @(#)CDS: SYNTECH 23.13-s009_1 () Oct 30 2024 09:17:13 ( )
+[06/23 15:10:31     13s] @(#)CDS: CPE v23.13-s064
+[06/23 15:10:31     13s] @(#)CDS: OA 22.61-p018 Fri Oct 18 10:45:49 2024
+[06/23 15:10:31     13s] @(#)CDS: SGN 23.10-d005 (03-Oct-2023) (64 bit executable, TkQt5.15.9)
+[06/23 15:10:31     13s] @(#)CDS: RCDB 11.15.0
+[06/23 15:10:31     13s] @(#)CDS: STYLUS 23.14-s002_1 (09/11/2024 13:54 PDT)
+[06/23 15:10:31     13s] Change the soft stacksize limit to 0.2%RAM (63 mbytes). Set global soft_stack_size_limit to change the value.
+[06/23 15:10:31     13s] **INFO: (TMPDIR-1001): The environment variable TMPDIR is not set.
+Create and set the environment variable TMPDIR to '/tmp/ssv_tmpdir_314157_6e2aa48b-329e-4c36-a542-d0d23a90d538_KR0X8b'.
+environment variable TMPDIR is '/tmp/ssv_tmpdir_314157_6e2aa48b-329e-4c36-a542-d0d23a90d538_KR0X8b'.
+[06/23 15:10:32     14s] <CMD> ::stop_gui -keepDgui
+[06/23 15:10:32     14s] Has not load the powerDB, will keep enalbed
+[06/23 15:10:32     14s] Has not load the powerDB, will keep enalbed
+[06/23 15:11:24     17s] <CMD> read_design -physical_data booth.enc.dat/ booth_multiplier
+[06/23 15:11:24     17s] # Tempus Timing Solution 23.13-s084_1
+[06/23 15:11:24     17s] # read_design
+[06/23 15:11:24     17s] #  -physical_data 1
+[06/23 15:11:24     17s] #  dir booth.enc.dat/ booth_multiplier
+[06/23 15:11:24     17s] Set Default Input Pin Transition as 0.1 ps.
+[06/23 15:11:25     17s] Loading design 'booth_multiplier' saved by 'Innovus' '21.15-s110_1' on 'Tue Jun 23 10:33:36 2026'.
+[06/23 15:11:25     17s] **ERROR: (IMPOAX-820):	The OpenAccess (OA) features are disabled in the current session of Tempus Timing Solution because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Tempus Timing Solution either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+
+**ERROR: (IMPOAX-850):	oaxCreateCdsLibArray command cannot be run as OpenAccess features are disabled in this session.
+#% Begin Load MMMC data ... (date=06/23 15:11:25, mem=1700.5M)
+[06/23 15:11:25     17s] **WARN: (UI-638):	The option '-cap_table' to the command 'create_rc_corner' is ignored since it is related to the RC extraction mode which Tempus does not support. Tempus only supports the signoff QRC extraction.
+[06/23 15:11:25     17s] Number of views requested 1 are allowed with the current licenses... continuing with set_analysis_view.
+[06/23 15:11:25     17s] #% End Load MMMC data ... (date=06/23 15:11:25, total cpu=0:00:00.0, real=0:00:00.0, peak res=1700.9M, current mem=1700.9M)
+[06/23 15:11:25     17s] 
+[06/23 15:11:25     17s] Loading LEF file /home/vlsi21/day_19/booth/Pd/booth.enc.dat/libs/lef/gsclib090_translated.lef ...
+[06/23 15:11:25     17s] **WARN: (IMPLF-105):	The layer 'Oxide' specified in SAMENET spacing
+[06/23 15:11:25     17s] rule is neither a routing layer nor a cut layer. The rule is ignored.
+[06/23 15:11:25     17s] **WARN: (IMPLF-105):	The layer 'Poly' specified in SAMENET spacing
+[06/23 15:11:25     17s] rule is neither a routing layer nor a cut layer. The rule is ignored.
+[06/23 15:11:25     17s] Set DBUPerIGU to M2 pitch 580.
+[06/23 15:11:25     18s] **WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[06/23 15:11:25     18s] 
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+[06/23 15:11:25     18s] Loading view definition file from /home/vlsi21/day_19/booth/Pd/booth.enc.dat/viewDefinition.tcl
+[06/23 15:11:25     18s] Reading slow timing library '/home/install/FOUNDRY/digital/90nm/dig/lib/slow.lib' ...
+[06/23 15:11:26     18s] Read 479 cells in library 'slow' 
+[06/23 15:11:26     18s] Ending "PreSetAnalysisView" (total cpu=0:00:00.7, real=0:00:01.0, peak res=1831.7M, current mem=1772.5M)
+[06/23 15:11:26     18s] *** End library_loading (cpu=0.01min, real=0.02min, mem=66.0M, fe_cpu=0.31min, fe_real=1.13min, fe_mem=1857.2M) ***
+[06/23 15:11:26     18s] #% Begin Load netlist data ... (date=06/23 15:11:26, mem=1771.7M)
+[06/23 15:11:26     19s] *** Begin netlist parsing (mem=1857.2M) ***
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X1' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X1' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+[06/23 15:11:26     19s] **WARN: (EMS-62):	Message <IMPVL-159> has exceeded the default message display limit of 20.
+[06/23 15:11:26     19s] To avoid this warning, increase the display limit per unique message by
+[06/23 15:11:26     19s] using the set_message -limit <number> command.
+[06/23 15:11:26     19s] The message limit can be removed by using the set_message -no_limit command.
+[06/23 15:11:26     19s] Note that setting a very large number using the set_message -limit command
+[06/23 15:11:26     19s] or removing the message limit using the set_message -no_limit command can
+[06/23 15:11:26     19s] significantly increase the log file size.
+[06/23 15:11:26     19s] To suppress a message, use the set_message -suppress command.
+[06/23 15:11:26     19s] Reading verilogBinary netlist '/home/vlsi21/day_19/booth/Pd/booth.enc.dat/booth_multiplier.v.bin'
+[06/23 15:11:26     19s] 
+[06/23 15:11:26     19s] *** Memory Usage v#3 (Current mem = 2132.195M, initial mem = 835.133M) ***
+[06/23 15:11:26     19s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=2132.2M) ***
+[06/23 15:11:26     19s] #% End Load netlist data ... (date=06/23 15:11:26, total cpu=0:00:00.4, real=0:00:00.0, peak res=1886.1M, current mem=1877.2M)
+[06/23 15:11:26     19s] Top level cell is booth_multiplier.
+[06/23 15:11:26     19s] Has not load the powerDB, will keep enalbed
+[06/23 15:11:26     19s] Has not load the powerDB, will keep enalbed
+[06/23 15:11:26     19s] Ending "BindLib:" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1910.8M, current mem=1910.8M)
+[06/23 15:11:26     19s] *** Estimate the number of flat objects and h-objects before Flatten ***
+[06/23 15:11:26     19s] 	flat insts : 143
+[06/23 15:11:26     19s] 	flat terms : 465
+[06/23 15:11:26     19s] 	HNets : 0
+[06/23 15:11:26     19s] 	HInsts : 0
+[06/23 15:11:26     19s] 	HTerms : 0
+[06/23 15:11:26     19s] Building hierarchical netlist for Cell booth_multiplier ...
+[06/23 15:11:26     19s] ***** UseNewTieNetMode *****.
+[06/23 15:11:27     19s] *** Netlist is unique.
+[06/23 15:11:27     19s] Setting Std. cell height to 5220 DBU (smallest netlist inst).
+[06/23 15:11:27     19s] ** info: there are 488 modules.
+[06/23 15:11:27     19s] ** info: there are 142 stdCell insts.
+[06/23 15:11:27     19s] ** info: there are 142 stdCell insts with at least one signal pin.
+[06/23 15:11:27     19s] 
+[06/23 15:11:27     19s] *** Memory Usage v#3 (Current mem = 2547.242M, initial mem = 835.133M) ***
+[06/23 15:11:27     19s] *info: set bottom ioPad orient R0
+[06/23 15:11:27     19s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[06/23 15:11:27     19s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[06/23 15:11:27     19s] Horizontal Layer M1 offset = 290 (derived)
+[06/23 15:11:27     19s] Vertical Layer M2 offset = 290 (derived)
+[06/23 15:11:27     19s] Start create_tracks
+[06/23 15:11:27     19s] Generated pitch 0.29 in Metal8 is different from 0.87 defined in technology file in unpreferred direction.
+[06/23 15:11:27     19s] Set Default Input Pin Transition as 0.1 ps.
+[06/23 15:11:27     19s] Has not load the powerDB, will keep enalbed
+[06/23 15:11:27     19s] Has not load the powerDB, will keep enalbed
+[06/23 15:11:27     19s] Has not load the powerDB, will keep enalbed
+[06/23 15:11:27     19s] Has not load the powerDB, will keep enalbed
+[06/23 15:11:27     19s] Has not load the powerDB, will keep enalbed
+[06/23 15:11:27     19s] Has not load the powerDB, will keep enalbed
+[06/23 15:11:27     19s] Loading preference file /home/vlsi21/day_19/booth/Pd/booth.enc.dat/gui.pref.tcl ...
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'MinFPModuleSize' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'MinFlightLineWidth' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'MaxFlightLineNetTerms' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'LevelFlight' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'DirectionSink' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'DirectionSource' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'ShowNumberBlockConnection' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'StrecthRestriction' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'StretchRectilinear' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'MoveRestriction' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'DisplayRelFPlan' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'LegalizeMacro' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'DisplayFPlanFlightLine' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'DisplayPinName' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'ExclusiveFlight' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'ShowToUnplace' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'FlightLineInMove' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'ShowConnectionInOutNumber' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'ConnectionColorType' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (UI-156):	preference name 'OnlyBundleNetFlight' is not supported in Tempus Timing Solution.
+[06/23 15:11:27     19s] **WARN: (EMS-27):	Message (UI-156) has exceeded the current message display limit of 20.
+[06/23 15:11:27     19s] To increase the message display limit, refer to the product command reference manual.
+[06/23 15:11:27     19s] **WARN: (IMPSYC-6134):	Setting analysis mode to setup does not have any impact on timing analysis as simultaneous setup/hold mode analysis is on. Use '-late' option to report setup timing reports.
+[06/23 15:11:27     19s] **WARN: (IMPEXT-7000):	The option '-engine preRoute' for setExtractRCMode is ignored because only Quantus QRC extraction mode, that is, '-engine postRoute -effortLevel signoff' is supported in Tempus Timing Solution. To avoid this message, remove this option from your scripts.
+[06/23 15:11:27     19s] Has not load the powerDB, will keep enalbed
+[06/23 15:11:27     19s] Has not load the powerDB, will keep enalbed
+[06/23 15:11:27     19s] #WARNING (NRIF-90) Option setNanoRouteMode -route_bottom_routing_layer is obsolete. It will continue to work for the current release. To ensure compatibility with future releases, use option setDesignMode -bottomRoutingLayer instead.
+[06/23 15:11:27     19s] #WARNING (NRIF-91) Option setNanoRouteMode -route_top_routing_layer is obsolete. It will continue to work for the current release. To ensure compatibility with future releases, use option setDesignMode -topRoutingLayer instead.
+[06/23 15:11:27     19s] addRing command will ignore shorts while creating rings.
+[06/23 15:11:27     19s] addRing command will disallow rings to go over rows.
+[06/23 15:11:27     19s] addRing command will consider rows while creating rings.
+[06/23 15:11:27     19s] The ring targets are set to core/block ring wires.
+[06/23 15:11:27     19s] addStripe will allow jog to connect padcore ring and block ring.
+[06/23 15:11:27     19s] 
+[06/23 15:11:27     19s] Stripes will not extend to closest target.
+[06/23 15:11:27     19s] When breaking rings, the power planner will consider the existence of blocks.
+[06/23 15:11:27     19s] addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+[06/23 15:11:27     19s] The entire stripe set will break at the domain if one of the nets is not in the domain.
+[06/23 15:11:27     19s] Stripes will not be created over regions without power planning wires.
+[06/23 15:11:27     19s] Offset for stripe breaking is set to 0.
+[06/23 15:11:27     19s] Stripes will stop at the boundary of the specified area.
+[06/23 15:11:27     19s] The power planner will set stripe antenna targets to none (no trimming allowed).
+[06/23 15:11:27     19s] Change floorplan default-technical-site to 'gsclib090site'.
+[06/23 15:11:27     20s] siFlow : Timing analysis mode is single, using late cdB files
+[06/23 15:11:27     20s] Extraction setup Delayed 
+[06/23 15:11:27     20s] Ending "SetAnalysisView" (total cpu=0:00:00.0, real=0:00:00.0, peak res=2462.8M, current mem=2188.6M)
+[06/23 15:11:27     20s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[06/23 15:11:27     20s] 
+[06/23 15:11:27     20s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATSRXL complicate code: 8
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATSRX4 complicate code: 8
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATSRX2 complicate code: 8
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATSRX1 complicate code: 8
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATNSRXL complicate code: 8
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATNSRX4 complicate code: 8
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATNSRX2 complicate code: 8
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATNSRX1 complicate code: 8
+[06/23 15:11:27     20s] SBFF Setting to complicate: SEDFFTRXL complicate code: 30.05
+[06/23 15:11:27     20s] SBFF Setting to complicate: SEDFFTRX4 complicate code: 30.05
+[06/23 15:11:27     20s] SBFF Setting to complicate: SEDFFTRX2 complicate code: 30.05
+[06/23 15:11:27     20s] SBFF Setting to complicate: SEDFFTRX1 complicate code: 30.05
+[06/23 15:11:27     20s] SBFF Setting to complicate: EDFFTRXL complicate code: 30.05
+[06/23 15:11:27     20s] SBFF Setting to complicate: EDFFTRX4 complicate code: 30.05
+[06/23 15:11:27     20s] SBFF Setting to complicate: EDFFTRX2 complicate code: 30.05
+[06/23 15:11:27     20s] SBFF Setting to complicate: EDFFTRX1 complicate code: 30.05
+[06/23 15:11:27     20s] Summary for sequential cells identification: 
+[06/23 15:11:27     20s]   Identified SBFF number: 112
+[06/23 15:11:27     20s]   Identified MBFF number: 0
+[06/23 15:11:27     20s]   Identified SB Latch number: 8
+[06/23 15:11:27     20s]   Identified MB Latch number: 0
+[06/23 15:11:27     20s]   Not identified SBFF number: 8
+[06/23 15:11:27     20s]   Not identified MBFF number: 0
+[06/23 15:11:27     20s]   Not identified SB Latch number: 8
+[06/23 15:11:27     20s]   Not identified MB Latch number: 0
+[06/23 15:11:27     20s]   Number of sequential cells which are not FFs: 16
+[06/23 15:11:27     20s] Total number of combinational cells: 317
+[06/23 15:11:27     20s] Total number of sequential cells: 152
+[06/23 15:11:27     20s] Total number of tristate cells: 10
+[06/23 15:11:27     20s] Total number of level shifter cells: 0
+[06/23 15:11:27     20s] Total number of power gating cells: 0
+[06/23 15:11:27     20s] Total number of isolation cells: 0
+[06/23 15:11:27     20s] Total number of power switch cells: 0
+[06/23 15:11:27     20s] Total number of pulse generator cells: 0
+[06/23 15:11:27     20s] Total number of always on buffers: 0
+[06/23 15:11:27     20s] Total number of retention cells: 0
+[06/23 15:11:27     20s] Total number of physical cells: 0
+[06/23 15:11:27     20s] List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 CLKBUFX2 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+[06/23 15:11:27     20s] Total number of usable buffers: 16
+[06/23 15:11:27     20s] List of unusable buffers:
+[06/23 15:11:27     20s] Total number of unusable buffers: 0
+[06/23 15:11:27     20s] List of usable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX2 INVX12 INVX16 INVX20 INVXL INVX3 INVX4 INVX6 INVX8
+[06/23 15:11:27     20s] Total number of usable inverters: 19
+[06/23 15:11:27     20s] List of unusable inverters:
+[06/23 15:11:27     20s] Total number of unusable inverters: 0
+[06/23 15:11:27     20s] List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4
+[06/23 15:11:27     20s] Total number of identified usable delay cells: 8
+[06/23 15:11:27     20s] List of identified unusable delay cells:
+[06/23 15:11:27     20s] Total number of identified unusable delay cells: 0
+[06/23 15:11:27     20s] 
+[06/23 15:11:27     20s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[06/23 15:11:27     20s] 
+[06/23 15:11:27     20s] TimeStamp Deleting Cell Server Begin ...
+[06/23 15:11:27     20s] 
+[06/23 15:11:27     20s] TimeStamp Deleting Cell Server End ...
+[06/23 15:11:27     20s] Ending "Cell type marking" (total cpu=0:00:00.0, real=0:00:00.0, peak res=2445.6M, current mem=2445.6M)
+[06/23 15:11:27     20s] 
+[06/23 15:11:27     20s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign Begin ...
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATSRXL complicate code: 8
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATSRX4 complicate code: 8
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATSRX2 complicate code: 8
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATSRX1 complicate code: 8
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATNSRXL complicate code: 8
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATNSRX4 complicate code: 8
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATNSRX2 complicate code: 8
+[06/23 15:11:27     20s] SB Latch Setting to complicate: TLATNSRX1 complicate code: 8
+[06/23 15:11:27     20s] SBFF Setting to complicate: SEDFFTRXL complicate code: 30.05
+[06/23 15:11:27     20s] SBFF Setting to complicate: SEDFFTRX4 complicate code: 30.05
+[06/23 15:11:27     20s] SBFF Setting to complicate: SEDFFTRX2 complicate code: 30.05
+[06/23 15:11:27     20s] SBFF Setting to complicate: SEDFFTRX1 complicate code: 30.05
+[06/23 15:11:27     20s] SBFF Setting to complicate: EDFFTRXL complicate code: 30.05
+[06/23 15:11:27     20s] SBFF Setting to complicate: EDFFTRX4 complicate code: 30.05
+[06/23 15:11:27     20s] SBFF Setting to complicate: EDFFTRX2 complicate code: 30.05
+[06/23 15:11:27     20s] SBFF Setting to complicate: EDFFTRX1 complicate code: 30.05
+[06/23 15:11:27     20s] Summary for sequential cells identification: 
+[06/23 15:11:27     20s]   Identified SBFF number: 112
+[06/23 15:11:27     20s]   Identified MBFF number: 0
+[06/23 15:11:27     20s]   Identified SB Latch number: 8
+[06/23 15:11:27     20s]   Identified MB Latch number: 0
+[06/23 15:11:27     20s]   Not identified SBFF number: 8
+[06/23 15:11:27     20s]   Not identified MBFF number: 0
+[06/23 15:11:27     20s]   Not identified SB Latch number: 8
+[06/23 15:11:27     20s]   Not identified MB Latch number: 0
+[06/23 15:11:27     20s]   Number of sequential cells which are not FFs: 16
+[06/23 15:11:27     20s]  Visiting view : worst_case
+[06/23 15:11:27     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.90 (1.000) with rcCorner = 0
+[06/23 15:11:27     20s]    : PowerDomain = none : Weighted F : unweighted  = 33.00 (1.000) with rcCorner = -1
+[06/23 15:11:27     20s]  Visiting view : best_case
+[06/23 15:11:27     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.90 (1.000) with rcCorner = 0
+[06/23 15:11:27     20s]    : PowerDomain = none : Weighted F : unweighted  = 33.00 (1.000) with rcCorner = -1
+[06/23 15:11:27     20s] 
+[06/23 15:11:27     20s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign End ...
+[06/23 15:11:27     20s] 
+[06/23 15:11:27     20s] TimeStamp Deleting Cell Server Begin ...
+[06/23 15:11:27     20s] 
+[06/23 15:11:27     20s] TimeStamp Deleting Cell Server End ...
+[06/23 15:11:27     20s] Reading floorplan file - /home/vlsi21/day_19/booth/Pd/booth.enc.dat/booth_multiplier.fp.gz (mem = 2797.5M).
+[06/23 15:11:27     20s] #% Begin Load floorplan data ... (date=06/23 15:11:27, mem=2447.4M)
+[06/23 15:11:27     20s] *info: reset 156 existing net BottomPreferredLayer and AvoidDetour
+[06/23 15:11:27     20s] Deleting old partition specification.
+[06/23 15:11:27     20s] Set FPlanBox to (0 0 107880 105560)
+[06/23 15:11:27     20s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[06/23 15:11:27     20s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[06/23 15:11:27     20s]  ... processed partition successfully.
+[06/23 15:11:27     20s] Reading binary special route file /home/vlsi21/day_19/booth/Pd/booth.enc.dat/booth_multiplier.fp.spr.gz (Created by Innovus v21.15-s110_1 on Tue Jun 23 10:33:35 2026, version: 1)
+[06/23 15:11:27     20s] Convert 0 swires and 0 svias from compressed groups
+[06/23 15:11:27     20s] 28 swires and 86 svias were compressed
+[06/23 15:11:27     20s] 28 swires and 22 svias were decompressed from small or sparse groups
+[06/23 15:11:27     20s] Ending "Read special route file" (total cpu=0:00:00.0, real=0:00:00.0, peak res=2448.9M, current mem=2448.9M)
+[06/23 15:11:27     20s] There are 2 nets with avoidDetour being set
+[06/23 15:11:27     20s] Extracting standard cell pins and blockage ...... 
+[06/23 15:11:27     20s] Pin and blockage extraction finished
+[06/23 15:11:27     20s] #% End Load floorplan data ... (date=06/23 15:11:27, total cpu=0:00:00.1, real=0:00:00.0, peak res=2462.5M, current mem=2462.5M)
+[06/23 15:11:27     20s] #% Begin Load SymbolTable ... (date=06/23 15:11:27, mem=2462.5M)
+[06/23 15:11:28     20s] #% End Load SymbolTable ... (date=06/23 15:11:28, total cpu=0:00:00.0, real=0:00:01.0, peak res=2462.8M, current mem=2462.8M)
+[06/23 15:11:28     20s] Loading place ...
+[06/23 15:11:28     20s] #% Begin Load placement data ... (date=06/23 15:11:28, mem=2462.8M)
+[06/23 15:11:28     20s] Reading placement file - /home/vlsi21/day_19/booth/Pd/booth.enc.dat/booth_multiplier.place.gz.
+[06/23 15:11:28     20s] ** Reading stdCellPlacement_binary (Created by Innovus v21.15-s110_1 on Tue Jun 23 10:33:36 2026, version# 2) ...
+[06/23 15:11:28     20s] Read Views for adaptive view pruning ...
+[06/23 15:11:28     20s] Read 0 views from Binary DB for adaptive view pruning
+[06/23 15:11:28     20s] *** applyConnectGlobalNets disabled.
+[06/23 15:11:28     20s] *** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=2814.5M) ***
+[06/23 15:11:28     20s] Has not load the powerDB, will keep enalbed
+[06/23 15:11:28     20s] Has not load the powerDB, will keep enalbed
+[06/23 15:11:28     20s] Total net length = 1.541e+03 (7.788e+02 7.623e+02) (ext = 4.605e+02)
+[06/23 15:11:28     20s] #% End Load placement data ... (date=06/23 15:11:28, total cpu=0:00:00.0, real=0:00:00.0, peak res=2463.9M, current mem=2463.9M)
+[06/23 15:11:28     20s] Reading PG file /home/vlsi21/day_19/booth/Pd/booth.enc.dat/booth_multiplier.pg.gz, version#2, (Created by Innovus v21.15-s110_1 on       Tue Jun 23 10:33:35 2026)
+[06/23 15:11:28     20s] *** Completed restorePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=2830.5M) ***
+[06/23 15:11:28     20s] #% Begin Load routing data ... (date=06/23 15:11:28, mem=2464.3M)
+[06/23 15:11:28     20s] Reading routing file - /home/vlsi21/day_19/booth/Pd/booth.enc.dat/booth_multiplier.route.gz.
+[06/23 15:11:28     20s] Reading Innovus routing data (Created by Innovus v21.15-s110_1 on Tue Jun 23 10:33:36 2026 Format: 20.1) ...
+[06/23 15:11:28     20s] *** Total 155 nets are successfully restored.
+[06/23 15:11:28     20s] *** Completed restoreRoute (cpu=0:00:00.0 real=0:00:00.0 mem=2830.5M) ***
+[06/23 15:11:28     20s] Has not load the powerDB, will keep enalbed
+[06/23 15:11:28     20s] Has not load the powerDB, will keep enalbed
+[06/23 15:11:28     20s] #% End Load routing data ... (date=06/23 15:11:28, total cpu=0:00:00.0, real=0:00:00.0, peak res=2465.5M, current mem=2465.5M)
+[06/23 15:11:28     20s] Reading property file /home/vlsi21/day_19/booth/Pd/booth.enc.dat/booth_multiplier.prop
+[06/23 15:11:28     20s] *** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=2833.5M) ***
+[06/23 15:11:28     20s] Set Default Input Pin Transition as 0.1 ps.
+[06/23 15:11:28     20s] eee: Design meta data file: /home/vlsi21/day_19/booth/Pd/booth.enc.dat/extraction/extractionMetaData.gz doesn't exist
+[06/23 15:11:28     20s] Extraction setup Started for TopCell booth_multiplier 
+[06/23 15:11:28     20s] Summary of Active RC-Corners : 
+[06/23 15:11:28     20s]  
+[06/23 15:11:28     20s]  Analysis View: worst_case
+[06/23 15:11:28     20s]     RC-Corner Name        : rc_corner
+[06/23 15:11:28     20s]     RC-Corner Index       : 0
+[06/23 15:11:28     20s]     RC-Corner Temperature : 125 Celsius
+[06/23 15:11:28     20s]     RC-Corner Cap Table   : ''
+[06/23 15:11:28     20s]     RC-Corner PostRoute Res Factor        : 1
+[06/23 15:11:28     20s]     RC-Corner PostRoute Cap Factor        : 1
+[06/23 15:11:28     20s]     RC-Corner PostRoute XCap Factor       : 1
+[06/23 15:11:28     20s]     RC-Corner Technology file: '/home/vlsi21/day_19/booth/Pd/booth.enc.dat/libs/mmmc/rc_corner/gpdk090_9l.tch'
+[06/23 15:11:28     20s]  
+[06/23 15:11:28     20s]  Analysis View: best_case
+[06/23 15:11:28     20s]     RC-Corner Name        : rc_corner
+[06/23 15:11:28     20s]     RC-Corner Index       : 0
+[06/23 15:11:28     20s]     RC-Corner Temperature : 125 Celsius
+[06/23 15:11:28     20s]     RC-Corner Cap Table   : ''
+[06/23 15:11:28     20s]     RC-Corner PostRoute Res Factor        : 1
+[06/23 15:11:28     20s]     RC-Corner PostRoute Cap Factor        : 1
+[06/23 15:11:28     20s]     RC-Corner PostRoute XCap Factor       : 1
+[06/23 15:11:28     20s]     RC-Corner Technology file: '/home/vlsi21/day_19/booth/Pd/booth.enc.dat/libs/mmmc/rc_corner/gpdk090_9l.tch'
+[06/23 15:11:28     20s] eee: RC Grid memory allocated = 1728 (4 X 4 X 9 X 12b)
+[06/23 15:11:28     20s] eee: pegSigSF=1.070000
+[06/23 15:11:28     20s] Initializing multi-corner resistance tables ...
+[06/23 15:11:28     20s] eee: Grid unit RC data computation started
+[06/23 15:11:28     20s] eee: Grid unit RC data computation completed
+[06/23 15:11:28     20s] eee: l=1 avDens=0.088462 usedTrk=31.846361 availTrk=360.000000 sigTrk=31.846361
+[06/23 15:11:28     20s] eee: l=2 avDens=0.069571 usedTrk=37.568390 availTrk=540.000000 sigTrk=37.568390
+[06/23 15:11:28     20s] eee: l=3 avDens=0.053601 usedTrk=28.944444 availTrk=540.000000 sigTrk=28.944444
+[06/23 15:11:28     20s] eee: l=4 avDens=0.024403 usedTrk=6.588889 availTrk=270.000000 sigTrk=6.588889
+[06/23 15:11:28     20s] eee: l=5 avDens=0.000000 usedTrk=0.000000 availTrk=0.000000 sigTrk=0.000000
+[06/23 15:11:28     20s] eee: l=6 avDens=0.000000 usedTrk=0.000000 availTrk=0.000000 sigTrk=0.000000
+[06/23 15:11:28     20s] eee: l=7 avDens=0.000000 usedTrk=0.000000 availTrk=0.000000 sigTrk=0.000000
+[06/23 15:11:28     20s] eee: l=8 avDens=0.178008 usedTrk=21.360920 availTrk=120.000000 sigTrk=21.360920
+[06/23 15:11:28     20s] eee: l=9 avDens=0.182452 usedTrk=21.894253 availTrk=120.000000 sigTrk=21.894253
+[06/23 15:11:28     20s] eee: LAM-FP: thresh=1 ; dimX=186.000000 ; dimY=182.000000 ; multX=1.000000 ; multY=1.000000 ; minP=580 ; fpMult=1.000000 ;
+[06/23 15:11:28     20s] eee: LAM: n=40 LLS=2-3 HLS=3-5 rDens=0.000000 uaWl=1.000000 uaWlH=0.079100 aWlH=0.000000 lMod=0 pMax=0.809100 pMod=83 pModAss=50 wcR=0.700000 crit=0.000000 siPrev=0 newSi=0.001600 wHLS=1.750000 viaL=0.000000 shortMod=0.000000 fModUnas=0.000000 fModAs=0.000000 pDens=0.500000 
+[06/23 15:11:28     20s] eee: uC 0.000130 of RC Grid (0 0 8) is <  min uC 0.000150 of layer.
+[06/23 15:11:28     20s] eee: uR 0.000166 of RC Grid (0 0 8) is > max uR 0.000025 of layer.
+[06/23 15:11:28     20s] eee: uC 0.000130 of RC Grid (0 1 8) is <  min uC 0.000150 of layer.
+[06/23 15:11:28     20s] eee: uR 0.000166 of RC Grid (0 1 8) is > max uR 0.000025 of layer.
+[06/23 15:11:28     20s] eee: uC 0.000130 of RC Grid (1 0 8) is <  min uC 0.000150 of layer.
+[06/23 15:11:28     20s] eee: uR 0.000166 of RC Grid (1 0 8) is > max uR 0.000025 of layer.
+[06/23 15:11:28     20s] eee: uC 0.000130 of RC Grid (1 1 8) is <  min uC 0.000150 of layer.
+[06/23 15:11:28     20s] eee: uR 0.000166 of RC Grid (1 1 8) is > max uR 0.000025 of layer.
+[06/23 15:11:28     20s] eee: uR 0.000166 of RC Grid (0 0 9) is > max uR 0.000027 of layer.
+[06/23 15:11:28     20s] eee: uR 0.000166 of RC Grid (0 1 9) is > max uR 0.000027 of layer.
+[06/23 15:11:28     20s] eee: uR 0.000166 of RC Grid (1 0 9) is > max uR 0.000027 of layer.
+[06/23 15:11:28     20s] eee: uR 0.000166 of RC Grid (1 1 9) is > max uR 0.000027 of layer.
+[06/23 15:11:28     20s] eee: dbu = 2000, Design = [ll(0.000000, 0.000000) ur(53.940000, 52.780000)], Layers = [f(9) b(0)], Grid size = 26.100000 um, Grid Dim = (3 X 3)
+[06/23 15:11:28     20s] eee: Metal Layers Info:
+[06/23 15:11:28     20s] eee: +----------+-----+---------+---------+---------+--------+--------+---+---+----+
+[06/23 15:11:28     20s] eee: |   Layer  |  Id |    W    |    S    |    P    |   uC   |   uR   | D | T | wS |
+[06/23 15:11:28     20s] eee: +----------+-----+---------+---------+---------+--------+--------+---+---+----+
+[06/23 15:11:28     20s] eee: |   Metal1 |   1 |   0.120 |   0.120 |   0.290 |  0.000 |   0.67 | H | 0 |  1 |
+[06/23 15:11:28     20s] eee: |   Metal2 |   2 |   0.140 |   0.140 |   0.290 |  0.000 |   0.43 | V | 0 |  1 |
+[06/23 15:11:28     20s] eee: |   Metal3 |   3 |   0.140 |   0.140 |   0.290 |  0.000 |   0.43 | H | 0 |  1 |
+[06/23 15:11:28     20s] eee: |   Metal4 |   4 |   0.140 |   0.140 |   0.290 |  0.000 |   0.43 | V | 0 |  1 |
+[06/23 15:11:28     20s] eee: |   Metal5 |   5 |   0.140 |   0.140 |   0.290 |  0.000 |   0.43 | H | 0 |  1 |
+[06/23 15:11:28     20s] eee: |   Metal6 |   6 |   0.140 |   0.140 |   0.290 |  0.000 |   0.43 | V | 0 |  1 |
+[06/23 15:11:28     20s] eee: |   Metal7 |   7 |   0.140 |   0.140 |   0.290 |  0.000 |   0.43 | H | 0 |  1 |
+[06/23 15:11:28     20s] eee: |   Metal8 |   8 |   0.440 |   0.400 |   0.870 |  0.000 |   0.05 | V | 0 |  1 |
+[06/23 15:11:28     20s] eee: |   Metal9 |   9 |   0.440 |   0.400 |   0.870 |  0.000 |   0.05 | H | 0 |  1 |
+[06/23 15:11:28     20s] eee: +----------+-----+---------+---------+---------+--------+--------+---+---+----+
+[06/23 15:11:28     20s] eee: uC/uR for corner rc_corner, min-width/min-spacing, 30 perc over/under densities.
+[06/23 15:11:28     20s] eee: +-----------------------NDR Info-----------------------+
+[06/23 15:11:28     20s] eee: NDR Count = 1, Fake NDR = 0
+[06/23 15:11:28     20s] eee: +----------------------------------------------------+
+[06/23 15:11:28     20s] eee: | NDR Name = LEFDefaultRouteSpec_gpdk090  | Id = 1  | isHard = 0 
+[06/23 15:11:28     20s] eee: +----------------------------------------------------+
+[06/23 15:11:28     20s] #% Begin Load power constraints ... (date=06/23 15:11:28, mem=2469.0M)
+[06/23 15:11:28     20s] #% End Load power constraints ... (date=06/23 15:11:28, total cpu=0:00:00.0, real=0:00:00.0, peak res=2469.6M, current mem=2469.6M)
+[06/23 15:11:28     20s] **WARN: (TCLCMD-1263):	The -frame parameter is obsolete and will be removed from the software in a future release. To ensure compatibility with future releases, remove this parameter from your scripts.
+[06/23 15:11:28     20s] #% Begin load AAE data ... (date=06/23 15:11:28, mem=2498.4M)
+[06/23 15:11:29     21s] AAE DB initialization (MEM=2506.859375 CPU=0:00:00.0 REAL=0:00:00.0) 
+[06/23 15:11:29     21s] #% End load AAE data ... (date=06/23 15:11:29, total cpu=0:00:00.4, real=0:00:01.0, peak res=2506.9M, current mem=2506.9M)
+[06/23 15:11:29     21s] Restoring CCOpt config...
+[06/23 15:11:29     21s] 
+[06/23 15:11:29     21s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign Begin ...
+[06/23 15:11:29     21s] SB Latch Setting to complicate: TLATSRXL complicate code: 8
+[06/23 15:11:29     21s] SB Latch Setting to complicate: TLATSRX4 complicate code: 8
+[06/23 15:11:29     21s] SB Latch Setting to complicate: TLATSRX2 complicate code: 8
+[06/23 15:11:29     21s] SB Latch Setting to complicate: TLATSRX1 complicate code: 8
+[06/23 15:11:29     21s] SB Latch Setting to complicate: TLATNSRXL complicate code: 8
+[06/23 15:11:29     21s] SB Latch Setting to complicate: TLATNSRX4 complicate code: 8
+[06/23 15:11:29     21s] SB Latch Setting to complicate: TLATNSRX2 complicate code: 8
+[06/23 15:11:29     21s] SB Latch Setting to complicate: TLATNSRX1 complicate code: 8
+[06/23 15:11:29     21s] SBFF Setting to complicate: SEDFFTRXL complicate code: 30.05
+[06/23 15:11:29     21s] SBFF Setting to complicate: SEDFFTRX4 complicate code: 30.05
+[06/23 15:11:29     21s] SBFF Setting to complicate: SEDFFTRX2 complicate code: 30.05
+[06/23 15:11:29     21s] SBFF Setting to complicate: SEDFFTRX1 complicate code: 30.05
+[06/23 15:11:29     21s] SBFF Setting to complicate: EDFFTRXL complicate code: 30.05
+[06/23 15:11:29     21s] SBFF Setting to complicate: EDFFTRX4 complicate code: 30.05
+[06/23 15:11:29     21s] SBFF Setting to complicate: EDFFTRX2 complicate code: 30.05
+[06/23 15:11:29     21s] SBFF Setting to complicate: EDFFTRX1 complicate code: 30.05
+[06/23 15:11:29     21s] Summary for sequential cells identification: 
+[06/23 15:11:29     21s]   Identified SBFF number: 112
+[06/23 15:11:29     21s]   Identified MBFF number: 0
+[06/23 15:11:29     21s]   Identified SB Latch number: 8
+[06/23 15:11:29     21s]   Identified MB Latch number: 0
+[06/23 15:11:29     21s]   Not identified SBFF number: 8
+[06/23 15:11:29     21s]   Not identified MBFF number: 0
+[06/23 15:11:29     21s]   Not identified SB Latch number: 8
+[06/23 15:11:29     21s]   Not identified MB Latch number: 0
+[06/23 15:11:29     21s]   Number of sequential cells which are not FFs: 16
+[06/23 15:11:29     21s]  Visiting view : worst_case
+[06/23 15:11:29     21s]    : PowerDomain = none : Weighted F : unweighted  = 35.90 (1.000) with rcCorner = 0
+[06/23 15:11:29     21s]    : PowerDomain = none : Weighted F : unweighted  = 33.00 (1.000) with rcCorner = -1
+[06/23 15:11:29     21s]  Visiting view : best_case
+[06/23 15:11:29     21s]    : PowerDomain = none : Weighted F : unweighted  = 35.90 (1.000) with rcCorner = 0
+[06/23 15:11:29     21s]    : PowerDomain = none : Weighted F : unweighted  = 33.00 (1.000) with rcCorner = -1
+[06/23 15:11:29     21s] 
+[06/23 15:11:29     21s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign End ...
+[06/23 15:11:29     21s]   Extracting original clock gating for clk...
+[06/23 15:11:29     21s]     clock_tree clk contains 15 sinks and 0 clock gates.
+[06/23 15:11:29     21s]   Extracting original clock gating for clk done.
+[06/23 15:11:29     21s]   The skew group clk/sdc was created. It contains 15 sinks and 1 sources.
+[06/23 15:11:29     21s] Restoring CCOpt config done.
+[06/23 15:11:29     21s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version (null). They will be removed in the next release. 
+[06/23 15:11:29     21s] timing_enable_separate_device_slew_effect_sensitivities
+[06/23 15:11:29     21s] Ending "read_design" (total cpu=0:00:04.5, real=0:00:05.0, peak res=2528.9M, current mem=2363.5M)
+[06/23 15:11:29     21s] Parasitics side thread was NULL.
+[06/23 15:11:29     21s] Loading  (booth_multiplier)
+[06/23 15:11:29     21s] Traverse HInst (booth_multiplier)
+[06/23 16:18:52    191s] <CMD> selectObject Net n_255
+[06/23 16:18:52    191s] <CMD> selectObject Net n_405
+[06/23 16:18:52    191s] <CMD> selectObject Net n_403
+[06/23 16:18:52    191s] <CMD> selectObject Net FE_DBTN1_load
+[06/23 16:18:52    191s] <CMD> selectObject Net n_407
+[06/23 16:18:52    191s] <CMD> selectObject Net n_327
+[06/23 16:18:52    191s] <CMD> selectObject Net n_332
+[06/23 16:18:52    191s] <CMD> selectObject Net n_337
+[06/23 16:18:52    191s] <CMD> selectObject Net n_262
+[06/23 16:18:52    191s] <CMD> selectObject Net n_331
+[06/23 16:18:52    191s] <CMD> selectObject Net n_333
+[06/23 16:18:52    191s] <CMD> selectObject Net n_334
+[06/23 16:18:52    191s] <CMD> selectObject Net n_1
+[06/23 16:18:52    191s] <CMD> selectObject Net n_336
+[06/23 16:18:52    191s] <CMD> selectObject Net n_4
+[06/23 16:18:52    191s] <CMD> selectObject Net n_3
+[06/23 16:18:52    191s] <CMD> selectObject Net n_26
+[06/23 16:18:52    191s] <CMD> selectObject Net n_30
+[06/23 16:18:52    191s] <CMD> selectObject Net n_27
+[06/23 16:18:52    191s] <CMD> selectObject Net n_28
+[06/23 16:18:52    191s] <CMD> selectObject Net n_241
+[06/23 16:18:52    191s] <CMD> selectObject Net n_10
+[06/23 16:18:52    191s] <CMD> selectObject Net n_214
+[06/23 16:18:52    191s] <CMD> selectObject Net n_247
+[06/23 16:18:52    191s] <CMD> selectObject Net n_8
+[06/23 16:18:52    191s] <CMD> selectObject Net n_200
+[06/23 16:18:52    191s] <CMD> selectObject Net n_36
+[06/23 16:18:52    191s] <CMD> selectObject Net n_235
+[06/23 16:18:52    191s] <CMD> selectObject Net n_446
+[06/23 16:18:52    191s] <CMD> selectObject Net n_275
+[06/23 16:18:52    191s] <CMD> selectObject Net n_448
+[06/23 16:18:52    191s] <CMD> selectObject Net n_21
+[06/23 16:18:52    191s] <CMD> selectObject Net n_20
+[06/23 16:18:52    191s] <CMD> selectObject Net n_39
+[06/23 16:18:52    191s] <CMD> selectObject Net n_38
+[06/23 16:18:52    191s] <CMD> selectObject Net n_58
+[06/23 16:18:52    191s] <CMD> selectObject Net n_56
+[06/23 16:18:52    191s] <CMD> selectObject Net n_76
+[06/23 16:18:52    191s] <CMD> selectObject Net Q_minus_one
+[06/23 16:18:52    191s] <CMD> selectObject Net n_355
+[06/23 16:18:52    191s] <CMD> selectObject Net n_40
+[06/23 16:18:52    191s] <CMD> selectObject Net n_48
+[06/23 16:18:52    191s] <CMD> selectObject Net n_69
+[06/23 16:18:52    191s] <CMD> selectObject Net n_70
+[06/23 16:18:52    191s] <CMD> selectObject Net n_75
+[06/23 16:18:52    191s] <CMD> selectObject Net n_236
+[06/23 16:18:52    191s] <CMD> selectObject Net n_50
+[06/23 16:18:52    191s] <CMD> selectObject Net n_41
+[06/23 16:18:52    191s] <CMD> selectObject Net n_77
+[06/23 16:18:52    191s] <CMD> selectObject Net n_37
+[06/23 16:18:52    191s] <CMD> selectObject Net n_71
+[06/23 16:18:52    191s] <CMD> selectObject Net n_67
+[06/23 16:18:52    191s] <CMD> selectObject Net n_59
+[06/23 16:18:52    191s] <CMD> selectObject Net n_238
+[06/23 16:18:52    191s] <CMD> selectObject Net n_237
+[06/23 16:18:52    191s] <CMD> selectObject Net n_91
+[06/23 16:18:52    191s] <CMD> selectObject Net n_192
+[06/23 16:18:52    191s] <CMD> selectObject Net n_124
+[06/23 16:18:52    191s] <CMD> selectObject Net n_257
+[06/23 16:18:52    191s] <CMD> selectObject Net n_308
+[06/23 16:18:52    191s] <CMD> selectObject Net n_96
+[06/23 16:18:52    191s] <CMD> selectObject Net n_92
+[06/23 16:18:52    191s] <CMD> selectObject Net n_276
+[06/23 16:18:52    191s] <CMD> selectObject Net n_80
+[06/23 16:18:52    191s] <CMD> selectObject Net n_52
+[06/23 16:18:52    191s] <CMD> selectObject Net n_53
+[06/23 16:18:52    191s] <CMD> selectObject Net n_239
+[06/23 16:18:52    191s] <CMD> selectObject Net n_68
+[06/23 16:18:52    191s] <CMD> selectObject Net n_87
+[06/23 16:18:52    191s] <CMD> selectObject Net n_359
+[06/23 16:18:52    191s] <CMD> selectObject Net n_44
+[06/23 16:18:52    191s] <CMD> selectObject Net n_227
+[06/23 16:18:52    191s] <CMD> selectObject Net n_277
+[06/23 16:18:52    191s] <CMD> selectObject Net n_93
+[06/23 16:18:52    191s] <CMD> selectObject Net n_193
+[06/23 16:18:52    191s] <CMD> selectObject Net n_307
+[06/23 16:18:52    191s] <CMD> selectObject Net n_97
+[06/23 16:18:52    191s] <CMD> selectObject Net n_98
+[06/23 16:18:52    191s] <CMD> selectObject Net n_309
+[06/23 16:18:52    191s] <CMD> selectObject Net n_231
+[06/23 16:18:52    191s] <CMD> selectObject Net n_240
+[06/23 16:18:52    191s] <CMD> selectObject Net n_390
+[06/23 16:18:52    191s] <CMD> selectObject Net n_389
+[06/23 16:18:52    191s] <CMD> selectObject Net n_388
+[06/23 16:18:52    191s] <CMD> selectObject Net n_243
+[06/23 16:18:52    191s] <CMD> selectObject Net n_313
+[06/23 16:18:52    191s] <CMD> selectObject Net n_34
+[06/23 16:18:52    191s] <CMD> selectObject Net n_330
+[06/23 16:18:52    191s] <CMD> selectObject Net n_328
+[06/23 16:18:52    191s] <CMD> selectObject Net n_323
+[06/23 16:18:52    191s] <CMD> selectObject Net n_242
+[06/23 16:18:52    191s] <CMD> selectObject Net n_322
+[06/23 16:18:52    191s] <CMD> selectObject Net n_314
+[06/23 16:18:52    191s] <CMD> selectObject Net n_311
+[06/23 16:18:52    191s] <CMD> selectObject Net n_60
+[06/23 16:18:52    191s] <CMD> selectObject Net n_393
+[06/23 16:18:52    191s] <CMD> selectObject Net n_391
+[06/23 16:18:52    191s] <CMD> selectObject Net n_335
+[06/23 16:18:52    191s] <CMD> selectObject Net n_245
+[06/23 16:18:52    191s] <CMD> selectObject Net n_338
+[06/23 16:18:52    191s] <CMD> selectObject Net n_352
+[06/23 16:18:52    191s] <CMD> selectObject Net n_194
+[06/23 16:18:52    191s] <CMD> selectObject Net n_278
+[06/23 16:18:52    191s] <CMD> selectObject Net n_232
+[06/23 16:18:52    191s] <CMD> selectObject Net n_329
+[06/23 16:18:52    191s] <CMD> selectObject Net n_356
+[06/23 16:18:52    191s] <CMD> selectObject Net n_326
+[06/23 16:18:52    191s] <CMD> selectObject Net n_90
+[06/23 16:18:52    191s] <CMD> selectObject Net n_86
+[06/23 16:18:52    191s] <CMD> selectObject Net n_85
+[06/23 16:18:52    191s] <CMD> selectObject Net n_392
+[06/23 16:18:52    191s] <CMD> selectObject Net n_246
+[06/23 16:18:52    191s] <CMD> selectInst g2
+[06/23 16:18:52    191s] <CMD> selectInst g10419__10514_dup10674
+[06/23 16:18:52    191s] <CMD> selectInst g10645
+[06/23 16:18:52    191s] <CMD> selectInst g10643
+[06/23 16:18:52    191s] <CMD> selectInst g10642
+[06/23 16:18:52    191s] <CMD> selectInst fopt10638
+[06/23 16:18:52    191s] <CMD> selectInst g10637
+[06/23 16:18:52    191s] <CMD> selectInst g10380__10636
+[06/23 16:18:52    191s] <CMD> selectInst g10368__10635
+[06/23 16:18:52    191s] <CMD> selectInst g10364__10634
+[06/23 16:18:52    191s] <CMD> selectInst g10633
+[06/23 16:18:52    191s] <CMD> selectInst g10451__10610
+[06/23 16:18:52    191s] <CMD> selectInst g10417__10608
+[06/23 16:18:52    191s] <CMD> selectInst g10607
+[06/23 16:18:52    191s] <CMD> selectInst g10387__10606
+[06/23 16:18:52    191s] <CMD> selectInst fopt10604
+[06/23 16:18:52    191s] <CMD> selectInst g36
+[06/23 16:18:52    191s] <CMD> selectInst g35
+[06/23 16:18:52    191s] <CMD> selectInst g10445__10596
+[06/23 16:18:52    191s] <CMD> selectInst g10399__10595
+[06/23 16:18:52    191s] <CMD> selectInst g10446__10594
+[06/23 16:18:52    191s] <CMD> selectInst g546_dup
+[06/23 16:18:52    191s] <CMD> selectInst g10447__10593
+[06/23 16:18:52    191s] <CMD> selectInst g10448__10592
+[06/23 16:18:52    191s] <CMD> selectInst g10372__10591
+[06/23 16:18:52    191s] <CMD> selectInst g10590
+[06/23 16:18:52    191s] <CMD> selectInst g10589
+[06/23 16:18:52    191s] <CMD> selectInst g10588
+[06/23 16:18:52    191s] <CMD> selectInst g118
+[06/23 16:18:52    191s] <CMD> selectInst g119
+[06/23 16:18:52    191s] <CMD> selectInst g117
+[06/23 16:18:52    191s] <CMD> selectInst g19
+[06/23 16:18:52    191s] <CMD> selectInst g18
+[06/23 16:18:52    191s] <CMD> selectInst g157
+[06/23 16:18:52    191s] <CMD> selectInst g155
+[06/23 16:18:52    191s] <CMD> selectInst g156
+[06/23 16:18:52    191s] <CMD> selectInst g154
+[06/23 16:18:52    191s] <CMD> selectInst g191
+[06/23 16:18:52    191s] <CMD> selectInst g189
+[06/23 16:18:52    191s] <CMD> selectInst g188
+[06/23 16:18:52    191s] <CMD> selectInst g48
+[06/23 16:18:52    191s] <CMD> selectInst g10572
+[06/23 16:18:52    191s] <CMD> selectInst g133
+[06/23 16:18:52    191s] <CMD> selectInst g10570
+[06/23 16:18:52    191s] <CMD> selectInst g544
+[06/23 16:18:52    191s] <CMD> selectInst g547
+[06/23 16:18:52    191s] <CMD> selectInst g533
+[06/23 16:18:52    191s] <CMD> selectInst g545
+[06/23 16:18:52    191s] <CMD> selectInst g532
+[06/23 16:18:52    191s] <CMD> selectInst g541
+[06/23 16:18:52    191s] <CMD> selectInst g536
+[06/23 16:18:52    191s] <CMD> selectInst g549
+[06/23 16:18:52    191s] <CMD> selectInst g552
+[06/23 16:18:52    191s] <CMD> selectInst g534
+[06/23 16:18:52    191s] <CMD> selectInst g531
+[06/23 16:18:52    191s] <CMD> selectInst g530
+[06/23 16:18:52    191s] <CMD> selectInst g542
+[06/23 16:18:52    191s] <CMD> selectInst g537
+[06/23 16:18:52    191s] <CMD> selectInst g548
+[06/23 16:18:52    191s] <CMD> selectInst g535
+[06/23 16:18:52    191s] <CMD> selectInst g529
+[06/23 16:18:52    191s] <CMD> selectInst fopt10563
+[06/23 16:18:52    191s] <CMD> selectInst g126
+[06/23 16:18:52    191s] <CMD> selectInst g124
+[06/23 16:18:52    191s] <CMD> selectInst g123
+[06/23 16:18:52    191s] <CMD> selectInst fopt10502
+[06/23 16:18:52    191s] <CMD> selectInst g10483
+[06/23 16:18:52    191s] <CMD> selectInst g10484
+[06/23 16:18:52    191s] <CMD> selectInst g10479
+[06/23 16:18:52    191s] <CMD> selectInst g10477
+[06/23 16:18:52    191s] <CMD> selectInst g10478
+[06/23 16:18:52    191s] <CMD> selectInst g10481
+[06/23 16:18:52    191s] <CMD> selectInst g10460__5477
+[06/23 16:18:52    191s] <CMD> selectInst g10458__7410
+[06/23 16:18:52    191s] <CMD> selectInst g10456__2883
+[06/23 16:18:52    191s] <CMD> selectInst g10467__4733
+[06/23 16:18:52    191s] <CMD> selectInst g10468__7482
+[06/23 16:18:52    191s] <CMD> selectInst g10454__6131
+[06/23 16:18:52    191s] <CMD> selectInst g10452__6783
+[06/23 16:18:52    191s] <CMD> selectInst g10453__5526
+[06/23 16:18:52    191s] <CMD> selectInst g10444__4319
+[06/23 16:18:52    191s] <CMD> selectInst g10449
+[06/23 16:18:52    191s] <CMD> selectInst g10443__5107
+[06/23 16:18:52    191s] <CMD> selectInst g10440__2398
+[06/23 16:18:52    191s] <CMD> selectInst g10441__5477
+[06/23 16:18:52    191s] <CMD> selectInst g10442__6417
+[06/23 16:18:52    191s] <CMD> selectInst g10439__2346
+[06/23 16:18:52    191s] <CMD> selectInst g10437__2883
+[06/23 16:18:52    191s] <CMD> selectInst g10438__9945
+[06/23 16:18:52    191s] <CMD> selectInst g10431__9315
+[06/23 16:18:52    191s] <CMD> selectInst g10432__6161
+[06/23 16:18:52    191s] <CMD> selectInst g10436__4733
+[06/23 16:18:52    191s] <CMD> selectInst {Count_reg[2]}
+[06/23 16:18:52    191s] <CMD> selectInst g10415__5115
+[06/23 16:18:52    191s] <CMD> selectInst {M_temp_reg[1]}
+[06/23 16:18:52    191s] <CMD> selectInst {M_temp_reg[0]}
+[06/23 16:18:52    191s] <CMD> selectInst {M_temp_reg[2]}
+[06/23 16:18:52    191s] <CMD> selectInst {M_temp_reg[3]}
+[06/23 16:18:52    191s] <CMD> selectInst g10433__7098
+[06/23 16:18:52    191s] <CMD> selectInst g10434__1705
+[06/23 16:18:52    191s] <CMD> selectInst g10435__2802
+[06/23 16:18:52    191s] <CMD> selectInst g10423__3680
+[06/23 16:18:52    191s] <CMD> selectInst g10424__6783
+[06/23 16:18:52    191s] <CMD> selectInst g10420__8428
+[06/23 16:18:52    191s] <CMD> selectInst g10421__4319
+[06/23 16:18:52    191s] <CMD> selectInst g10422__5477
+[06/23 16:18:52    191s] <CMD> selectInst g10405__6417
+[06/23 16:18:52    191s] <CMD> selectInst g10404__7410
+[06/23 16:18:52    191s] <CMD> selectInst g10409__2346
+[06/23 16:18:52    191s] <CMD> selectInst g10403__9315
+[06/23 16:18:52    191s] <CMD> selectInst Q_minus_one_reg
+[06/23 16:18:52    191s] <CMD> selectInst {Count_reg[0]}
+[06/23 16:18:52    191s] <CMD> selectInst g10382__7482
+[06/23 16:18:52    191s] <CMD> selectInst g10383__5115
+[06/23 16:18:52    191s] <CMD> selectInst g10398__1881
+[06/23 16:18:52    191s] <CMD> selectInst g10379__7098
+[06/23 16:18:52    191s] <CMD> selectInst g10397__8246
+[06/23 16:18:52    191s] <CMD> selectInst {P_reg[0]}
+[06/23 16:18:52    191s] <CMD> selectInst g10385__5122
+[06/23 16:18:52    191s] <CMD> selectInst {P_reg[3]}
+[06/23 16:18:52    191s] <CMD> selectInst {P_reg[2]}
+[06/23 16:18:52    191s] <CMD> selectInst {P_reg[1]}
+[06/23 16:18:52    191s] <CMD> selectInst g10386__2802
+[06/23 16:18:52    191s] <CMD> selectInst g10381__1617
+[06/23 16:18:52    191s] <CMD> selectInst {A_reg[0]}
+[06/23 16:18:52    191s] <CMD> selectInst {A_reg[1]}
+[06/23 16:18:52    191s] <CMD> selectInst {A_reg[2]}
+[06/23 16:18:52    191s] <CMD> selectInst FE_DBTC1_load
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {M[0]}
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {M[1]}
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {M[2]}
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {M[3]}
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {Q[0]}
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {Q[1]}
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {Q[2]}
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {Q[3]}
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin clk
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin load
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin reset
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {P[0]}
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {P[1]}
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {P[2]}
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {P[3]}
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {P[4]}
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {P[5]}
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {P[6]}
+[06/23 16:18:52    191s] <CMD> selectObject IO_Pin {P[7]}
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_255
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_405
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_403
+[06/23 16:18:53    191s] <CMD> deselectObject Net FE_DBTN1_load
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_407
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_327
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_332
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_337
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_262
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_331
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_333
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_334
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_1
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_336
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_4
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_3
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_26
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_30
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_27
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_28
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_241
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_10
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_214
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_247
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_8
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_200
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_36
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_235
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_446
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_275
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_448
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_21
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_20
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_39
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_38
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_58
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_56
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_76
+[06/23 16:18:53    191s] <CMD> deselectObject Net Q_minus_one
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_355
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_40
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_48
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_69
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_70
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_75
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_236
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_50
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_41
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_77
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_37
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_71
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_67
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_59
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_238
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_237
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_91
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_192
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_124
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_257
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_308
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_96
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_92
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_276
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_80
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_52
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_53
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_239
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_68
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_87
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_359
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_44
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_227
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_277
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_93
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_193
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_307
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_97
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_98
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_309
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_231
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_240
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_390
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_389
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_388
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_243
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_313
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_34
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_330
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_328
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_323
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_242
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_322
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_314
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_311
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_60
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_393
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_391
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_335
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_245
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_338
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_352
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_194
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_278
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_232
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_329
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_356
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_326
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_90
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_86
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_85
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_392
+[06/23 16:18:53    191s] <CMD> deselectObject Net n_246
+[06/23 16:18:53    191s] <CMD> deselectInst g2
+[06/23 16:18:53    191s] <CMD> deselectInst g10419__10514_dup10674
+[06/23 16:18:53    191s] <CMD> deselectInst g10645
+[06/23 16:18:53    191s] <CMD> deselectInst g10643
+[06/23 16:18:53    191s] <CMD> deselectInst g10642
+[06/23 16:18:53    191s] <CMD> deselectInst fopt10638
+[06/23 16:18:53    191s] <CMD> deselectInst g10637
+[06/23 16:18:53    191s] <CMD> deselectInst g10380__10636
+[06/23 16:18:53    191s] <CMD> deselectInst g10368__10635
+[06/23 16:18:53    191s] <CMD> deselectInst g10364__10634
+[06/23 16:18:53    191s] <CMD> deselectInst g10633
+[06/23 16:18:53    191s] <CMD> deselectInst g10451__10610
+[06/23 16:18:53    191s] <CMD> deselectInst g10417__10608
+[06/23 16:18:53    191s] <CMD> deselectInst g10607
+[06/23 16:18:53    191s] <CMD> deselectInst g10387__10606
+[06/23 16:18:53    191s] <CMD> deselectInst fopt10604
+[06/23 16:18:53    191s] <CMD> deselectInst g36
+[06/23 16:18:53    191s] <CMD> deselectInst g35
+[06/23 16:18:53    191s] <CMD> deselectInst g10445__10596
+[06/23 16:18:53    191s] <CMD> deselectInst g10399__10595
+[06/23 16:18:53    191s] <CMD> deselectInst g10446__10594
+[06/23 16:18:53    191s] <CMD> deselectInst g546_dup
+[06/23 16:18:53    191s] <CMD> deselectInst g10447__10593
+[06/23 16:18:53    191s] <CMD> deselectInst g10448__10592
+[06/23 16:18:53    191s] <CMD> deselectInst g10372__10591
+[06/23 16:18:53    191s] <CMD> deselectInst g10590
+[06/23 16:18:53    191s] <CMD> deselectInst g10589
+[06/23 16:18:53    191s] <CMD> deselectInst g10588
+[06/23 16:18:53    191s] <CMD> deselectInst g118
+[06/23 16:18:53    191s] <CMD> deselectInst g119
+[06/23 16:18:53    191s] <CMD> deselectInst g117
+[06/23 16:18:53    191s] <CMD> deselectInst g19
+[06/23 16:18:53    191s] <CMD> deselectInst g18
+[06/23 16:18:53    191s] <CMD> deselectInst g157
+[06/23 16:18:53    191s] <CMD> deselectInst g155
+[06/23 16:18:53    191s] <CMD> deselectInst g156
+[06/23 16:18:53    191s] <CMD> deselectInst g154
+[06/23 16:18:53    191s] <CMD> deselectInst g191
+[06/23 16:18:53    191s] <CMD> deselectInst g189
+[06/23 16:18:53    191s] <CMD> deselectInst g188
+[06/23 16:18:53    191s] <CMD> deselectInst g48
+[06/23 16:18:53    191s] <CMD> deselectInst g10572
+[06/23 16:18:53    191s] <CMD> deselectInst g133
+[06/23 16:18:53    191s] <CMD> deselectInst g10570
+[06/23 16:18:53    191s] <CMD> deselectInst g544
+[06/23 16:18:53    191s] <CMD> deselectInst g547
+[06/23 16:18:53    191s] <CMD> deselectInst g533
+[06/23 16:18:53    191s] <CMD> deselectInst g545
+[06/23 16:18:53    191s] <CMD> deselectInst g532
+[06/23 16:18:53    191s] <CMD> deselectInst g541
+[06/23 16:18:53    191s] <CMD> deselectInst g536
+[06/23 16:18:53    191s] <CMD> deselectInst g549
+[06/23 16:18:53    191s] <CMD> deselectInst g552
+[06/23 16:18:53    191s] <CMD> deselectInst g534
+[06/23 16:18:53    191s] <CMD> deselectInst g531
+[06/23 16:18:53    191s] <CMD> deselectInst g530
+[06/23 16:18:53    191s] <CMD> deselectInst g542
+[06/23 16:18:53    191s] <CMD> deselectInst g537
+[06/23 16:18:53    191s] <CMD> deselectInst g548
+[06/23 16:18:53    191s] <CMD> deselectInst g535
+[06/23 16:18:53    191s] <CMD> deselectInst g529
+[06/23 16:18:53    191s] <CMD> deselectInst fopt10563
+[06/23 16:18:53    191s] <CMD> deselectInst g126
+[06/23 16:18:53    191s] <CMD> deselectInst g124
+[06/23 16:18:53    191s] <CMD> deselectInst g123
+[06/23 16:18:53    191s] <CMD> deselectInst fopt10502
+[06/23 16:18:53    191s] <CMD> deselectInst g10483
+[06/23 16:18:53    191s] <CMD> deselectInst g10484
+[06/23 16:18:53    191s] <CMD> deselectInst g10479
+[06/23 16:18:53    191s] <CMD> deselectInst g10477
+[06/23 16:18:53    191s] <CMD> deselectInst g10478
+[06/23 16:18:53    191s] <CMD> deselectInst g10481
+[06/23 16:18:53    191s] <CMD> deselectInst g10460__5477
+[06/23 16:18:53    191s] <CMD> deselectInst g10458__7410
+[06/23 16:18:53    191s] <CMD> deselectInst g10456__2883
+[06/23 16:18:53    191s] <CMD> deselectInst g10467__4733
+[06/23 16:18:53    191s] <CMD> deselectInst g10468__7482
+[06/23 16:18:53    191s] <CMD> deselectInst g10454__6131
+[06/23 16:18:53    191s] <CMD> deselectInst g10452__6783
+[06/23 16:18:53    191s] <CMD> deselectInst g10453__5526
+[06/23 16:18:53    191s] <CMD> deselectInst g10444__4319
+[06/23 16:18:53    191s] <CMD> deselectInst g10449
+[06/23 16:18:53    191s] <CMD> deselectInst g10443__5107
+[06/23 16:18:53    191s] <CMD> deselectInst g10440__2398
+[06/23 16:18:53    191s] <CMD> deselectInst g10441__5477
+[06/23 16:18:53    191s] <CMD> deselectInst g10442__6417
+[06/23 16:18:53    191s] <CMD> deselectInst g10439__2346
+[06/23 16:18:53    191s] <CMD> deselectInst g10437__2883
+[06/23 16:18:53    191s] <CMD> deselectInst g10438__9945
+[06/23 16:18:53    191s] <CMD> deselectInst g10431__9315
+[06/23 16:18:53    191s] <CMD> deselectInst g10432__6161
+[06/23 16:18:53    191s] <CMD> deselectInst g10436__4733
+[06/23 16:18:53    191s] <CMD> deselectInst {Count_reg[2]}
+[06/23 16:18:53    191s] <CMD> deselectInst g10415__5115
+[06/23 16:18:53    191s] <CMD> deselectInst {M_temp_reg[1]}
+[06/23 16:18:53    191s] <CMD> deselectInst {M_temp_reg[0]}
+[06/23 16:18:53    191s] <CMD> deselectInst {M_temp_reg[2]}
+[06/23 16:18:53    191s] <CMD> deselectInst {M_temp_reg[3]}
+[06/23 16:18:53    191s] <CMD> deselectInst g10433__7098
+[06/23 16:18:53    191s] <CMD> deselectInst g10434__1705
+[06/23 16:18:53    191s] <CMD> deselectInst g10435__2802
+[06/23 16:18:53    191s] <CMD> deselectInst g10423__3680
+[06/23 16:18:53    191s] <CMD> deselectInst g10424__6783
+[06/23 16:18:53    191s] <CMD> deselectInst g10420__8428
+[06/23 16:18:53    191s] <CMD> deselectInst g10421__4319
+[06/23 16:18:53    191s] <CMD> deselectInst g10422__5477
+[06/23 16:18:53    191s] <CMD> deselectInst g10405__6417
+[06/23 16:18:53    191s] <CMD> deselectInst g10404__7410
+[06/23 16:18:53    191s] <CMD> deselectInst g10409__2346
+[06/23 16:18:53    191s] <CMD> deselectInst g10403__9315
+[06/23 16:18:53    191s] <CMD> deselectInst Q_minus_one_reg
+[06/23 16:18:53    191s] <CMD> deselectInst {Count_reg[0]}
+[06/23 16:18:53    191s] <CMD> deselectInst g10382__7482
+[06/23 16:18:53    191s] <CMD> deselectInst g10383__5115
+[06/23 16:18:53    191s] <CMD> deselectInst g10398__1881
+[06/23 16:18:53    191s] <CMD> deselectInst g10379__7098
+[06/23 16:18:53    191s] <CMD> deselectInst g10397__8246
+[06/23 16:18:53    191s] <CMD> deselectInst {P_reg[0]}
+[06/23 16:18:53    191s] <CMD> deselectInst g10385__5122
+[06/23 16:18:53    191s] <CMD> deselectInst {P_reg[3]}
+[06/23 16:18:53    191s] <CMD> deselectInst {P_reg[2]}
+[06/23 16:18:53    191s] <CMD> deselectInst {P_reg[1]}
+[06/23 16:18:53    191s] <CMD> deselectInst g10386__2802
+[06/23 16:18:53    191s] <CMD> deselectInst g10381__1617
+[06/23 16:18:53    191s] <CMD> deselectInst {A_reg[0]}
+[06/23 16:18:53    191s] <CMD> deselectInst {A_reg[1]}
+[06/23 16:18:53    191s] <CMD> deselectInst {A_reg[2]}
+[06/23 16:18:53    191s] <CMD> deselectInst FE_DBTC1_load
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {M[0]}
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {M[1]}
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {M[2]}
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {M[3]}
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {Q[0]}
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {Q[1]}
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {Q[2]}
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {Q[3]}
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin clk
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin load
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin reset
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {P[0]}
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {P[1]}
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {P[2]}
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {P[3]}
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {P[4]}
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {P[5]}
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {P[6]}
+[06/23 16:18:53    191s] <CMD> deselectObject IO_Pin {P[7]}
+[06/23 16:18:59    191s] <CMD> selectObject Net reset
+[06/23 16:18:59    191s] <CMD> selectObject Net load
+[06/23 16:18:59    191s] <CMD> selectObject Net clk
+[06/23 16:18:59    191s] <CMD> selectObject Net n_404
+[06/23 16:18:59    191s] <CMD> selectObject Net n_255
+[06/23 16:18:59    191s] <CMD> selectObject Net n_14
+[06/23 16:18:59    191s] <CMD> selectObject Net n_229
+[06/23 16:18:59    191s] <CMD> selectObject Net n_316
+[06/23 16:18:59    191s] <CMD> selectObject Net n_317
+[06/23 16:18:59    191s] <CMD> selectObject Net FE_DBTN0_reset
+[06/23 16:18:59    191s] <CMD> selectObject Net n_6
+[06/23 16:18:59    191s] <CMD> selectObject Net n_405
+[06/23 16:18:59    191s] <CMD> selectObject Net n_318
+[06/23 16:18:59    191s] <CMD> selectObject Net n_199
+[06/23 16:18:59    191s] <CMD> selectObject Net n_403
+[06/23 16:18:59    191s] <CMD> selectObject Net FE_DBTN1_load
+[06/23 16:18:59    191s] <CMD> selectObject Net n_407
+[06/23 16:18:59    191s] <CMD> selectObject Net n_79
+[06/23 16:18:59    191s] <CMD> selectObject Net n_327
+[06/23 16:18:59    191s] <CMD> selectObject Net n_332
+[06/23 16:18:59    191s] <CMD> selectObject Net n_337
+[06/23 16:18:59    191s] <CMD> selectObject Net n_262
+[06/23 16:18:59    191s] <CMD> selectObject Net n_331
+[06/23 16:18:59    191s] <CMD> selectObject Net n_333
+[06/23 16:18:59    191s] <CMD> selectObject Net n_334
+[06/23 16:18:59    191s] <CMD> selectObject Net n_5
+[06/23 16:18:59    191s] <CMD> selectObject Net n_1
+[06/23 16:18:59    191s] <CMD> selectObject Net n_336
+[06/23 16:18:59    191s] <CMD> selectObject Net n_4
+[06/23 16:18:59    191s] <CMD> selectObject Net n_3
+[06/23 16:18:59    191s] <CMD> selectObject Net n_26
+[06/23 16:18:59    191s] <CMD> selectObject Net n_30
+[06/23 16:18:59    191s] <CMD> selectObject Net n_27
+[06/23 16:18:59    191s] <CMD> selectObject Net n_28
+[06/23 16:18:59    191s] <CMD> selectObject Net n_241
+[06/23 16:18:59    191s] <CMD> selectObject Net n_9
+[06/23 16:18:59    191s] <CMD> selectObject Net n_10
+[06/23 16:18:59    191s] <CMD> selectObject Net n_214
+[06/23 16:18:59    191s] <CMD> selectObject Net n_247
+[06/23 16:18:59    191s] <CMD> selectObject Net n_8
+[06/23 16:18:59    191s] <CMD> selectObject Net n_200
+[06/23 16:18:59    191s] <CMD> selectObject Net n_36
+[06/23 16:18:59    191s] <CMD> selectObject Net n_235
+[06/23 16:18:59    191s] <CMD> selectObject Net n_446
+[06/23 16:18:59    191s] <CMD> selectObject Net n_358
+[06/23 16:18:59    191s] <CMD> selectObject Net n_275
+[06/23 16:18:59    191s] <CMD> selectObject Net n_448
+[06/23 16:18:59    191s] <CMD> selectObject Net n_22
+[06/23 16:18:59    191s] <CMD> selectObject Net n_21
+[06/23 16:18:59    191s] <CMD> selectObject Net n_20
+[06/23 16:18:59    191s] <CMD> selectObject Net n_39
+[06/23 16:18:59    191s] <CMD> selectObject Net n_51
+[06/23 16:18:59    191s] <CMD> selectObject Net n_38
+[06/23 16:18:59    191s] <CMD> selectObject Net n_58
+[06/23 16:18:59    191s] <CMD> selectObject Net n_56
+[06/23 16:18:59    191s] <CMD> selectObject Net n_76
+[06/23 16:18:59    191s] <CMD> selectObject Net Q_minus_one
+[06/23 16:18:59    191s] <CMD> selectObject Net n_355
+[06/23 16:18:59    191s] <CMD> selectObject Net n_40
+[06/23 16:18:59    191s] <CMD> selectObject Net n_48
+[06/23 16:18:59    191s] <CMD> selectObject Net n_69
+[06/23 16:18:59    191s] <CMD> selectObject Net n_70
+[06/23 16:18:59    191s] <CMD> selectObject Net n_75
+[06/23 16:18:59    191s] <CMD> selectObject Net n_236
+[06/23 16:18:59    191s] <CMD> selectObject Net n_50
+[06/23 16:18:59    191s] <CMD> selectObject Net n_41
+[06/23 16:18:59    191s] <CMD> selectObject Net n_77
+[06/23 16:18:59    191s] <CMD> selectObject Net n_37
+[06/23 16:18:59    191s] <CMD> selectObject Net n_71
+[06/23 16:18:59    191s] <CMD> selectObject Net n_67
+[06/23 16:18:59    191s] <CMD> selectObject Net n_59
+[06/23 16:18:59    191s] <CMD> selectObject Net n_238
+[06/23 16:18:59    191s] <CMD> selectObject Net n_237
+[06/23 16:18:59    191s] <CMD> selectObject Net n_91
+[06/23 16:18:59    191s] <CMD> selectObject Net n_192
+[06/23 16:18:59    191s] <CMD> selectObject Net n_124
+[06/23 16:18:59    191s] <CMD> selectObject Net n_257
+[06/23 16:18:59    191s] <CMD> selectObject Net n_308
+[06/23 16:18:59    191s] <CMD> selectObject Net n_96
+[06/23 16:18:59    191s] <CMD> selectObject Net n_92
+[06/23 16:18:59    191s] <CMD> selectObject Net n_276
+[06/23 16:18:59    191s] <CMD> selectObject Net n_80
+[06/23 16:18:59    191s] <CMD> selectObject Net n_52
+[06/23 16:18:59    191s] <CMD> selectObject Net n_53
+[06/23 16:18:59    191s] <CMD> selectObject Net n_239
+[06/23 16:18:59    191s] <CMD> selectObject Net n_68
+[06/23 16:18:59    191s] <CMD> selectObject Net n_87
+[06/23 16:18:59    191s] <CMD> selectObject Net n_359
+[06/23 16:18:59    191s] <CMD> selectObject Net n_44
+[06/23 16:18:59    191s] <CMD> selectObject Net n_42
+[06/23 16:18:59    191s] <CMD> selectObject Net n_227
+[06/23 16:18:59    191s] <CMD> selectObject Net n_277
+[06/23 16:18:59    191s] <CMD> selectObject Net n_93
+[06/23 16:18:59    191s] <CMD> selectObject Net n_193
+[06/23 16:18:59    191s] <CMD> selectObject Net n_307
+[06/23 16:18:59    191s] <CMD> selectObject Net n_97
+[06/23 16:18:59    191s] <CMD> selectObject Net n_98
+[06/23 16:18:59    191s] <CMD> selectObject Net n_309
+[06/23 16:18:59    191s] <CMD> selectObject Net n_231
+[06/23 16:18:59    191s] <CMD> selectObject Net n_240
+[06/23 16:18:59    191s] <CMD> selectObject Net n_390
+[06/23 16:18:59    191s] <CMD> selectObject Net n_389
+[06/23 16:18:59    191s] <CMD> selectObject Net n_388
+[06/23 16:18:59    191s] <CMD> selectObject Net n_243
+[06/23 16:18:59    191s] <CMD> selectObject Net n_313
+[06/23 16:18:59    191s] <CMD> selectObject Net n_34
+[06/23 16:18:59    191s] <CMD> selectObject Net n_330
+[06/23 16:18:59    191s] <CMD> selectObject Net n_328
+[06/23 16:18:59    191s] <CMD> selectObject Net n_323
+[06/23 16:18:59    191s] <CMD> selectObject Net n_242
+[06/23 16:18:59    191s] <CMD> selectObject Net n_322
+[06/23 16:18:59    191s] <CMD> selectObject Net n_314
+[06/23 16:18:59    191s] <CMD> selectObject Net n_311
+[06/23 16:18:59    191s] <CMD> selectObject Net n_60
+[06/23 16:18:59    191s] <CMD> selectObject Net n_393
+[06/23 16:18:59    191s] <CMD> selectObject Net n_391
+[06/23 16:18:59    191s] <CMD> selectObject Net n_335
+[06/23 16:18:59    191s] <CMD> selectObject Net n_245
+[06/23 16:18:59    191s] <CMD> selectObject Net n_338
+[06/23 16:18:59    191s] <CMD> selectObject Net n_352
+[06/23 16:18:59    191s] <CMD> selectObject Net n_194
+[06/23 16:18:59    191s] <CMD> selectObject Net n_278
+[06/23 16:18:59    191s] <CMD> selectObject Net n_232
+[06/23 16:18:59    191s] <CMD> selectObject Net n_329
+[06/23 16:18:59    191s] <CMD> selectObject Net n_356
+[06/23 16:18:59    191s] <CMD> selectObject Net n_326
+[06/23 16:18:59    191s] <CMD> selectObject Net n_90
+[06/23 16:18:59    191s] <CMD> selectObject Net n_86
+[06/23 16:18:59    191s] <CMD> selectObject Net n_85
+[06/23 16:18:59    191s] <CMD> selectObject Net n_392
+[06/23 16:18:59    191s] <CMD> selectObject Net n_246
+[06/23 16:18:59    191s] <CMD> selectInst g2
+[06/23 16:18:59    191s] <CMD> selectInst g10419__10514_dup10674
+[06/23 16:18:59    191s] <CMD> selectInst g10645
+[06/23 16:18:59    191s] <CMD> selectInst g10644
+[06/23 16:18:59    191s] <CMD> selectInst g10643
+[06/23 16:18:59    191s] <CMD> selectInst g10642
+[06/23 16:18:59    191s] <CMD> selectInst fopt10638
+[06/23 16:18:59    191s] <CMD> selectInst g10637
+[06/23 16:18:59    191s] <CMD> selectInst g10380__10636
+[06/23 16:18:59    191s] <CMD> selectInst g10368__10635
+[06/23 16:18:59    191s] <CMD> selectInst g10364__10634
+[06/23 16:18:59    191s] <CMD> selectInst g10633
+[06/23 16:18:59    191s] <CMD> selectInst g10451__10610
+[06/23 16:18:59    191s] <CMD> selectInst g10417__10608
+[06/23 16:18:59    191s] <CMD> selectInst g10607
+[06/23 16:18:59    191s] <CMD> selectInst g10387__10606
+[06/23 16:18:59    191s] <CMD> selectInst fopt10604
+[06/23 16:18:59    191s] <CMD> selectInst g36
+[06/23 16:18:59    191s] <CMD> selectInst g35
+[06/23 16:18:59    191s] <CMD> selectInst g10445__10596
+[06/23 16:18:59    191s] <CMD> selectInst g10399__10595
+[06/23 16:18:59    191s] <CMD> selectInst g10446__10594
+[06/23 16:18:59    191s] <CMD> selectInst g546_dup
+[06/23 16:18:59    191s] <CMD> selectInst g10447__10593
+[06/23 16:18:59    191s] <CMD> selectInst g10448__10592
+[06/23 16:18:59    191s] <CMD> selectInst g10372__10591
+[06/23 16:18:59    191s] <CMD> selectInst g10590
+[06/23 16:18:59    191s] <CMD> selectInst g10589
+[06/23 16:18:59    191s] <CMD> selectInst g10588
+[06/23 16:18:59    191s] <CMD> selectInst g118
+[06/23 16:18:59    191s] <CMD> selectInst g119
+[06/23 16:18:59    191s] <CMD> selectInst g117
+[06/23 16:18:59    191s] <CMD> selectInst g26
+[06/23 16:18:59    191s] <CMD> selectInst g25
+[06/23 16:18:59    191s] <CMD> selectInst g24
+[06/23 16:18:59    191s] <CMD> selectInst g19
+[06/23 16:18:59    191s] <CMD> selectInst g18
+[06/23 16:18:59    191s] <CMD> selectInst g157
+[06/23 16:18:59    191s] <CMD> selectInst g155
+[06/23 16:18:59    191s] <CMD> selectInst g156
+[06/23 16:18:59    191s] <CMD> selectInst g154
+[06/23 16:18:59    191s] <CMD> selectInst g191
+[06/23 16:18:59    191s] <CMD> selectInst g189
+[06/23 16:18:59    191s] <CMD> selectInst g188
+[06/23 16:18:59    191s] <CMD> selectInst g48
+[06/23 16:18:59    191s] <CMD> selectInst g10572
+[06/23 16:18:59    191s] <CMD> selectInst g133
+[06/23 16:18:59    191s] <CMD> selectInst g10570
+[06/23 16:18:59    191s] <CMD> selectInst g544
+[06/23 16:18:59    191s] <CMD> selectInst g547
+[06/23 16:18:59    191s] <CMD> selectInst g533
+[06/23 16:18:59    191s] <CMD> selectInst g545
+[06/23 16:18:59    191s] <CMD> selectInst g532
+[06/23 16:18:59    191s] <CMD> selectInst g541
+[06/23 16:18:59    191s] <CMD> selectInst g536
+[06/23 16:18:59    191s] <CMD> selectInst g549
+[06/23 16:18:59    191s] <CMD> selectInst g552
+[06/23 16:18:59    191s] <CMD> selectInst g534
+[06/23 16:18:59    191s] <CMD> selectInst g531
+[06/23 16:18:59    191s] <CMD> selectInst g530
+[06/23 16:18:59    191s] <CMD> selectInst g542
+[06/23 16:18:59    191s] <CMD> selectInst g537
+[06/23 16:18:59    191s] <CMD> selectInst g548
+[06/23 16:18:59    191s] <CMD> selectInst g535
+[06/23 16:18:59    191s] <CMD> selectInst g529
+[06/23 16:18:59    191s] <CMD> selectInst fopt10563
+[06/23 16:18:59    191s] <CMD> selectInst g131
+[06/23 16:18:59    191s] <CMD> selectInst g126
+[06/23 16:18:59    191s] <CMD> selectInst g124
+[06/23 16:18:59    191s] <CMD> selectInst g123
+[06/23 16:18:59    191s] <CMD> selectInst fopt10502
+[06/23 16:18:59    191s] <CMD> selectInst g10483
+[06/23 16:18:59    191s] <CMD> selectInst g10484
+[06/23 16:18:59    191s] <CMD> selectInst g10479
+[06/23 16:18:59    191s] <CMD> selectInst g10477
+[06/23 16:18:59    191s] <CMD> selectInst g10478
+[06/23 16:18:59    191s] <CMD> selectInst g10480
+[06/23 16:18:59    191s] <CMD> selectInst g10481
+[06/23 16:18:59    191s] <CMD> selectInst g10461__2398
+[06/23 16:18:59    191s] <CMD> selectInst g10460__5477
+[06/23 16:18:59    191s] <CMD> selectInst g10458__7410
+[06/23 16:18:59    191s] <CMD> selectInst g10456__2883
+[06/23 16:18:59    191s] <CMD> selectInst g10465__9315
+[06/23 16:18:59    191s] <CMD> selectInst g10467__4733
+[06/23 16:18:59    191s] <CMD> selectInst g10468__7482
+[06/23 16:18:59    191s] <CMD> selectInst g10469__5115
+[06/23 16:18:59    191s] <CMD> selectInst g10454__6131
+[06/23 16:18:59    191s] <CMD> selectInst g10450__5122
+[06/23 16:18:59    191s] <CMD> selectInst g10452__6783
+[06/23 16:18:59    191s] <CMD> selectInst g10453__5526
+[06/23 16:18:59    191s] <CMD> selectInst g10444__4319
+[06/23 16:18:59    191s] <CMD> selectInst g10449
+[06/23 16:18:59    191s] <CMD> selectInst g10443__5107
+[06/23 16:18:59    191s] <CMD> selectInst g10440__2398
+[06/23 16:18:59    191s] <CMD> selectInst g10441__5477
+[06/23 16:18:59    191s] <CMD> selectInst g10442__6417
+[06/23 16:18:59    191s] <CMD> selectInst g10439__2346
+[06/23 16:18:59    191s] <CMD> selectInst g10437__2883
+[06/23 16:18:59    191s] <CMD> selectInst g10438__9945
+[06/23 16:18:59    191s] <CMD> selectInst g10431__9315
+[06/23 16:18:59    191s] <CMD> selectInst g10432__6161
+[06/23 16:18:59    191s] <CMD> selectInst g10436__4733
+[06/23 16:18:59    191s] <CMD> selectInst {Count_reg[2]}
+[06/23 16:18:59    191s] <CMD> selectInst g10413
+[06/23 16:18:59    191s] <CMD> selectInst g10415__5115
+[06/23 16:18:59    191s] <CMD> selectInst {M_temp_reg[1]}
+[06/23 16:18:59    191s] <CMD> selectInst {M_temp_reg[0]}
+[06/23 16:18:59    191s] <CMD> selectInst {M_temp_reg[2]}
+[06/23 16:18:59    191s] <CMD> selectInst {M_temp_reg[3]}
+[06/23 16:18:59    191s] <CMD> selectInst g10433__7098
+[06/23 16:18:59    191s] <CMD> selectInst g10434__1705
+[06/23 16:18:59    191s] <CMD> selectInst g10435__2802
+[06/23 16:18:59    191s] <CMD> selectInst g10423__3680
+[06/23 16:18:59    191s] <CMD> selectInst g10424__6783
+[06/23 16:18:59    191s] <CMD> selectInst g10420__8428
+[06/23 16:18:59    191s] <CMD> selectInst g10421__4319
+[06/23 16:18:59    191s] <CMD> selectInst g10422__5477
+[06/23 16:18:59    191s] <CMD> selectInst g10405__6417
+[06/23 16:18:59    191s] <CMD> selectInst g10404__7410
+[06/23 16:18:59    191s] <CMD> selectInst g10409__2346
+[06/23 16:18:59    191s] <CMD> selectInst g10384__9945
+[06/23 16:18:59    191s] <CMD> selectInst g10403__9315
+[06/23 16:18:59    191s] <CMD> selectInst Q_minus_one_reg
+[06/23 16:18:59    191s] <CMD> selectInst {Count_reg[0]}
+[06/23 16:18:59    191s] <CMD> selectInst g10382__7482
+[06/23 16:18:59    191s] <CMD> selectInst g10383__5115
+[06/23 16:18:59    191s] <CMD> selectInst g10398__1881
+[06/23 16:18:59    191s] <CMD> selectInst g10379__7098
+[06/23 16:18:59    191s] <CMD> selectInst g10397__8246
+[06/23 16:18:59    191s] <CMD> selectInst {P_reg[0]}
+[06/23 16:18:59    191s] <CMD> selectInst g10385__5122
+[06/23 16:18:59    191s] <CMD> selectInst {Count_reg[1]}
+[06/23 16:18:59    191s] <CMD> selectInst {P_reg[3]}
+[06/23 16:18:59    191s] <CMD> selectInst {P_reg[2]}
+[06/23 16:18:59    191s] <CMD> selectInst {P_reg[1]}
+[06/23 16:18:59    191s] <CMD> selectInst g10386__2802
+[06/23 16:18:59    191s] <CMD> selectInst g10381__1617
+[06/23 16:18:59    191s] <CMD> selectInst {A_reg[0]}
+[06/23 16:18:59    191s] <CMD> selectInst {A_reg[1]}
+[06/23 16:18:59    191s] <CMD> selectInst {A_reg[2]}
+[06/23 16:18:59    191s] <CMD> selectInst FE_DBTC0_reset
+[06/23 16:18:59    191s] <CMD> selectInst FE_DBTC1_load
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {M[0]}
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {M[1]}
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {M[2]}
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {M[3]}
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {Q[0]}
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {Q[1]}
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {Q[2]}
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {Q[3]}
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin clk
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin load
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin reset
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {P[0]}
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {P[1]}
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {P[2]}
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {P[3]}
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {P[4]}
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {P[5]}
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {P[6]}
+[06/23 16:18:59    191s] <CMD> selectObject IO_Pin {P[7]}
+[06/23 16:19:02    191s] <CMD> deselectObject Net reset
+[06/23 16:19:02    191s] <CMD> deselectObject Net clk
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_404
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_255
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_14
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_229
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_316
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_317
+[06/23 16:19:02    191s] <CMD> deselectObject Net FE_DBTN0_reset
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_6
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_405
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_318
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_199
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_403
+[06/23 16:19:02    191s] <CMD> deselectObject Net FE_DBTN1_load
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_407
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_79
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_327
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_332
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_337
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_262
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_331
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_333
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_334
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_5
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_1
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_336
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_4
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_3
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_26
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_30
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_27
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_28
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_241
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_9
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_10
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_214
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_247
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_8
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_200
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_36
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_235
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_446
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_358
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_275
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_448
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_22
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_21
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_20
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_39
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_51
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_38
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_58
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_56
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_76
+[06/23 16:19:02    191s] <CMD> deselectObject Net Q_minus_one
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_355
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_40
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_48
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_69
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_70
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_75
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_236
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_50
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_41
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_77
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_37
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_71
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_67
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_59
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_238
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_237
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_91
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_192
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_124
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_257
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_308
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_96
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_92
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_276
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_80
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_52
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_53
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_239
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_68
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_87
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_359
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_44
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_42
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_227
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_277
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_93
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_193
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_307
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_97
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_98
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_309
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_231
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_240
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_390
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_389
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_388
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_243
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_313
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_34
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_330
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_328
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_323
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_242
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_322
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_314
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_311
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_60
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_393
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_391
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_335
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_245
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_338
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_352
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_194
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_278
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_232
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_329
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_356
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_326
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_90
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_86
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_85
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_392
+[06/23 16:19:02    191s] <CMD> deselectObject Net n_246
+[06/23 16:19:02    191s] <CMD> deselectInst g2
+[06/23 16:19:02    191s] <CMD> deselectInst g10419__10514_dup10674
+[06/23 16:19:02    191s] <CMD> deselectInst g10645
+[06/23 16:19:02    191s] <CMD> deselectInst g10644
+[06/23 16:19:02    191s] <CMD> deselectInst g10643
+[06/23 16:19:02    191s] <CMD> deselectInst g10642
+[06/23 16:19:02    191s] <CMD> deselectInst fopt10638
+[06/23 16:19:02    191s] <CMD> deselectInst g10637
+[06/23 16:19:02    191s] <CMD> deselectInst g10380__10636
+[06/23 16:19:02    191s] <CMD> deselectInst g10368__10635
+[06/23 16:19:02    191s] <CMD> deselectInst g10364__10634
+[06/23 16:19:02    191s] <CMD> deselectInst g10633
+[06/23 16:19:02    191s] <CMD> deselectInst g10451__10610
+[06/23 16:19:02    191s] <CMD> deselectInst g10417__10608
+[06/23 16:19:02    191s] <CMD> deselectInst g10607
+[06/23 16:19:02    191s] <CMD> deselectInst g10387__10606
+[06/23 16:19:02    191s] <CMD> deselectInst fopt10604
+[06/23 16:19:02    191s] <CMD> deselectInst g36
+[06/23 16:19:02    191s] <CMD> deselectInst g35
+[06/23 16:19:02    191s] <CMD> deselectInst g10445__10596
+[06/23 16:19:02    191s] <CMD> deselectInst g10399__10595
+[06/23 16:19:02    191s] <CMD> deselectInst g10446__10594
+[06/23 16:19:02    191s] <CMD> deselectInst g546_dup
+[06/23 16:19:02    191s] <CMD> deselectInst g10447__10593
+[06/23 16:19:02    191s] <CMD> deselectInst g10448__10592
+[06/23 16:19:02    191s] <CMD> deselectInst g10372__10591
+[06/23 16:19:02    191s] <CMD> deselectInst g10590
+[06/23 16:19:02    191s] <CMD> deselectInst g10589
+[06/23 16:19:02    191s] <CMD> deselectInst g10588
+[06/23 16:19:02    191s] <CMD> deselectInst g118
+[06/23 16:19:02    191s] <CMD> deselectInst g119
+[06/23 16:19:02    191s] <CMD> deselectInst g117
+[06/23 16:19:02    191s] <CMD> deselectInst g26
+[06/23 16:19:02    191s] <CMD> deselectInst g25
+[06/23 16:19:02    191s] <CMD> deselectInst g24
+[06/23 16:19:02    191s] <CMD> deselectInst g19
+[06/23 16:19:02    191s] <CMD> deselectInst g18
+[06/23 16:19:02    191s] <CMD> deselectInst g157
+[06/23 16:19:02    191s] <CMD> deselectInst g155
+[06/23 16:19:02    191s] <CMD> deselectInst g156
+[06/23 16:19:02    191s] <CMD> deselectInst g154
+[06/23 16:19:02    191s] <CMD> deselectInst g191
+[06/23 16:19:02    191s] <CMD> deselectInst g189
+[06/23 16:19:02    191s] <CMD> deselectInst g188
+[06/23 16:19:02    191s] <CMD> deselectInst g48
+[06/23 16:19:02    191s] <CMD> deselectInst g10572
+[06/23 16:19:02    191s] <CMD> deselectInst g133
+[06/23 16:19:02    191s] <CMD> deselectInst g10570
+[06/23 16:19:02    191s] <CMD> deselectInst g544
+[06/23 16:19:02    191s] <CMD> deselectInst g547
+[06/23 16:19:02    191s] <CMD> deselectInst g533
+[06/23 16:19:02    191s] <CMD> deselectInst g545
+[06/23 16:19:02    191s] <CMD> deselectInst g532
+[06/23 16:19:02    191s] <CMD> deselectInst g541
+[06/23 16:19:02    191s] <CMD> deselectInst g536
+[06/23 16:19:02    191s] <CMD> deselectInst g549
+[06/23 16:19:02    191s] <CMD> deselectInst g552
+[06/23 16:19:02    191s] <CMD> deselectInst g534
+[06/23 16:19:02    191s] <CMD> deselectInst g531
+[06/23 16:19:02    191s] <CMD> deselectInst g530
+[06/23 16:19:02    191s] <CMD> deselectInst g542
+[06/23 16:19:02    191s] <CMD> deselectInst g537
+[06/23 16:19:02    191s] <CMD> deselectInst g548
+[06/23 16:19:02    191s] <CMD> deselectInst g535
+[06/23 16:19:02    191s] <CMD> deselectInst g529
+[06/23 16:19:02    191s] <CMD> deselectInst fopt10563
+[06/23 16:19:02    191s] <CMD> deselectInst g131
+[06/23 16:19:02    191s] <CMD> deselectInst g126
+[06/23 16:19:02    191s] <CMD> deselectInst g124
+[06/23 16:19:02    191s] <CMD> deselectInst g123
+[06/23 16:19:02    191s] <CMD> deselectInst fopt10502
+[06/23 16:19:02    191s] <CMD> deselectInst g10483
+[06/23 16:19:02    191s] <CMD> deselectInst g10484
+[06/23 16:19:02    191s] <CMD> deselectInst g10479
+[06/23 16:19:02    191s] <CMD> deselectInst g10477
+[06/23 16:19:02    191s] <CMD> deselectInst g10478
+[06/23 16:19:02    191s] <CMD> deselectInst g10480
+[06/23 16:19:02    191s] <CMD> deselectInst g10481
+[06/23 16:19:02    191s] <CMD> deselectInst g10461__2398
+[06/23 16:19:02    191s] <CMD> deselectInst g10460__5477
+[06/23 16:19:02    191s] <CMD> deselectInst g10458__7410
+[06/23 16:19:02    191s] <CMD> deselectInst g10456__2883
+[06/23 16:19:02    191s] <CMD> deselectInst g10465__9315
+[06/23 16:19:02    191s] <CMD> deselectInst g10467__4733
+[06/23 16:19:02    191s] <CMD> deselectInst g10468__7482
+[06/23 16:19:02    191s] <CMD> deselectInst g10469__5115
+[06/23 16:19:02    191s] <CMD> deselectInst g10454__6131
+[06/23 16:19:02    191s] <CMD> deselectInst g10450__5122
+[06/23 16:19:02    191s] <CMD> deselectInst g10452__6783
+[06/23 16:19:02    191s] <CMD> deselectInst g10453__5526
+[06/23 16:19:02    191s] <CMD> deselectInst g10444__4319
+[06/23 16:19:02    191s] <CMD> deselectInst g10449
+[06/23 16:19:02    191s] <CMD> deselectInst g10443__5107
+[06/23 16:19:02    191s] <CMD> deselectInst g10440__2398
+[06/23 16:19:02    191s] <CMD> deselectInst g10441__5477
+[06/23 16:19:02    191s] <CMD> deselectInst g10442__6417
+[06/23 16:19:02    191s] <CMD> deselectInst g10439__2346
+[06/23 16:19:02    191s] <CMD> deselectInst g10437__2883
+[06/23 16:19:02    191s] <CMD> deselectInst g10438__9945
+[06/23 16:19:02    191s] <CMD> deselectInst g10431__9315
+[06/23 16:19:02    191s] <CMD> deselectInst g10432__6161
+[06/23 16:19:02    191s] <CMD> deselectInst g10436__4733
+[06/23 16:19:02    191s] <CMD> deselectInst {Count_reg[2]}
+[06/23 16:19:02    191s] <CMD> deselectInst g10413
+[06/23 16:19:02    191s] <CMD> deselectInst g10415__5115
+[06/23 16:19:02    191s] <CMD> deselectInst {M_temp_reg[1]}
+[06/23 16:19:02    191s] <CMD> deselectInst {M_temp_reg[0]}
+[06/23 16:19:02    191s] <CMD> deselectInst {M_temp_reg[2]}
+[06/23 16:19:02    191s] <CMD> deselectInst {M_temp_reg[3]}
+[06/23 16:19:02    191s] <CMD> deselectInst g10433__7098
+[06/23 16:19:02    191s] <CMD> deselectInst g10434__1705
+[06/23 16:19:02    191s] <CMD> deselectInst g10435__2802
+[06/23 16:19:02    191s] <CMD> deselectInst g10423__3680
+[06/23 16:19:02    191s] <CMD> deselectInst g10424__6783
+[06/23 16:19:02    191s] <CMD> deselectInst g10420__8428
+[06/23 16:19:02    191s] <CMD> deselectInst g10421__4319
+[06/23 16:19:02    191s] <CMD> deselectInst g10422__5477
+[06/23 16:19:02    191s] <CMD> deselectInst g10405__6417
+[06/23 16:19:02    191s] <CMD> deselectInst g10404__7410
+[06/23 16:19:02    191s] <CMD> deselectInst g10409__2346
+[06/23 16:19:02    191s] <CMD> deselectInst g10384__9945
+[06/23 16:19:02    191s] <CMD> deselectInst g10403__9315
+[06/23 16:19:02    191s] <CMD> deselectInst Q_minus_one_reg
+[06/23 16:19:02    191s] <CMD> deselectInst {Count_reg[0]}
+[06/23 16:19:02    191s] <CMD> deselectInst g10382__7482
+[06/23 16:19:02    191s] <CMD> deselectInst g10383__5115
+[06/23 16:19:02    191s] <CMD> deselectInst g10398__1881
+[06/23 16:19:02    191s] <CMD> deselectInst g10379__7098
+[06/23 16:19:02    191s] <CMD> deselectInst g10397__8246
+[06/23 16:19:02    191s] <CMD> deselectInst {P_reg[0]}
+[06/23 16:19:02    191s] <CMD> deselectInst g10385__5122
+[06/23 16:19:02    191s] <CMD> deselectInst {Count_reg[1]}
+[06/23 16:19:02    191s] <CMD> deselectInst {P_reg[3]}
+[06/23 16:19:02    191s] <CMD> deselectInst {P_reg[2]}
+[06/23 16:19:02    191s] <CMD> deselectInst {P_reg[1]}
+[06/23 16:19:02    191s] <CMD> deselectInst g10386__2802
+[06/23 16:19:02    191s] <CMD> deselectInst g10381__1617
+[06/23 16:19:02    191s] <CMD> deselectInst {A_reg[0]}
+[06/23 16:19:02    191s] <CMD> deselectInst {A_reg[1]}
+[06/23 16:19:02    191s] <CMD> deselectInst {A_reg[2]}
+[06/23 16:19:02    191s] <CMD> deselectInst FE_DBTC0_reset
+[06/23 16:19:02    191s] <CMD> deselectInst FE_DBTC1_load
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {M[0]}
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {M[1]}
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {M[2]}
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {M[3]}
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {Q[0]}
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {Q[1]}
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {Q[2]}
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {Q[3]}
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin clk
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin load
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin reset
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {P[0]}
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {P[1]}
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {P[2]}
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {P[3]}
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {P[4]}
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {P[5]}
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {P[6]}
+[06/23 16:19:02    191s] <CMD> deselectObject IO_Pin {P[7]}
+[06/23 16:19:04    191s] <CMD> selectObject Net load
+[06/23 16:19:04    191s] <CMD> deselectObject Net load
+[06/23 16:19:06    191s] <CMD> selectInst g542
+[06/23 16:19:06    191s] <CMD> selectObject IO_Pin {M[0]}
+[06/23 16:19:06    191s] <CMD> selectObject IO_Pin {M[1]}
+[06/23 16:19:06    191s] <CMD> selectObject IO_Pin {M[2]}
+[06/23 16:19:06    191s] <CMD> selectObject IO_Pin {M[3]}
+[06/23 16:19:06    191s] <CMD> selectObject IO_Pin {Q[0]}
+[06/23 16:19:06    191s] <CMD> selectObject IO_Pin {Q[1]}
+[06/23 16:19:06    191s] <CMD> selectObject IO_Pin {Q[2]}
+[06/23 16:19:06    191s] <CMD> selectObject IO_Pin {Q[3]}
+[06/23 16:19:06    191s] <CMD> selectObject IO_Pin clk
+[06/23 16:19:06    191s] <CMD> selectObject IO_Pin load
+[06/23 16:19:06    191s] <CMD> deselectInst g542
+[06/23 16:19:06    191s] <CMD> deselectObject IO_Pin {M[0]}
+[06/23 16:19:06    191s] <CMD> deselectObject IO_Pin {M[1]}
+[06/23 16:19:06    191s] <CMD> deselectObject IO_Pin {M[2]}
+[06/23 16:19:06    191s] <CMD> deselectObject IO_Pin {M[3]}
+[06/23 16:19:06    191s] <CMD> deselectObject IO_Pin {Q[0]}
+[06/23 16:19:06    191s] <CMD> deselectObject IO_Pin {Q[1]}
+[06/23 16:19:06    191s] <CMD> deselectObject IO_Pin {Q[2]}
+[06/23 16:19:06    191s] <CMD> deselectObject IO_Pin {Q[3]}
+[06/23 16:19:06    191s] <CMD> deselectObject IO_Pin clk
+[06/23 16:19:06    191s] <CMD> deselectObject IO_Pin load
+[06/23 16:19:07    192s] <CMD> selectObject IO_Pin {M[0]}
+[06/23 16:19:07    192s] <CMD> selectObject IO_Pin {M[1]}
+[06/23 16:19:07    192s] <CMD> selectObject IO_Pin {M[2]}
+[06/23 16:19:07    192s] <CMD> selectObject IO_Pin {M[3]}
+[06/23 16:19:07    192s] <CMD> selectObject IO_Pin {Q[0]}
+[06/23 16:19:07    192s] <CMD> selectObject IO_Pin {Q[1]}
+[06/23 16:19:07    192s] <CMD> selectObject IO_Pin {Q[2]}
+[06/23 16:19:07    192s] <CMD> selectObject IO_Pin {Q[3]}
+[06/23 16:19:07    192s] <CMD> selectObject IO_Pin clk
+[06/23 16:19:07    192s] <CMD> selectObject IO_Pin load
+[06/23 16:19:07    192s] <CMD> selectObject IO_Pin reset
+[06/23 16:19:08    192s] <CMD> deselectObject IO_Pin {M[0]}
+[06/23 16:19:08    192s] <CMD> deselectObject IO_Pin {M[1]}
+[06/23 16:19:08    192s] <CMD> deselectObject IO_Pin {M[2]}
+[06/23 16:19:08    192s] <CMD> deselectObject IO_Pin {M[3]}
+[06/23 16:19:08    192s] <CMD> deselectObject IO_Pin {Q[0]}
+[06/23 16:19:08    192s] <CMD> deselectObject IO_Pin {Q[1]}
+[06/23 16:19:08    192s] <CMD> deselectObject IO_Pin {Q[2]}
+[06/23 16:19:08    192s] <CMD> deselectObject IO_Pin {Q[3]}
+[06/23 16:19:08    192s] <CMD> deselectObject IO_Pin clk
+[06/23 16:19:08    192s] <CMD> deselectObject IO_Pin load
+[06/23 16:19:08    192s] <CMD> deselectObject IO_Pin reset
+[06/23 16:19:10    192s] <CMD> selectInst g131
+[06/23 16:19:10    192s] <CMD> selectInst FE_DBTC0_reset
+[06/23 16:19:10    192s] <CMD> deselectInst g131
+[06/23 16:19:10    192s] <CMD> deselectInst FE_DBTC0_reset
+[06/23 16:20:21    194s] <CMD> selectObject Net n_14
+[06/23 16:20:21    194s] <CMD> selectObject Net n_229
+[06/23 16:20:21    194s] <CMD> selectObject Net n_316
+[06/23 16:20:21    194s] <CMD> selectObject Net n_317
+[06/23 16:20:21    194s] <CMD> selectObject Net n_6
+[06/23 16:20:21    194s] <CMD> selectObject Net n_405
+[06/23 16:20:21    194s] <CMD> selectObject Net n_318
+[06/23 16:20:21    194s] <CMD> selectObject Net n_403
+[06/23 16:20:21    194s] <CMD> selectObject Net FE_DBTN1_load
+[06/23 16:20:21    194s] <CMD> selectObject Net n_407
+[06/23 16:20:21    194s] <CMD> selectObject Net n_79
+[06/23 16:20:21    194s] <CMD> selectObject Net n_337
+[06/23 16:20:21    194s] <CMD> selectObject Net n_262
+[06/23 16:20:21    194s] <CMD> selectObject Net n_331
+[06/23 16:20:21    194s] <CMD> selectObject Net n_336
+[06/23 16:20:21    194s] <CMD> selectObject Net n_3
+[06/23 16:20:21    194s] <CMD> selectObject Net n_26
+[06/23 16:20:21    194s] <CMD> selectObject Net n_28
+[06/23 16:20:21    194s] <CMD> selectObject Net n_241
+[06/23 16:20:21    194s] <CMD> selectObject Net n_247
+[06/23 16:20:21    194s] <CMD> selectObject Net n_36
+[06/23 16:20:21    194s] <CMD> selectObject Net n_235
+[06/23 16:20:21    194s] <CMD> selectObject Net n_446
+[06/23 16:20:21    194s] <CMD> selectObject Net n_275
+[06/23 16:20:21    194s] <CMD> selectObject Net n_39
+[06/23 16:20:21    194s] <CMD> selectObject Net n_38
+[06/23 16:20:21    194s] <CMD> selectObject Net n_58
+[06/23 16:20:21    194s] <CMD> selectObject Net n_40
+[06/23 16:20:21    194s] <CMD> selectObject Net n_48
+[06/23 16:20:21    194s] <CMD> selectObject Net n_69
+[06/23 16:20:21    194s] <CMD> selectObject Net n_50
+[06/23 16:20:21    194s] <CMD> selectObject Net n_41
+[06/23 16:20:21    194s] <CMD> selectObject Net n_37
+[06/23 16:20:21    194s] <CMD> selectObject Net n_71
+[06/23 16:20:21    194s] <CMD> selectObject Net n_67
+[06/23 16:20:21    194s] <CMD> selectObject Net n_59
+[06/23 16:20:21    194s] <CMD> selectObject Net n_238
+[06/23 16:20:21    194s] <CMD> selectObject Net n_237
+[06/23 16:20:21    194s] <CMD> selectObject Net n_91
+[06/23 16:20:21    194s] <CMD> selectObject Net n_192
+[06/23 16:20:21    194s] <CMD> selectObject Net n_257
+[06/23 16:20:21    194s] <CMD> selectObject Net n_308
+[06/23 16:20:21    194s] <CMD> selectObject Net n_92
+[06/23 16:20:21    194s] <CMD> selectObject Net n_276
+[06/23 16:20:21    194s] <CMD> selectObject Net n_80
+[06/23 16:20:21    194s] <CMD> selectObject Net n_52
+[06/23 16:20:21    194s] <CMD> selectObject Net n_53
+[06/23 16:20:21    194s] <CMD> selectObject Net n_239
+[06/23 16:20:21    194s] <CMD> selectObject Net n_68
+[06/23 16:20:21    194s] <CMD> selectObject Net n_359
+[06/23 16:20:21    194s] <CMD> selectObject Net n_44
+[06/23 16:20:21    194s] <CMD> selectObject Net n_227
+[06/23 16:20:21    194s] <CMD> selectObject Net n_277
+[06/23 16:20:21    194s] <CMD> selectObject Net n_93
+[06/23 16:20:21    194s] <CMD> selectObject Net n_193
+[06/23 16:20:21    194s] <CMD> selectObject Net n_307
+[06/23 16:20:21    194s] <CMD> selectObject Net n_97
+[06/23 16:20:21    194s] <CMD> selectObject Net n_309
+[06/23 16:20:21    194s] <CMD> selectObject Net n_231
+[06/23 16:20:21    194s] <CMD> selectObject Net n_240
+[06/23 16:20:21    194s] <CMD> selectObject Net n_390
+[06/23 16:20:21    194s] <CMD> selectObject Net n_389
+[06/23 16:20:21    194s] <CMD> selectObject Net n_243
+[06/23 16:20:21    194s] <CMD> selectObject Net n_313
+[06/23 16:20:21    194s] <CMD> selectObject Net n_34
+[06/23 16:20:21    194s] <CMD> selectObject Net n_328
+[06/23 16:20:21    194s] <CMD> selectObject Net n_323
+[06/23 16:20:21    194s] <CMD> selectObject Net n_242
+[06/23 16:20:21    194s] <CMD> selectObject Net n_322
+[06/23 16:20:21    194s] <CMD> selectObject Net n_314
+[06/23 16:20:21    194s] <CMD> selectObject Net n_311
+[06/23 16:20:21    194s] <CMD> selectObject Net n_60
+[06/23 16:20:21    194s] <CMD> selectObject Net n_393
+[06/23 16:20:21    194s] <CMD> selectObject Net n_391
+[06/23 16:20:21    194s] <CMD> selectObject Net n_335
+[06/23 16:20:21    194s] <CMD> selectObject Net n_245
+[06/23 16:20:21    194s] <CMD> selectObject Net n_338
+[06/23 16:20:21    194s] <CMD> selectObject Net n_352
+[06/23 16:20:21    194s] <CMD> selectObject Net n_194
+[06/23 16:20:21    194s] <CMD> selectObject Net n_278
+[06/23 16:20:21    194s] <CMD> selectObject Net n_232
+[06/23 16:20:21    194s] <CMD> selectObject Net n_329
+[06/23 16:20:21    194s] <CMD> selectObject Net n_356
+[06/23 16:20:21    194s] <CMD> selectObject Net n_326
+[06/23 16:20:21    194s] <CMD> selectObject Net n_90
+[06/23 16:20:21    194s] <CMD> selectObject Net n_86
+[06/23 16:20:21    194s] <CMD> selectObject Net n_85
+[06/23 16:20:21    194s] <CMD> selectObject Net n_392
+[06/23 16:20:21    194s] <CMD> selectObject Net n_246
+[06/23 16:20:21    194s] <CMD> selectInst g2
+[06/23 16:20:21    194s] <CMD> selectInst g10419__10514_dup10674
+[06/23 16:20:21    194s] <CMD> selectInst g10645
+[06/23 16:20:21    194s] <CMD> selectInst g10644
+[06/23 16:20:21    194s] <CMD> selectInst g10643
+[06/23 16:20:21    194s] <CMD> selectInst g10642
+[06/23 16:20:21    194s] <CMD> selectInst fopt10638
+[06/23 16:20:21    194s] <CMD> selectInst g10637
+[06/23 16:20:21    194s] <CMD> selectInst g10380__10636
+[06/23 16:20:21    194s] <CMD> selectInst g10368__10635
+[06/23 16:20:21    194s] <CMD> selectInst g10364__10634
+[06/23 16:20:21    194s] <CMD> selectInst g10451__10610
+[06/23 16:20:21    194s] <CMD> selectInst g10417__10608
+[06/23 16:20:21    194s] <CMD> selectInst g10387__10606
+[06/23 16:20:21    194s] <CMD> selectInst fopt10604
+[06/23 16:20:21    194s] <CMD> selectInst g36
+[06/23 16:20:21    194s] <CMD> selectInst g35
+[06/23 16:20:21    194s] <CMD> selectInst g10445__10596
+[06/23 16:20:21    194s] <CMD> selectInst g10399__10595
+[06/23 16:20:21    194s] <CMD> selectInst g546_dup
+[06/23 16:20:21    194s] <CMD> selectInst g10448__10592
+[06/23 16:20:21    194s] <CMD> selectInst g10590
+[06/23 16:20:21    194s] <CMD> selectInst g10589
+[06/23 16:20:21    194s] <CMD> selectInst g10588
+[06/23 16:20:21    194s] <CMD> selectInst g118
+[06/23 16:20:21    194s] <CMD> selectInst g119
+[06/23 16:20:21    194s] <CMD> selectInst g117
+[06/23 16:20:21    194s] <CMD> selectInst g26
+[06/23 16:20:21    194s] <CMD> selectInst g25
+[06/23 16:20:21    194s] <CMD> selectInst g24
+[06/23 16:20:21    194s] <CMD> selectInst g19
+[06/23 16:20:21    194s] <CMD> selectInst g18
+[06/23 16:20:21    194s] <CMD> selectInst g157
+[06/23 16:20:21    194s] <CMD> selectInst g155
+[06/23 16:20:21    194s] <CMD> selectInst g156
+[06/23 16:20:21    194s] <CMD> selectInst g154
+[06/23 16:20:21    194s] <CMD> selectInst g191
+[06/23 16:20:21    194s] <CMD> selectInst g189
+[06/23 16:20:21    194s] <CMD> selectInst g188
+[06/23 16:20:21    194s] <CMD> selectInst g48
+[06/23 16:20:21    194s] <CMD> selectInst g10572
+[06/23 16:20:21    194s] <CMD> selectInst g133
+[06/23 16:20:21    194s] <CMD> selectInst g10570
+[06/23 16:20:21    194s] <CMD> selectInst g544
+[06/23 16:20:21    194s] <CMD> selectInst g547
+[06/23 16:20:21    194s] <CMD> selectInst g533
+[06/23 16:20:21    194s] <CMD> selectInst g545
+[06/23 16:20:21    194s] <CMD> selectInst g532
+[06/23 16:20:21    194s] <CMD> selectInst g541
+[06/23 16:20:21    194s] <CMD> selectInst g549
+[06/23 16:20:21    194s] <CMD> selectInst g534
+[06/23 16:20:21    194s] <CMD> selectInst g531
+[06/23 16:20:21    194s] <CMD> selectInst g530
+[06/23 16:20:21    194s] <CMD> selectInst g542
+[06/23 16:20:21    194s] <CMD> selectInst g537
+[06/23 16:20:21    194s] <CMD> selectInst g548
+[06/23 16:20:21    194s] <CMD> selectInst g535
+[06/23 16:20:21    194s] <CMD> selectInst g529
+[06/23 16:20:21    194s] <CMD> selectInst g126
+[06/23 16:20:21    194s] <CMD> selectInst g124
+[06/23 16:20:21    194s] <CMD> selectInst g123
+[06/23 16:20:21    194s] <CMD> selectInst g10484
+[06/23 16:20:21    194s] <CMD> selectInst g10477
+[06/23 16:20:21    194s] <CMD> selectInst g10481
+[06/23 16:20:21    194s] <CMD> selectInst g10460__5477
+[06/23 16:20:21    194s] <CMD> selectInst g10468__7482
+[06/23 16:20:21    194s] <CMD> selectInst g10450__5122
+[06/23 16:20:21    194s] <CMD> selectInst g10452__6783
+[06/23 16:20:21    194s] <CMD> selectInst g10453__5526
+[06/23 16:20:21    194s] <CMD> selectInst g10444__4319
+[06/23 16:20:21    194s] <CMD> selectInst g10443__5107
+[06/23 16:20:21    194s] <CMD> selectInst g10441__5477
+[06/23 16:20:21    194s] <CMD> selectInst g10437__2883
+[06/23 16:20:21    194s] <CMD> selectInst g10438__9945
+[06/23 16:20:21    194s] <CMD> selectInst g10431__9315
+[06/23 16:20:21    194s] <CMD> selectInst g10432__6161
+[06/23 16:20:21    194s] <CMD> selectInst g10436__4733
+[06/23 16:20:21    194s] <CMD> selectInst {Count_reg[2]}
+[06/23 16:20:21    194s] <CMD> selectInst g10415__5115
+[06/23 16:20:21    194s] <CMD> selectInst {M_temp_reg[0]}
+[06/23 16:20:21    194s] <CMD> selectInst {M_temp_reg[2]}
+[06/23 16:20:21    194s] <CMD> selectInst g10433__7098
+[06/23 16:20:21    194s] <CMD> selectInst g10434__1705
+[06/23 16:20:21    194s] <CMD> selectInst g10435__2802
+[06/23 16:20:21    194s] <CMD> selectInst g10423__3680
+[06/23 16:20:21    194s] <CMD> selectInst g10420__8428
+[06/23 16:20:21    194s] <CMD> selectInst g10421__4319
+[06/23 16:20:21    194s] <CMD> selectInst g10422__5477
+[06/23 16:20:21    194s] <CMD> selectInst g10405__6417
+[06/23 16:20:21    194s] <CMD> selectInst g10404__7410
+[06/23 16:20:21    194s] <CMD> selectInst g10384__9945
+[06/23 16:20:21    194s] <CMD> selectInst g10403__9315
+[06/23 16:20:21    194s] <CMD> selectInst Q_minus_one_reg
+[06/23 16:20:21    194s] <CMD> selectInst {Count_reg[0]}
+[06/23 16:20:21    194s] <CMD> selectInst g10382__7482
+[06/23 16:20:21    194s] <CMD> selectInst g10383__5115
+[06/23 16:20:21    194s] <CMD> selectInst g10379__7098
+[06/23 16:20:21    194s] <CMD> selectInst g10397__8246
+[06/23 16:20:21    194s] <CMD> selectInst {P_reg[0]}
+[06/23 16:20:21    194s] <CMD> selectInst g10385__5122
+[06/23 16:20:21    194s] <CMD> selectInst {Count_reg[1]}
+[06/23 16:20:21    194s] <CMD> selectInst {P_reg[3]}
+[06/23 16:20:21    194s] <CMD> selectInst {P_reg[2]}
+[06/23 16:20:21    194s] <CMD> selectInst {P_reg[1]}
+[06/23 16:20:21    194s] <CMD> selectInst g10386__2802
+[06/23 16:20:21    194s] <CMD> selectInst {A_reg[0]}
+[06/23 16:20:21    194s] <CMD> selectInst {A_reg[1]}
+[06/23 16:20:21    194s] <CMD> selectInst {A_reg[2]}
+[06/23 16:20:21    194s] <CMD> selectInst FE_DBTC1_load
+[06/23 16:20:21    194s] <CMD> selectObject IO_Pin {Q[0]}
+[06/23 16:20:21    194s] <CMD> selectObject IO_Pin {Q[1]}
+[06/23 16:20:21    194s] <CMD> selectObject IO_Pin {Q[2]}
+[06/23 16:20:21    194s] <CMD> selectObject IO_Pin {Q[3]}
+[06/23 16:20:21    194s] <CMD> selectObject IO_Pin clk
+[06/23 16:20:21    194s] <CMD> selectObject IO_Pin load
+[06/23 16:20:21    194s] <CMD> selectObject IO_Pin reset
+[06/23 16:20:21    194s] <CMD> selectObject IO_Pin {P[0]}
+[06/23 16:20:21    194s] <CMD> selectObject IO_Pin {P[1]}
+[06/23 16:20:21    194s] <CMD> selectObject IO_Pin {P[2]}
+[06/23 16:20:21    194s] <CMD> selectObject IO_Pin {P[3]}
+[06/23 16:20:21    194s] <CMD> selectObject IO_Pin {P[4]}
+[06/23 16:20:21    194s] <CMD> selectObject IO_Pin {P[5]}
+[06/23 16:20:21    194s] <CMD> selectObject IO_Pin {P[6]}
+[06/23 16:20:21    194s] <CMD> selectObject IO_Pin {P[7]}
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_14
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_229
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_316
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_317
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_6
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_405
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_318
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_403
+[06/23 16:20:22    194s] <CMD> deselectObject Net FE_DBTN1_load
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_407
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_79
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_337
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_262
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_331
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_336
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_3
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_26
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_28
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_241
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_247
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_36
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_235
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_446
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_275
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_39
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_38
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_58
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_40
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_48
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_69
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_50
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_41
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_37
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_71
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_67
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_59
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_238
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_237
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_91
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_192
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_257
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_308
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_92
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_276
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_80
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_52
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_53
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_239
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_68
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_359
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_44
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_227
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_277
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_93
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_193
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_307
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_97
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_309
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_231
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_240
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_390
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_389
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_243
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_313
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_34
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_328
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_323
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_242
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_322
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_314
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_311
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_60
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_393
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_391
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_335
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_245
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_338
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_352
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_194
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_278
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_232
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_329
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_356
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_326
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_90
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_86
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_85
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_392
+[06/23 16:20:22    194s] <CMD> deselectObject Net n_246
+[06/23 16:20:22    194s] <CMD> deselectInst g2
+[06/23 16:20:22    194s] <CMD> deselectInst g10419__10514_dup10674
+[06/23 16:20:22    194s] <CMD> deselectInst g10645
+[06/23 16:20:22    194s] <CMD> deselectInst g10644
+[06/23 16:20:22    194s] <CMD> deselectInst g10643
+[06/23 16:20:22    194s] <CMD> deselectInst g10642
+[06/23 16:20:22    194s] <CMD> deselectInst fopt10638
+[06/23 16:20:22    194s] <CMD> deselectInst g10637
+[06/23 16:20:22    194s] <CMD> deselectInst g10380__10636
+[06/23 16:20:22    194s] <CMD> deselectInst g10368__10635
+[06/23 16:20:22    194s] <CMD> deselectInst g10364__10634
+[06/23 16:20:22    194s] <CMD> deselectInst g10451__10610
+[06/23 16:20:22    194s] <CMD> deselectInst g10417__10608
+[06/23 16:20:22    194s] <CMD> deselectInst g10387__10606
+[06/23 16:20:22    194s] <CMD> deselectInst fopt10604
+[06/23 16:20:22    194s] <CMD> deselectInst g36
+[06/23 16:20:22    194s] <CMD> deselectInst g35
+[06/23 16:20:22    194s] <CMD> deselectInst g10445__10596
+[06/23 16:20:22    194s] <CMD> deselectInst g10399__10595
+[06/23 16:20:22    194s] <CMD> deselectInst g546_dup
+[06/23 16:20:22    194s] <CMD> deselectInst g10448__10592
+[06/23 16:20:22    194s] <CMD> deselectInst g10590
+[06/23 16:20:22    194s] <CMD> deselectInst g10589
+[06/23 16:20:22    194s] <CMD> deselectInst g10588
+[06/23 16:20:22    194s] <CMD> deselectInst g118
+[06/23 16:20:22    194s] <CMD> deselectInst g119
+[06/23 16:20:22    194s] <CMD> deselectInst g117
+[06/23 16:20:22    194s] <CMD> deselectInst g26
+[06/23 16:20:22    194s] <CMD> deselectInst g25
+[06/23 16:20:22    194s] <CMD> deselectInst g24
+[06/23 16:20:22    194s] <CMD> deselectInst g19
+[06/23 16:20:22    194s] <CMD> deselectInst g18
+[06/23 16:20:22    194s] <CMD> deselectInst g157
+[06/23 16:20:22    194s] <CMD> deselectInst g155
+[06/23 16:20:22    194s] <CMD> deselectInst g156
+[06/23 16:20:22    194s] <CMD> deselectInst g154
+[06/23 16:20:22    194s] <CMD> deselectInst g191
+[06/23 16:20:22    194s] <CMD> deselectInst g189
+[06/23 16:20:22    194s] <CMD> deselectInst g188
+[06/23 16:20:22    194s] <CMD> deselectInst g48
+[06/23 16:20:22    194s] <CMD> deselectInst g10572
+[06/23 16:20:22    194s] <CMD> deselectInst g133
+[06/23 16:20:22    194s] <CMD> deselectInst g10570
+[06/23 16:20:22    194s] <CMD> deselectInst g544
+[06/23 16:20:22    194s] <CMD> deselectInst g547
+[06/23 16:20:22    194s] <CMD> deselectInst g533
+[06/23 16:20:22    194s] <CMD> deselectInst g545
+[06/23 16:20:22    194s] <CMD> deselectInst g532
+[06/23 16:20:22    194s] <CMD> deselectInst g541
+[06/23 16:20:22    194s] <CMD> deselectInst g549
+[06/23 16:20:22    194s] <CMD> deselectInst g534
+[06/23 16:20:22    194s] <CMD> deselectInst g531
+[06/23 16:20:22    194s] <CMD> deselectInst g530
+[06/23 16:20:22    194s] <CMD> deselectInst g542
+[06/23 16:20:22    194s] <CMD> deselectInst g537
+[06/23 16:20:22    194s] <CMD> deselectInst g548
+[06/23 16:20:22    194s] <CMD> deselectInst g535
+[06/23 16:20:22    194s] <CMD> deselectInst g529
+[06/23 16:20:22    194s] <CMD> deselectInst g126
+[06/23 16:20:22    194s] <CMD> deselectInst g124
+[06/23 16:20:22    194s] <CMD> deselectInst g123
+[06/23 16:20:22    194s] <CMD> deselectInst g10484
+[06/23 16:20:22    194s] <CMD> deselectInst g10477
+[06/23 16:20:22    194s] <CMD> deselectInst g10481
+[06/23 16:20:22    194s] <CMD> deselectInst g10460__5477
+[06/23 16:20:22    194s] <CMD> deselectInst g10468__7482
+[06/23 16:20:22    194s] <CMD> deselectInst g10450__5122
+[06/23 16:20:22    194s] <CMD> deselectInst g10452__6783
+[06/23 16:20:22    194s] <CMD> deselectInst g10453__5526
+[06/23 16:20:22    194s] <CMD> deselectInst g10444__4319
+[06/23 16:20:22    194s] <CMD> deselectInst g10443__5107
+[06/23 16:20:22    194s] <CMD> deselectInst g10441__5477
+[06/23 16:20:22    194s] <CMD> deselectInst g10437__2883
+[06/23 16:20:22    194s] <CMD> deselectInst g10438__9945
+[06/23 16:20:22    194s] <CMD> deselectInst g10431__9315
+[06/23 16:20:22    194s] <CMD> deselectInst g10432__6161
+[06/23 16:20:22    194s] <CMD> deselectInst g10436__4733
+[06/23 16:20:22    194s] <CMD> deselectInst {Count_reg[2]}
+[06/23 16:20:22    194s] <CMD> deselectInst g10415__5115
+[06/23 16:20:22    194s] <CMD> deselectInst {M_temp_reg[0]}
+[06/23 16:20:22    194s] <CMD> deselectInst {M_temp_reg[2]}
+[06/23 16:20:22    194s] <CMD> deselectInst g10433__7098
+[06/23 16:20:22    194s] <CMD> deselectInst g10434__1705
+[06/23 16:20:22    194s] <CMD> deselectInst g10435__2802
+[06/23 16:20:22    194s] <CMD> deselectInst g10423__3680
+[06/23 16:20:22    194s] <CMD> deselectInst g10420__8428
+[06/23 16:20:22    194s] <CMD> deselectInst g10421__4319
+[06/23 16:20:22    194s] <CMD> deselectInst g10422__5477
+[06/23 16:20:22    194s] <CMD> deselectInst g10405__6417
+[06/23 16:20:22    194s] <CMD> deselectInst g10404__7410
+[06/23 16:20:22    194s] <CMD> deselectInst g10384__9945
+[06/23 16:20:22    194s] <CMD> deselectInst g10403__9315
+[06/23 16:20:22    194s] <CMD> deselectInst Q_minus_one_reg
+[06/23 16:20:22    194s] <CMD> deselectInst {Count_reg[0]}
+[06/23 16:20:22    194s] <CMD> deselectInst g10382__7482
+[06/23 16:20:22    194s] <CMD> deselectInst g10383__5115
+[06/23 16:20:22    194s] <CMD> deselectInst g10379__7098
+[06/23 16:20:22    194s] <CMD> deselectInst g10397__8246
+[06/23 16:20:22    194s] <CMD> deselectInst {P_reg[0]}
+[06/23 16:20:22    194s] <CMD> deselectInst g10385__5122
+[06/23 16:20:22    194s] <CMD> deselectInst {Count_reg[1]}
+[06/23 16:20:22    194s] <CMD> deselectInst {P_reg[3]}
+[06/23 16:20:22    194s] <CMD> deselectInst {P_reg[2]}
+[06/23 16:20:22    194s] <CMD> deselectInst {P_reg[1]}
+[06/23 16:20:22    194s] <CMD> deselectInst g10386__2802
+[06/23 16:20:22    194s] <CMD> deselectInst {A_reg[0]}
+[06/23 16:20:22    194s] <CMD> deselectInst {A_reg[1]}
+[06/23 16:20:22    194s] <CMD> deselectInst {A_reg[2]}
+[06/23 16:20:22    194s] <CMD> deselectInst FE_DBTC1_load
+[06/23 16:20:22    194s] <CMD> deselectObject IO_Pin {Q[0]}
+[06/23 16:20:22    194s] <CMD> deselectObject IO_Pin {Q[1]}
+[06/23 16:20:22    194s] <CMD> deselectObject IO_Pin {Q[2]}
+[06/23 16:20:22    194s] <CMD> deselectObject IO_Pin {Q[3]}
+[06/23 16:20:22    194s] <CMD> deselectObject IO_Pin clk
+[06/23 16:20:22    194s] <CMD> deselectObject IO_Pin load
+[06/23 16:20:22    194s] <CMD> deselectObject IO_Pin reset
+[06/23 16:20:22    194s] <CMD> deselectObject IO_Pin {P[0]}
+[06/23 16:20:22    194s] <CMD> deselectObject IO_Pin {P[1]}
+[06/23 16:20:22    194s] <CMD> deselectObject IO_Pin {P[2]}
+[06/23 16:20:22    194s] <CMD> deselectObject IO_Pin {P[3]}
+[06/23 16:20:22    194s] <CMD> deselectObject IO_Pin {P[4]}
+[06/23 16:20:22    194s] <CMD> deselectObject IO_Pin {P[5]}
+[06/23 16:20:22    194s] <CMD> deselectObject IO_Pin {P[6]}
+[06/23 16:20:22    194s] <CMD> deselectObject IO_Pin {P[7]}
+[06/23 16:25:29    207s] <CMD> selectObject Net n_14
+[06/23 16:25:29    207s] <CMD> selectObject Net n_316
+[06/23 16:25:29    207s] <CMD> selectObject Net n_317
+[06/23 16:25:29    207s] <CMD> selectObject Net n_6
+[06/23 16:25:29    207s] <CMD> selectObject Net n_318
+[06/23 16:25:29    207s] <CMD> selectObject Net n_79
+[06/23 16:25:29    207s] <CMD> selectInst g10644
+[06/23 16:25:29    207s] <CMD> selectInst g26
+[06/23 16:25:29    207s] <CMD> selectInst g25
+[06/23 16:25:29    207s] <CMD> selectInst g24
+[06/23 16:25:29    207s] <CMD> selectInst g10481
+[06/23 16:25:29    207s] <CMD> selectInst g10450__5122
+[06/23 16:25:29    207s] <CMD> selectInst g10384__9945
+[06/23 16:25:29    207s] <CMD> selectInst {Count_reg[1]}
+[06/23 16:25:30    207s] <CMD> deselectObject Net n_14
+[06/23 16:25:30    207s] <CMD> deselectObject Net n_316
+[06/23 16:25:30    207s] <CMD> deselectObject Net n_317
+[06/23 16:25:30    207s] <CMD> deselectObject Net n_6
+[06/23 16:25:30    207s] <CMD> deselectObject Net n_318
+[06/23 16:25:30    207s] <CMD> deselectObject Net n_79
+[06/23 16:25:30    207s] <CMD> deselectInst g10644
+[06/23 16:25:30    207s] <CMD> deselectInst g26
+[06/23 16:25:30    207s] <CMD> deselectInst g25
+[06/23 16:25:30    207s] <CMD> deselectInst g24
+[06/23 16:25:30    207s] <CMD> deselectInst g10481
+[06/23 16:25:30    207s] <CMD> deselectInst g10450__5122
+[06/23 16:25:30    207s] <CMD> deselectInst g10384__9945
+[06/23 16:25:30    207s] <CMD> deselectInst {Count_reg[1]}
+[06/23 16:25:32    208s] <CMD> selectObject Net n_14
+[06/23 16:25:32    208s] <CMD> selectObject Net n_316
+[06/23 16:25:32    208s] <CMD> selectObject Net n_317
+[06/23 16:25:32    208s] <CMD> selectObject Net n_6
+[06/23 16:25:32    208s] <CMD> selectObject Net n_318
+[06/23 16:25:32    208s] <CMD> selectObject Net n_79
+[06/23 16:25:32    208s] <CMD> selectInst g10644
+[06/23 16:25:32    208s] <CMD> selectInst g26
+[06/23 16:25:32    208s] <CMD> selectInst g25
+[06/23 16:25:32    208s] <CMD> selectInst g24
+[06/23 16:25:32    208s] <CMD> selectInst g10481
+[06/23 16:25:32    208s] <CMD> selectInst g10450__5122
+[06/23 16:25:32    208s] <CMD> selectInst g10384__9945
+[06/23 16:25:32    208s] <CMD> selectInst {Count_reg[1]}
+[06/23 16:25:33    208s] <CMD> deselectObject Net n_14
+[06/23 16:25:33    208s] <CMD> deselectObject Net n_316
+[06/23 16:25:33    208s] <CMD> deselectObject Net n_317
+[06/23 16:25:33    208s] <CMD> deselectObject Net n_6
+[06/23 16:25:33    208s] <CMD> deselectObject Net n_318
+[06/23 16:25:33    208s] <CMD> deselectObject Net n_79
+[06/23 16:25:33    208s] <CMD> deselectInst g10644
+[06/23 16:25:33    208s] <CMD> deselectInst g26
+[06/23 16:25:33    208s] <CMD> deselectInst g25
+[06/23 16:25:33    208s] <CMD> deselectInst g24
+[06/23 16:25:33    208s] <CMD> deselectInst g10481
+[06/23 16:25:33    208s] <CMD> deselectInst g10450__5122
+[06/23 16:25:33    208s] <CMD> deselectInst g10384__9945
+[06/23 16:25:33    208s] <CMD> deselectInst {Count_reg[1]}
+[06/23 16:25:38    208s] <CMD> selectInst g542
+[06/23 16:25:38    208s] <CMD> selectObject IO_Pin {M[0]}
+[06/23 16:25:38    208s] <CMD> selectObject IO_Pin {M[1]}
+[06/23 16:25:38    208s] <CMD> selectObject IO_Pin {M[2]}
+[06/23 16:25:38    208s] <CMD> selectObject IO_Pin {M[3]}
+[06/23 16:25:38    208s] <CMD> selectObject IO_Pin {Q[0]}
+[06/23 16:25:38    208s] <CMD> selectObject IO_Pin {Q[1]}
+[06/23 16:25:38    208s] <CMD> selectObject IO_Pin {Q[2]}
+[06/23 16:25:38    208s] <CMD> selectObject IO_Pin {Q[3]}
+[06/23 16:25:38    208s] <CMD> selectObject IO_Pin clk
+[06/23 16:25:38    208s] <CMD> selectObject IO_Pin load
+[06/23 16:25:38    208s] <CMD> selectObject IO_Pin reset
+[06/23 16:25:39    208s] <CMD> deselectInst g542
+[06/23 16:25:39    208s] <CMD> deselectObject IO_Pin {M[0]}
+[06/23 16:25:39    208s] <CMD> deselectObject IO_Pin {M[1]}
+[06/23 16:25:39    208s] <CMD> deselectObject IO_Pin {M[2]}
+[06/23 16:25:39    208s] <CMD> deselectObject IO_Pin {M[3]}
+[06/23 16:25:39    208s] <CMD> deselectObject IO_Pin {Q[0]}
+[06/23 16:25:39    208s] <CMD> deselectObject IO_Pin {Q[1]}
+[06/23 16:25:39    208s] <CMD> deselectObject IO_Pin {Q[2]}
+[06/23 16:25:39    208s] <CMD> deselectObject IO_Pin {Q[3]}
+[06/23 16:25:39    208s] <CMD> deselectObject IO_Pin clk
+[06/23 16:25:39    208s] <CMD> deselectObject IO_Pin load
+[06/23 16:25:39    208s] <CMD> deselectObject IO_Pin reset
+[06/23 16:25:47    208s] <CMD> selectObject Net reset
+[06/23 16:25:47    208s] <CMD> selectObject Net load
+[06/23 16:25:47    208s] <CMD> selectObject Net clk
+[06/23 16:25:47    208s] <CMD> selectObject Net n_404
+[06/23 16:25:47    208s] <CMD> selectObject Net n_255
+[06/23 16:25:47    208s] <CMD> selectObject Net n_14
+[06/23 16:25:47    208s] <CMD> selectObject Net n_229
+[06/23 16:25:47    208s] <CMD> selectObject Net n_316
+[06/23 16:25:47    208s] <CMD> selectObject Net n_317
+[06/23 16:25:47    208s] <CMD> selectObject Net FE_DBTN0_reset
+[06/23 16:25:47    208s] <CMD> selectObject Net n_6
+[06/23 16:25:47    208s] <CMD> selectObject Net n_405
+[06/23 16:25:47    208s] <CMD> selectObject Net n_318
+[06/23 16:25:47    208s] <CMD> selectObject Net n_199
+[06/23 16:25:47    208s] <CMD> selectObject Net n_403
+[06/23 16:25:47    208s] <CMD> selectObject Net FE_DBTN1_load
+[06/23 16:25:47    208s] <CMD> selectObject Net n_407
+[06/23 16:25:47    208s] <CMD> selectObject Net n_79
+[06/23 16:25:47    208s] <CMD> selectObject Net n_327
+[06/23 16:25:47    208s] <CMD> selectObject Net n_332
+[06/23 16:25:47    208s] <CMD> selectObject Net n_337
+[06/23 16:25:47    208s] <CMD> selectObject Net n_262
+[06/23 16:25:47    208s] <CMD> selectObject Net n_331
+[06/23 16:25:47    208s] <CMD> selectObject Net n_333
+[06/23 16:25:47    208s] <CMD> selectObject Net n_334
+[06/23 16:25:47    208s] <CMD> selectObject Net n_5
+[06/23 16:25:47    208s] <CMD> selectObject Net n_1
+[06/23 16:25:47    208s] <CMD> selectObject Net n_336
+[06/23 16:25:47    208s] <CMD> selectObject Net n_4
+[06/23 16:25:47    208s] <CMD> selectObject Net n_3
+[06/23 16:25:47    208s] <CMD> selectObject Net n_26
+[06/23 16:25:47    208s] <CMD> selectObject Net n_30
+[06/23 16:25:47    208s] <CMD> selectObject Net n_27
+[06/23 16:25:47    208s] <CMD> selectObject Net n_28
+[06/23 16:25:47    208s] <CMD> selectObject Net n_241
+[06/23 16:25:47    208s] <CMD> selectObject Net n_9
+[06/23 16:25:47    208s] <CMD> selectObject Net n_10
+[06/23 16:25:47    208s] <CMD> selectObject Net n_214
+[06/23 16:25:47    208s] <CMD> selectObject Net n_247
+[06/23 16:25:47    208s] <CMD> selectObject Net n_8
+[06/23 16:25:47    208s] <CMD> selectObject Net n_200
+[06/23 16:25:47    208s] <CMD> selectObject Net n_36
+[06/23 16:25:47    208s] <CMD> selectObject Net n_235
+[06/23 16:25:47    208s] <CMD> selectObject Net n_446
+[06/23 16:25:47    208s] <CMD> selectObject Net n_358
+[06/23 16:25:47    208s] <CMD> selectObject Net n_275
+[06/23 16:25:47    208s] <CMD> selectObject Net n_448
+[06/23 16:25:47    208s] <CMD> selectObject Net n_22
+[06/23 16:25:47    208s] <CMD> selectObject Net n_21
+[06/23 16:25:47    208s] <CMD> selectObject Net n_20
+[06/23 16:25:47    208s] <CMD> selectObject Net n_39
+[06/23 16:25:47    208s] <CMD> selectObject Net n_51
+[06/23 16:25:47    208s] <CMD> selectObject Net n_38
+[06/23 16:25:47    208s] <CMD> selectObject Net n_58
+[06/23 16:25:47    208s] <CMD> selectObject Net n_56
+[06/23 16:25:47    208s] <CMD> selectObject Net n_76
+[06/23 16:25:47    208s] <CMD> selectObject Net Q_minus_one
+[06/23 16:25:47    208s] <CMD> selectObject Net n_355
+[06/23 16:25:47    208s] <CMD> selectObject Net n_40
+[06/23 16:25:47    208s] <CMD> selectObject Net n_48
+[06/23 16:25:47    208s] <CMD> selectObject Net n_69
+[06/23 16:25:47    208s] <CMD> selectObject Net n_70
+[06/23 16:25:47    208s] <CMD> selectObject Net n_75
+[06/23 16:25:47    208s] <CMD> selectObject Net n_236
+[06/23 16:25:47    208s] <CMD> selectObject Net n_50
+[06/23 16:25:47    208s] <CMD> selectObject Net n_41
+[06/23 16:25:47    208s] <CMD> selectObject Net n_77
+[06/23 16:25:47    208s] <CMD> selectObject Net n_37
+[06/23 16:25:47    208s] <CMD> selectObject Net n_71
+[06/23 16:25:47    208s] <CMD> selectObject Net n_67
+[06/23 16:25:47    208s] <CMD> selectObject Net n_59
+[06/23 16:25:47    208s] <CMD> selectObject Net n_238
+[06/23 16:25:47    208s] <CMD> selectObject Net n_237
+[06/23 16:25:47    208s] <CMD> selectObject Net n_91
+[06/23 16:25:47    208s] <CMD> selectObject Net n_192
+[06/23 16:25:47    208s] <CMD> selectObject Net n_124
+[06/23 16:25:47    208s] <CMD> selectObject Net n_257
+[06/23 16:25:47    208s] <CMD> selectObject Net n_308
+[06/23 16:25:47    208s] <CMD> selectObject Net n_96
+[06/23 16:25:47    208s] <CMD> selectObject Net n_92
+[06/23 16:25:47    208s] <CMD> selectObject Net n_276
+[06/23 16:25:47    208s] <CMD> selectObject Net n_80
+[06/23 16:25:47    208s] <CMD> selectObject Net n_52
+[06/23 16:25:47    208s] <CMD> selectObject Net n_53
+[06/23 16:25:47    208s] <CMD> selectObject Net n_239
+[06/23 16:25:47    208s] <CMD> selectObject Net n_68
+[06/23 16:25:47    208s] <CMD> selectObject Net n_87
+[06/23 16:25:47    208s] <CMD> selectObject Net n_359
+[06/23 16:25:47    208s] <CMD> selectObject Net n_44
+[06/23 16:25:47    208s] <CMD> selectObject Net n_42
+[06/23 16:25:47    208s] <CMD> selectObject Net n_227
+[06/23 16:25:47    208s] <CMD> selectObject Net n_277
+[06/23 16:25:47    208s] <CMD> selectObject Net n_93
+[06/23 16:25:47    208s] <CMD> selectObject Net n_193
+[06/23 16:25:47    208s] <CMD> selectObject Net n_307
+[06/23 16:25:47    208s] <CMD> selectObject Net n_97
+[06/23 16:25:47    208s] <CMD> selectObject Net n_98
+[06/23 16:25:47    208s] <CMD> selectObject Net n_309
+[06/23 16:25:47    208s] <CMD> selectObject Net n_231
+[06/23 16:25:47    208s] <CMD> selectObject Net n_240
+[06/23 16:25:47    208s] <CMD> selectObject Net n_390
+[06/23 16:25:47    208s] <CMD> selectObject Net n_389
+[06/23 16:25:47    208s] <CMD> selectObject Net n_388
+[06/23 16:25:47    208s] <CMD> selectObject Net n_243
+[06/23 16:25:47    208s] <CMD> selectObject Net n_313
+[06/23 16:25:47    208s] <CMD> selectObject Net n_34
+[06/23 16:25:47    208s] <CMD> selectObject Net n_330
+[06/23 16:25:47    208s] <CMD> selectObject Net n_328
+[06/23 16:25:47    208s] <CMD> selectObject Net n_323
+[06/23 16:25:47    208s] <CMD> selectObject Net n_242
+[06/23 16:25:47    208s] <CMD> selectObject Net n_322
+[06/23 16:25:47    208s] <CMD> selectObject Net n_314
+[06/23 16:25:47    208s] <CMD> selectObject Net n_311
+[06/23 16:25:47    208s] <CMD> selectObject Net n_60
+[06/23 16:25:47    208s] <CMD> selectObject Net n_393
+[06/23 16:25:47    208s] <CMD> selectObject Net n_391
+[06/23 16:25:47    208s] <CMD> selectObject Net n_335
+[06/23 16:25:47    208s] <CMD> selectObject Net n_245
+[06/23 16:25:47    208s] <CMD> selectObject Net n_338
+[06/23 16:25:47    208s] <CMD> selectObject Net n_352
+[06/23 16:25:47    208s] <CMD> selectObject Net n_194
+[06/23 16:25:47    208s] <CMD> selectObject Net n_278
+[06/23 16:25:47    208s] <CMD> selectObject Net n_232
+[06/23 16:25:47    208s] <CMD> selectObject Net n_329
+[06/23 16:25:47    208s] <CMD> selectObject Net n_356
+[06/23 16:25:47    208s] <CMD> selectObject Net n_326
+[06/23 16:25:47    208s] <CMD> selectObject Net n_90
+[06/23 16:25:47    208s] <CMD> selectObject Net n_86
+[06/23 16:25:47    208s] <CMD> selectObject Net n_85
+[06/23 16:25:47    208s] <CMD> selectObject Net n_392
+[06/23 16:25:47    208s] <CMD> selectObject Net n_246
+[06/23 16:25:47    208s] <CMD> selectInst g2
+[06/23 16:25:47    208s] <CMD> selectInst g10419__10514_dup10674
+[06/23 16:25:47    208s] <CMD> selectInst g10645
+[06/23 16:25:47    208s] <CMD> selectInst g10644
+[06/23 16:25:47    208s] <CMD> selectInst g10643
+[06/23 16:25:47    208s] <CMD> selectInst g10642
+[06/23 16:25:47    208s] <CMD> selectInst fopt10638
+[06/23 16:25:47    208s] <CMD> selectInst g10637
+[06/23 16:25:47    208s] <CMD> selectInst g10380__10636
+[06/23 16:25:47    208s] <CMD> selectInst g10368__10635
+[06/23 16:25:47    208s] <CMD> selectInst g10364__10634
+[06/23 16:25:47    208s] <CMD> selectInst g10633
+[06/23 16:25:47    208s] <CMD> selectInst g10451__10610
+[06/23 16:25:47    208s] <CMD> selectInst g10417__10608
+[06/23 16:25:47    208s] <CMD> selectInst g10607
+[06/23 16:25:47    208s] <CMD> selectInst g10387__10606
+[06/23 16:25:47    208s] <CMD> selectInst fopt10604
+[06/23 16:25:47    208s] <CMD> selectInst g36
+[06/23 16:25:47    208s] <CMD> selectInst g35
+[06/23 16:25:47    208s] <CMD> selectInst g10445__10596
+[06/23 16:25:47    208s] <CMD> selectInst g10399__10595
+[06/23 16:25:47    208s] <CMD> selectInst g10446__10594
+[06/23 16:25:47    208s] <CMD> selectInst g546_dup
+[06/23 16:25:47    208s] <CMD> selectInst g10447__10593
+[06/23 16:25:47    208s] <CMD> selectInst g10448__10592
+[06/23 16:25:47    208s] <CMD> selectInst g10372__10591
+[06/23 16:25:47    208s] <CMD> selectInst g10590
+[06/23 16:25:47    208s] <CMD> selectInst g10589
+[06/23 16:25:47    208s] <CMD> selectInst g10588
+[06/23 16:25:47    208s] <CMD> selectInst g118
+[06/23 16:25:47    208s] <CMD> selectInst g119
+[06/23 16:25:47    208s] <CMD> selectInst g117
+[06/23 16:25:47    208s] <CMD> selectInst g26
+[06/23 16:25:47    208s] <CMD> selectInst g25
+[06/23 16:25:47    208s] <CMD> selectInst g24
+[06/23 16:25:47    208s] <CMD> selectInst g19
+[06/23 16:25:47    208s] <CMD> selectInst g18
+[06/23 16:25:47    208s] <CMD> selectInst g157
+[06/23 16:25:47    208s] <CMD> selectInst g155
+[06/23 16:25:47    208s] <CMD> selectInst g156
+[06/23 16:25:47    208s] <CMD> selectInst g154
+[06/23 16:25:47    208s] <CMD> selectInst g191
+[06/23 16:25:47    208s] <CMD> selectInst g189
+[06/23 16:25:47    208s] <CMD> selectInst g188
+[06/23 16:25:47    208s] <CMD> selectInst g48
+[06/23 16:25:47    208s] <CMD> selectInst g10572
+[06/23 16:25:47    208s] <CMD> selectInst g133
+[06/23 16:25:47    208s] <CMD> selectInst g10570
+[06/23 16:25:47    208s] <CMD> selectInst g544
+[06/23 16:25:47    208s] <CMD> selectInst g547
+[06/23 16:25:47    208s] <CMD> selectInst g533
+[06/23 16:25:47    208s] <CMD> selectInst g545
+[06/23 16:25:47    208s] <CMD> selectInst g532
+[06/23 16:25:47    208s] <CMD> selectInst g541
+[06/23 16:25:47    208s] <CMD> selectInst g536
+[06/23 16:25:47    208s] <CMD> selectInst g549
+[06/23 16:25:47    208s] <CMD> selectInst g552
+[06/23 16:25:47    208s] <CMD> selectInst g534
+[06/23 16:25:47    208s] <CMD> selectInst g531
+[06/23 16:25:47    208s] <CMD> selectInst g530
+[06/23 16:25:47    208s] <CMD> selectInst g542
+[06/23 16:25:47    208s] <CMD> selectInst g537
+[06/23 16:25:47    208s] <CMD> selectInst g548
+[06/23 16:25:47    208s] <CMD> selectInst g535
+[06/23 16:25:47    208s] <CMD> selectInst g529
+[06/23 16:25:47    208s] <CMD> selectInst fopt10563
+[06/23 16:25:47    208s] <CMD> selectInst g131
+[06/23 16:25:47    208s] <CMD> selectInst g126
+[06/23 16:25:47    208s] <CMD> selectInst g124
+[06/23 16:25:47    208s] <CMD> selectInst g123
+[06/23 16:25:47    208s] <CMD> selectInst fopt10502
+[06/23 16:25:47    208s] <CMD> selectInst g10483
+[06/23 16:25:47    208s] <CMD> selectInst g10484
+[06/23 16:25:47    208s] <CMD> selectInst g10479
+[06/23 16:25:47    208s] <CMD> selectInst g10477
+[06/23 16:25:47    208s] <CMD> selectInst g10478
+[06/23 16:25:47    208s] <CMD> selectInst g10480
+[06/23 16:25:47    208s] <CMD> selectInst g10481
+[06/23 16:25:47    208s] <CMD> selectInst g10461__2398
+[06/23 16:25:47    208s] <CMD> selectInst g10460__5477
+[06/23 16:25:47    208s] <CMD> selectInst g10458__7410
+[06/23 16:25:47    208s] <CMD> selectInst g10456__2883
+[06/23 16:25:47    208s] <CMD> selectInst g10465__9315
+[06/23 16:25:47    208s] <CMD> selectInst g10467__4733
+[06/23 16:25:47    208s] <CMD> selectInst g10468__7482
+[06/23 16:25:47    208s] <CMD> selectInst g10469__5115
+[06/23 16:25:47    208s] <CMD> selectInst g10454__6131
+[06/23 16:25:47    208s] <CMD> selectInst g10450__5122
+[06/23 16:25:47    208s] <CMD> selectInst g10452__6783
+[06/23 16:25:47    208s] <CMD> selectInst g10453__5526
+[06/23 16:25:47    208s] <CMD> selectInst g10444__4319
+[06/23 16:25:47    208s] <CMD> selectInst g10449
+[06/23 16:25:47    208s] <CMD> selectInst g10443__5107
+[06/23 16:25:47    208s] <CMD> selectInst g10440__2398
+[06/23 16:25:47    208s] <CMD> selectInst g10441__5477
+[06/23 16:25:47    208s] <CMD> selectInst g10442__6417
+[06/23 16:25:47    208s] <CMD> selectInst g10439__2346
+[06/23 16:25:47    208s] <CMD> selectInst g10437__2883
+[06/23 16:25:47    208s] <CMD> selectInst g10438__9945
+[06/23 16:25:47    208s] <CMD> selectInst g10431__9315
+[06/23 16:25:47    208s] <CMD> selectInst g10432__6161
+[06/23 16:25:47    208s] <CMD> selectInst g10436__4733
+[06/23 16:25:47    208s] <CMD> selectInst {Count_reg[2]}
+[06/23 16:25:47    208s] <CMD> selectInst g10413
+[06/23 16:25:47    208s] <CMD> selectInst g10415__5115
+[06/23 16:25:47    208s] <CMD> selectInst {M_temp_reg[1]}
+[06/23 16:25:47    208s] <CMD> selectInst {M_temp_reg[0]}
+[06/23 16:25:47    208s] <CMD> selectInst {M_temp_reg[2]}
+[06/23 16:25:47    208s] <CMD> selectInst {M_temp_reg[3]}
+[06/23 16:25:47    208s] <CMD> selectInst g10433__7098
+[06/23 16:25:47    208s] <CMD> selectInst g10434__1705
+[06/23 16:25:47    208s] <CMD> selectInst g10435__2802
+[06/23 16:25:47    208s] <CMD> selectInst g10423__3680
+[06/23 16:25:47    208s] <CMD> selectInst g10424__6783
+[06/23 16:25:47    208s] <CMD> selectInst g10420__8428
+[06/23 16:25:47    208s] <CMD> selectInst g10421__4319
+[06/23 16:25:47    208s] <CMD> selectInst g10422__5477
+[06/23 16:25:47    208s] <CMD> selectInst g10405__6417
+[06/23 16:25:47    208s] <CMD> selectInst g10404__7410
+[06/23 16:25:47    208s] <CMD> selectInst g10409__2346
+[06/23 16:25:47    208s] <CMD> selectInst g10384__9945
+[06/23 16:25:47    208s] <CMD> selectInst g10403__9315
+[06/23 16:25:47    208s] <CMD> selectInst Q_minus_one_reg
+[06/23 16:25:47    208s] <CMD> selectInst {Count_reg[0]}
+[06/23 16:25:47    208s] <CMD> selectInst g10382__7482
+[06/23 16:25:47    208s] <CMD> selectInst g10383__5115
+[06/23 16:25:47    208s] <CMD> selectInst g10398__1881
+[06/23 16:25:47    208s] <CMD> selectInst g10379__7098
+[06/23 16:25:47    208s] <CMD> selectInst g10397__8246
+[06/23 16:25:47    208s] <CMD> selectInst {P_reg[0]}
+[06/23 16:25:47    208s] <CMD> selectInst g10385__5122
+[06/23 16:25:47    208s] <CMD> selectInst {Count_reg[1]}
+[06/23 16:25:47    208s] <CMD> selectInst {P_reg[3]}
+[06/23 16:25:47    208s] <CMD> selectInst {P_reg[2]}
+[06/23 16:25:47    208s] <CMD> selectInst {P_reg[1]}
+[06/23 16:25:47    208s] <CMD> selectInst g10386__2802
+[06/23 16:25:47    208s] <CMD> selectInst g10381__1617
+[06/23 16:25:47    208s] <CMD> selectInst {A_reg[0]}
+[06/23 16:25:47    208s] <CMD> selectInst {A_reg[1]}
+[06/23 16:25:47    208s] <CMD> selectInst {A_reg[2]}
+[06/23 16:25:47    208s] <CMD> selectInst FE_DBTC0_reset
+[06/23 16:25:47    208s] <CMD> selectInst FE_DBTC1_load
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {M[0]}
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {M[1]}
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {M[2]}
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {M[3]}
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {Q[0]}
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {Q[1]}
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {Q[2]}
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {Q[3]}
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin clk
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin load
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin reset
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {P[0]}
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {P[1]}
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {P[2]}
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {P[3]}
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {P[4]}
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {P[5]}
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {P[6]}
+[06/23 16:25:47    208s] <CMD> selectObject IO_Pin {P[7]}
+[06/23 16:25:50    209s] <CMD> deselectObject Net reset
+[06/23 16:25:50    209s] <CMD> deselectObject Net load
+[06/23 16:25:50    209s] <CMD> deselectObject Net clk
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_404
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_255
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_14
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_229
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_316
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_317
+[06/23 16:25:50    209s] <CMD> deselectObject Net FE_DBTN0_reset
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_6
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_405
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_318
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_199
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_403
+[06/23 16:25:50    209s] <CMD> deselectObject Net FE_DBTN1_load
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_407
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_79
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_327
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_332
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_337
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_262
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_331
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_333
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_334
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_5
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_1
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_336
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_4
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_3
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_26
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_30
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_27
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_28
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_241
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_9
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_10
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_214
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_247
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_8
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_200
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_36
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_235
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_446
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_358
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_275
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_448
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_22
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_21
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_20
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_39
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_51
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_38
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_58
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_56
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_76
+[06/23 16:25:50    209s] <CMD> deselectObject Net Q_minus_one
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_355
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_40
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_48
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_69
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_70
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_75
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_236
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_50
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_41
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_77
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_37
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_71
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_67
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_59
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_238
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_237
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_91
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_192
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_124
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_257
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_308
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_96
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_92
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_276
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_80
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_52
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_53
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_239
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_68
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_87
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_359
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_44
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_42
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_227
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_277
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_93
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_193
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_307
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_97
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_98
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_309
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_231
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_240
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_390
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_389
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_388
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_243
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_313
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_34
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_330
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_328
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_323
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_242
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_322
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_314
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_311
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_60
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_393
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_391
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_335
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_245
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_338
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_352
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_194
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_278
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_232
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_329
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_356
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_326
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_90
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_86
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_85
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_392
+[06/23 16:25:50    209s] <CMD> deselectObject Net n_246
+[06/23 16:25:50    209s] <CMD> deselectInst g2
+[06/23 16:25:50    209s] <CMD> deselectInst g10419__10514_dup10674
+[06/23 16:25:50    209s] <CMD> deselectInst g10645
+[06/23 16:25:50    209s] <CMD> deselectInst g10644
+[06/23 16:25:50    209s] <CMD> deselectInst g10643
+[06/23 16:25:50    209s] <CMD> deselectInst g10642
+[06/23 16:25:50    209s] <CMD> deselectInst fopt10638
+[06/23 16:25:50    209s] <CMD> deselectInst g10637
+[06/23 16:25:50    209s] <CMD> deselectInst g10380__10636
+[06/23 16:25:50    209s] <CMD> deselectInst g10368__10635
+[06/23 16:25:50    209s] <CMD> deselectInst g10364__10634
+[06/23 16:25:50    209s] <CMD> deselectInst g10633
+[06/23 16:25:50    209s] <CMD> deselectInst g10451__10610
+[06/23 16:25:50    209s] <CMD> deselectInst g10417__10608
+[06/23 16:25:50    209s] <CMD> deselectInst g10607
+[06/23 16:25:50    209s] <CMD> deselectInst g10387__10606
+[06/23 16:25:50    209s] <CMD> deselectInst fopt10604
+[06/23 16:25:50    209s] <CMD> deselectInst g36
+[06/23 16:25:50    209s] <CMD> deselectInst g35
+[06/23 16:25:50    209s] <CMD> deselectInst g10445__10596
+[06/23 16:25:50    209s] <CMD> deselectInst g10399__10595
+[06/23 16:25:50    209s] <CMD> deselectInst g10446__10594
+[06/23 16:25:50    209s] <CMD> deselectInst g546_dup
+[06/23 16:25:50    209s] <CMD> deselectInst g10447__10593
+[06/23 16:25:50    209s] <CMD> deselectInst g10448__10592
+[06/23 16:25:50    209s] <CMD> deselectInst g10372__10591
+[06/23 16:25:50    209s] <CMD> deselectInst g10590
+[06/23 16:25:50    209s] <CMD> deselectInst g10589
+[06/23 16:25:50    209s] <CMD> deselectInst g10588
+[06/23 16:25:50    209s] <CMD> deselectInst g118
+[06/23 16:25:50    209s] <CMD> deselectInst g119
+[06/23 16:25:50    209s] <CMD> deselectInst g117
+[06/23 16:25:50    209s] <CMD> deselectInst g26
+[06/23 16:25:50    209s] <CMD> deselectInst g25
+[06/23 16:25:50    209s] <CMD> deselectInst g24
+[06/23 16:25:50    209s] <CMD> deselectInst g19
+[06/23 16:25:50    209s] <CMD> deselectInst g18
+[06/23 16:25:50    209s] <CMD> deselectInst g157
+[06/23 16:25:50    209s] <CMD> deselectInst g155
+[06/23 16:25:50    209s] <CMD> deselectInst g156
+[06/23 16:25:50    209s] <CMD> deselectInst g154
+[06/23 16:25:50    209s] <CMD> deselectInst g191
+[06/23 16:25:50    209s] <CMD> deselectInst g189
+[06/23 16:25:50    209s] <CMD> deselectInst g188
+[06/23 16:25:50    209s] <CMD> deselectInst g48
+[06/23 16:25:50    209s] <CMD> deselectInst g10572
+[06/23 16:25:50    209s] <CMD> deselectInst g133
+[06/23 16:25:50    209s] <CMD> deselectInst g10570
+[06/23 16:25:50    209s] <CMD> deselectInst g544
+[06/23 16:25:50    209s] <CMD> deselectInst g547
+[06/23 16:25:50    209s] <CMD> deselectInst g533
+[06/23 16:25:50    209s] <CMD> deselectInst g545
+[06/23 16:25:50    209s] <CMD> deselectInst g532
+[06/23 16:25:50    209s] <CMD> deselectInst g541
+[06/23 16:25:50    209s] <CMD> deselectInst g536
+[06/23 16:25:50    209s] <CMD> deselectInst g549
+[06/23 16:25:50    209s] <CMD> deselectInst g552
+[06/23 16:25:50    209s] <CMD> deselectInst g534
+[06/23 16:25:50    209s] <CMD> deselectInst g531
+[06/23 16:25:50    209s] <CMD> deselectInst g530
+[06/23 16:25:50    209s] <CMD> deselectInst g542
+[06/23 16:25:50    209s] <CMD> deselectInst g537
+[06/23 16:25:50    209s] <CMD> deselectInst g548
+[06/23 16:25:50    209s] <CMD> deselectInst g535
+[06/23 16:25:50    209s] <CMD> deselectInst g529
+[06/23 16:25:50    209s] <CMD> deselectInst fopt10563
+[06/23 16:25:50    209s] <CMD> deselectInst g131
+[06/23 16:25:50    209s] <CMD> deselectInst g126
+[06/23 16:25:50    209s] <CMD> deselectInst g124
+[06/23 16:25:50    209s] <CMD> deselectInst g123
+[06/23 16:25:50    209s] <CMD> deselectInst fopt10502
+[06/23 16:25:50    209s] <CMD> deselectInst g10483
+[06/23 16:25:50    209s] <CMD> deselectInst g10484
+[06/23 16:25:50    209s] <CMD> deselectInst g10479
+[06/23 16:25:50    209s] <CMD> deselectInst g10477
+[06/23 16:25:50    209s] <CMD> deselectInst g10478
+[06/23 16:25:50    209s] <CMD> deselectInst g10480
+[06/23 16:25:50    209s] <CMD> deselectInst g10481
+[06/23 16:25:50    209s] <CMD> deselectInst g10461__2398
+[06/23 16:25:50    209s] <CMD> deselectInst g10460__5477
+[06/23 16:25:50    209s] <CMD> deselectInst g10458__7410
+[06/23 16:25:50    209s] <CMD> deselectInst g10456__2883
+[06/23 16:25:50    209s] <CMD> deselectInst g10465__9315
+[06/23 16:25:50    209s] <CMD> deselectInst g10467__4733
+[06/23 16:25:50    209s] <CMD> deselectInst g10468__7482
+[06/23 16:25:50    209s] <CMD> deselectInst g10469__5115
+[06/23 16:25:50    209s] <CMD> deselectInst g10454__6131
+[06/23 16:25:50    209s] <CMD> deselectInst g10450__5122
+[06/23 16:25:50    209s] <CMD> deselectInst g10452__6783
+[06/23 16:25:50    209s] <CMD> deselectInst g10453__5526
+[06/23 16:25:50    209s] <CMD> deselectInst g10444__4319
+[06/23 16:25:50    209s] <CMD> deselectInst g10449
+[06/23 16:25:50    209s] <CMD> deselectInst g10443__5107
+[06/23 16:25:50    209s] <CMD> deselectInst g10440__2398
+[06/23 16:25:50    209s] <CMD> deselectInst g10441__5477
+[06/23 16:25:50    209s] <CMD> deselectInst g10442__6417
+[06/23 16:25:50    209s] <CMD> deselectInst g10439__2346
+[06/23 16:25:50    209s] <CMD> deselectInst g10437__2883
+[06/23 16:25:50    209s] <CMD> deselectInst g10438__9945
+[06/23 16:25:50    209s] <CMD> deselectInst g10431__9315
+[06/23 16:25:50    209s] <CMD> deselectInst g10432__6161
+[06/23 16:25:50    209s] <CMD> deselectInst g10436__4733
+[06/23 16:25:50    209s] <CMD> deselectInst {Count_reg[2]}
+[06/23 16:25:50    209s] <CMD> deselectInst g10413
+[06/23 16:25:50    209s] <CMD> deselectInst g10415__5115
+[06/23 16:25:50    209s] <CMD> deselectInst {M_temp_reg[1]}
+[06/23 16:25:50    209s] <CMD> deselectInst {M_temp_reg[0]}
+[06/23 16:25:50    209s] <CMD> deselectInst {M_temp_reg[2]}
+[06/23 16:25:50    209s] <CMD> deselectInst {M_temp_reg[3]}
+[06/23 16:25:50    209s] <CMD> deselectInst g10433__7098
+[06/23 16:25:50    209s] <CMD> deselectInst g10434__1705
+[06/23 16:25:50    209s] <CMD> deselectInst g10435__2802
+[06/23 16:25:50    209s] <CMD> deselectInst g10423__3680
+[06/23 16:25:50    209s] <CMD> deselectInst g10424__6783
+[06/23 16:25:50    209s] <CMD> deselectInst g10420__8428
+[06/23 16:25:50    209s] <CMD> deselectInst g10421__4319
+[06/23 16:25:50    209s] <CMD> deselectInst g10422__5477
+[06/23 16:25:50    209s] <CMD> deselectInst g10405__6417
+[06/23 16:25:50    209s] <CMD> deselectInst g10404__7410
+[06/23 16:25:50    209s] <CMD> deselectInst g10409__2346
+[06/23 16:25:50    209s] <CMD> deselectInst g10384__9945
+[06/23 16:25:50    209s] <CMD> deselectInst g10403__9315
+[06/23 16:25:50    209s] <CMD> deselectInst Q_minus_one_reg
+[06/23 16:25:50    209s] <CMD> deselectInst {Count_reg[0]}
+[06/23 16:25:50    209s] <CMD> deselectInst g10382__7482
+[06/23 16:25:50    209s] <CMD> deselectInst g10383__5115
+[06/23 16:25:50    209s] <CMD> deselectInst g10398__1881
+[06/23 16:25:50    209s] <CMD> deselectInst g10379__7098
+[06/23 16:25:50    209s] <CMD> deselectInst g10397__8246
+[06/23 16:25:50    209s] <CMD> deselectInst {P_reg[0]}
+[06/23 16:25:50    209s] <CMD> deselectInst g10385__5122
+[06/23 16:25:50    209s] <CMD> deselectInst {Count_reg[1]}
+[06/23 16:25:50    209s] <CMD> deselectInst {P_reg[3]}
+[06/23 16:25:50    209s] <CMD> deselectInst {P_reg[2]}
+[06/23 16:25:50    209s] <CMD> deselectInst {P_reg[1]}
+[06/23 16:25:50    209s] <CMD> deselectInst g10386__2802
+[06/23 16:25:50    209s] <CMD> deselectInst g10381__1617
+[06/23 16:25:50    209s] <CMD> deselectInst {A_reg[0]}
+[06/23 16:25:50    209s] <CMD> deselectInst {A_reg[1]}
+[06/23 16:25:50    209s] <CMD> deselectInst {A_reg[2]}
+[06/23 16:25:50    209s] <CMD> deselectInst FE_DBTC0_reset
+[06/23 16:25:50    209s] <CMD> deselectInst FE_DBTC1_load
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {M[0]}
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {M[1]}
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {M[2]}
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {M[3]}
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {Q[0]}
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {Q[1]}
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {Q[2]}
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {Q[3]}
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin clk
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin load
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin reset
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {P[0]}
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {P[1]}
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {P[2]}
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {P[3]}
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {P[4]}
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {P[5]}
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {P[6]}
+[06/23 16:25:50    209s] <CMD> deselectObject IO_Pin {P[7]}
+[06/23 16:25:51    209s] <CMD> selectObject Net n_14
+[06/23 16:25:51    209s] <CMD> selectObject Net n_316
+[06/23 16:25:51    209s] <CMD> selectObject Net n_317
+[06/23 16:25:51    209s] <CMD> selectObject Net n_6
+[06/23 16:25:51    209s] <CMD> selectObject Net n_318
+[06/23 16:25:51    209s] <CMD> selectObject Net n_79
+[06/23 16:25:51    209s] <CMD> selectInst g10644
+[06/23 16:25:51    209s] <CMD> selectInst g26
+[06/23 16:25:51    209s] <CMD> selectInst g25
+[06/23 16:25:51    209s] <CMD> selectInst g24
+[06/23 16:25:51    209s] <CMD> selectInst g10572
+[06/23 16:25:51    209s] <CMD> selectInst g10481
+[06/23 16:25:51    209s] <CMD> selectInst g10450__5122
+[06/23 16:25:51    209s] <CMD> selectInst g10384__9945
+[06/23 16:25:51    209s] <CMD> selectInst {Count_reg[1]}
+[06/23 16:25:51    209s] <CMD> selectInst FE_DBTC1_load
+[06/23 16:25:52    209s] <CMD> deselectObject Net n_14
+[06/23 16:25:52    209s] <CMD> deselectObject Net n_316
+[06/23 16:25:52    209s] <CMD> deselectObject Net n_317
+[06/23 16:25:52    209s] <CMD> deselectObject Net n_6
+[06/23 16:25:52    209s] <CMD> deselectObject Net n_318
+[06/23 16:25:52    209s] <CMD> deselectObject Net n_79
+[06/23 16:25:52    209s] <CMD> deselectInst g10644
+[06/23 16:25:52    209s] <CMD> deselectInst g26
+[06/23 16:25:52    209s] <CMD> deselectInst g25
+[06/23 16:25:52    209s] <CMD> deselectInst g24
+[06/23 16:25:52    209s] <CMD> deselectInst g10572
+[06/23 16:25:52    209s] <CMD> deselectInst g10481
+[06/23 16:25:52    209s] <CMD> deselectInst g10450__5122
+[06/23 16:25:52    209s] <CMD> deselectInst g10384__9945
+[06/23 16:25:52    209s] <CMD> deselectInst {Count_reg[1]}
+[06/23 16:25:52    209s] <CMD> deselectInst FE_DBTC1_load
+[06/23 16:25:54    209s] <CMD> selectObject Net n_9
+[06/23 16:25:54    209s] <CMD> selectObject Net n_9
+[06/23 16:25:58    209s] <CMD> selectObject Net n_9
+[06/23 16:25:58    209s] <CMD> selectInst g2
+[06/23 16:25:58    209s] <CMD> selectInst g10453__5526
+[06/23 16:25:58    209s] <CMD> selectInst g10432__6161
+[06/23 16:25:58    209s] <CMD> selectInst g10433__7098
+[06/23 16:26:50    212s] 
+--------------------------------------------------------------------------------
+Exiting Tempus Timing Solution on Tue Jun 23 16:26:50 2026
+  Total CPU time:     0:03:33
+  Total real time:    1:16:33
+  Peak memory (main): 2498.25MB
+
+[06/23 16:26:50    212s] 
+[06/23 16:26:50    212s] *** Memory Usage v#3 (Current mem = 3055.930M, initial mem = 835.133M) ***
+[06/23 16:26:50    212s] 
+[06/23 16:26:50    212s] *** Summary of all messages that are not suppressed in this session:
+[06/23 16:26:50    212s] Severity  ID               Count  Summary                                  
+[06/23 16:26:50    212s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[06/23 16:26:50    212s] WARNING   IMPLF-105            2  The layer '%s' specified in SAMENET spac...
+[06/23 16:26:50    212s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[06/23 16:26:50    212s] WARNING   IMPEXT-7000          1  The option '%s %s' for setExtractRCMode ...
+[06/23 16:26:50    212s] WARNING   UI-638               1  The %s to the command '%s' %s ignored si...
+[06/23 16:26:50    212s] WARNING   UI-156              72  preference name '%s' is not supported in...
+[06/23 16:26:50    212s] WARNING   IMPSYC-6134          1  Setting analysis mode to %s does not hav...
+[06/23 16:26:50    212s] WARNING   IMPVL-159          958  Pin '%s' of cell '%s' is defined in LEF ...
+[06/23 16:26:50    212s] ERROR     IMPOAX-820           1  The OpenAccess (OA) features are disable...
+[06/23 16:26:50    212s] ERROR     IMPOAX-850           1  %s command cannot be run as OpenAccess f...
+[06/23 16:26:50    212s] ERROR     IMPOAX-8033          1  OpenAccess features will be disabled in ...
+[06/23 16:26:50    212s] ERROR     IMPOAX-8053          2  Could not open shared library %s : %s.   
+[06/23 16:26:50    212s] WARNING   NRIF-90              1  Option setNanoRouteMode -route_bottom_ro...
+[06/23 16:26:50    212s] WARNING   NRIF-91              1  Option setNanoRouteMode -route_top_routi...
+[06/23 16:26:50    212s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[06/23 16:26:50    212s] WARNING   TCLCMD-1263          1  The -frame parameter is obsolete and wil...
+[06/23 16:26:50    212s] *** Message Summary: 1044 warning(s), 5 error(s)
+[06/23 16:26:50    212s] 
+[06/23 16:26:50    212s] --- Ending "Tempus Timing Solution" (totcpu=0:03:32, real=1:16:32, mem=3055.9M) ---

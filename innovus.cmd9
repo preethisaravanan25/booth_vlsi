@@ -1,0 +1,50 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Tue Jun 23 11:18:44 2026                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v21.15-s110_1 (64bit) 09/23/2022 13:08 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: NanoRoute 21.15-s110_1 NR220912-2004/21_15-UB (database version 18.20.592) {superthreading v2.17}
+#@(#)CDS: AAE 21.15-s039 (64bit) 09/23/2022 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: CTE 21.15-s038_1 () Sep 20 2022 11:42:13 ( )
+#@(#)CDS: SYNTECH 21.15-s012_1 () Sep  5 2022 10:25:51 ( )
+#@(#)CDS: CPE v21.15-s076
+#@(#)CDS: IQuantus/TQuantus 21.1.1-s867 (64bit) Sun Jun 26 22:12:54 PDT 2022 (Linux 3.10.0-693.el7.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getVersion
+getVersion
+getVersion
+win
+encMessage warning 0
+encMessage debug 0
+is_common_ui_mode
+restoreDesign /home/vlsi21/day_19/booth/Pd/booth.enc.dat booth_multiplier
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+setDrawView fplan
+setDrawView place
+fit
+getAnalysisMode -checkType -quiet
+get_time_unit
+report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+load_timing_debug_report -name default_report top.mtarpt -max_path_num 10000 -updateCategory 0
+ecoAddRepeater -cell BUFX2 -net n_278 -name FE_ECOC0_n_278
+ecoAddRepeater -cell BUFX2 -net n_335 -name FE_ECOC1_n_335
+ecoAddRepeater -cell BUFX2 -net n_337 -name FE_ECOC2_n_337
+ecoAddRepeater -cell BUFX2 -net n_337 -name FE_ECOC3_n_337
+ecoAddRepeater -cell BUFX2 -net n_313 -name FE_ECOC4_n_313
+ecoAddRepeater -cell BUFX2 -net n_193 -name FE_ECOC5_n_193
+ecoAddRepeater -cell BUFX2 -net n_193 -name FE_ECOC6_n_193
+ecoAddRepeater -cell BUFX2 -net n_199 -name FE_ECOC7_n_199
+ecoAddRepeater -cell BUFX2 -net n_199 -name FE_ECOC8_n_199
+ecoAddRepeater -cell BUFX2 -net n_199 -name FE_ECOC9_n_199
+ecoAddRepeater -cell BUFX2 -net n_4 -name FE_ECOC10_n_4
+ecoAddRepeater -cell BUFX2 -net n_4 -name FE_ECOC11_n_4
+ecoAddRepeater -cell BUFX2 -net n_4 -name FE_ECOC12_n_4
+ecoAddRepeater -cell {BUFX2 BUFX3} -net n_332 -name FE_ECOC13_n_332
+saveDesign booth_hold_opt.enc

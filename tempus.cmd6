@@ -1,0 +1,2297 @@
+#######################################################
+#                                                     
+#  Tempus Timing Solution Command Logging File                     
+#  Created on Tue Jun 23 15:10:32 2026                
+#                                                     
+#######################################################
+
+#@(#)CDS: Tempus Timing Solution v23.13-s084_1 (64bit) 11/22/2024 17:27 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: NanoRoute 23.13-s084_1 NR241029-2256/23_13-UB (database version 18.20.652) {superthreading v2.20}
+#@(#)CDS: AAE 23.13-s022 (64bit) 11/22/2024 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: CTE 23.13-s030_1 () Nov 21 2024 17:17:38 ( )
+#@(#)CDS: SYNTECH 23.13-s009_1 () Oct 30 2024 09:17:13 ( )
+#@(#)CDS: CPE v23.13-s064
+
+::stop_gui -keepDgui
+read_design -physical_data booth.enc.dat/ booth_multiplier
+selectObject Net n_255
+selectObject Net n_405
+selectObject Net n_403
+selectObject Net FE_DBTN1_load
+selectObject Net n_407
+selectObject Net n_327
+selectObject Net n_332
+selectObject Net n_337
+selectObject Net n_262
+selectObject Net n_331
+selectObject Net n_333
+selectObject Net n_334
+selectObject Net n_1
+selectObject Net n_336
+selectObject Net n_4
+selectObject Net n_3
+selectObject Net n_26
+selectObject Net n_30
+selectObject Net n_27
+selectObject Net n_28
+selectObject Net n_241
+selectObject Net n_10
+selectObject Net n_214
+selectObject Net n_247
+selectObject Net n_8
+selectObject Net n_200
+selectObject Net n_36
+selectObject Net n_235
+selectObject Net n_446
+selectObject Net n_275
+selectObject Net n_448
+selectObject Net n_21
+selectObject Net n_20
+selectObject Net n_39
+selectObject Net n_38
+selectObject Net n_58
+selectObject Net n_56
+selectObject Net n_76
+selectObject Net Q_minus_one
+selectObject Net n_355
+selectObject Net n_40
+selectObject Net n_48
+selectObject Net n_69
+selectObject Net n_70
+selectObject Net n_75
+selectObject Net n_236
+selectObject Net n_50
+selectObject Net n_41
+selectObject Net n_77
+selectObject Net n_37
+selectObject Net n_71
+selectObject Net n_67
+selectObject Net n_59
+selectObject Net n_238
+selectObject Net n_237
+selectObject Net n_91
+selectObject Net n_192
+selectObject Net n_124
+selectObject Net n_257
+selectObject Net n_308
+selectObject Net n_96
+selectObject Net n_92
+selectObject Net n_276
+selectObject Net n_80
+selectObject Net n_52
+selectObject Net n_53
+selectObject Net n_239
+selectObject Net n_68
+selectObject Net n_87
+selectObject Net n_359
+selectObject Net n_44
+selectObject Net n_227
+selectObject Net n_277
+selectObject Net n_93
+selectObject Net n_193
+selectObject Net n_307
+selectObject Net n_97
+selectObject Net n_98
+selectObject Net n_309
+selectObject Net n_231
+selectObject Net n_240
+selectObject Net n_390
+selectObject Net n_389
+selectObject Net n_388
+selectObject Net n_243
+selectObject Net n_313
+selectObject Net n_34
+selectObject Net n_330
+selectObject Net n_328
+selectObject Net n_323
+selectObject Net n_242
+selectObject Net n_322
+selectObject Net n_314
+selectObject Net n_311
+selectObject Net n_60
+selectObject Net n_393
+selectObject Net n_391
+selectObject Net n_335
+selectObject Net n_245
+selectObject Net n_338
+selectObject Net n_352
+selectObject Net n_194
+selectObject Net n_278
+selectObject Net n_232
+selectObject Net n_329
+selectObject Net n_356
+selectObject Net n_326
+selectObject Net n_90
+selectObject Net n_86
+selectObject Net n_85
+selectObject Net n_392
+selectObject Net n_246
+selectInst g2
+selectInst g10419__10514_dup10674
+selectInst g10645
+selectInst g10643
+selectInst g10642
+selectInst fopt10638
+selectInst g10637
+selectInst g10380__10636
+selectInst g10368__10635
+selectInst g10364__10634
+selectInst g10633
+selectInst g10451__10610
+selectInst g10417__10608
+selectInst g10607
+selectInst g10387__10606
+selectInst fopt10604
+selectInst g36
+selectInst g35
+selectInst g10445__10596
+selectInst g10399__10595
+selectInst g10446__10594
+selectInst g546_dup
+selectInst g10447__10593
+selectInst g10448__10592
+selectInst g10372__10591
+selectInst g10590
+selectInst g10589
+selectInst g10588
+selectInst g118
+selectInst g119
+selectInst g117
+selectInst g19
+selectInst g18
+selectInst g157
+selectInst g155
+selectInst g156
+selectInst g154
+selectInst g191
+selectInst g189
+selectInst g188
+selectInst g48
+selectInst g10572
+selectInst g133
+selectInst g10570
+selectInst g544
+selectInst g547
+selectInst g533
+selectInst g545
+selectInst g532
+selectInst g541
+selectInst g536
+selectInst g549
+selectInst g552
+selectInst g534
+selectInst g531
+selectInst g530
+selectInst g542
+selectInst g537
+selectInst g548
+selectInst g535
+selectInst g529
+selectInst fopt10563
+selectInst g126
+selectInst g124
+selectInst g123
+selectInst fopt10502
+selectInst g10483
+selectInst g10484
+selectInst g10479
+selectInst g10477
+selectInst g10478
+selectInst g10481
+selectInst g10460__5477
+selectInst g10458__7410
+selectInst g10456__2883
+selectInst g10467__4733
+selectInst g10468__7482
+selectInst g10454__6131
+selectInst g10452__6783
+selectInst g10453__5526
+selectInst g10444__4319
+selectInst g10449
+selectInst g10443__5107
+selectInst g10440__2398
+selectInst g10441__5477
+selectInst g10442__6417
+selectInst g10439__2346
+selectInst g10437__2883
+selectInst g10438__9945
+selectInst g10431__9315
+selectInst g10432__6161
+selectInst g10436__4733
+selectInst {Count_reg[2]}
+selectInst g10415__5115
+selectInst {M_temp_reg[1]}
+selectInst {M_temp_reg[0]}
+selectInst {M_temp_reg[2]}
+selectInst {M_temp_reg[3]}
+selectInst g10433__7098
+selectInst g10434__1705
+selectInst g10435__2802
+selectInst g10423__3680
+selectInst g10424__6783
+selectInst g10420__8428
+selectInst g10421__4319
+selectInst g10422__5477
+selectInst g10405__6417
+selectInst g10404__7410
+selectInst g10409__2346
+selectInst g10403__9315
+selectInst Q_minus_one_reg
+selectInst {Count_reg[0]}
+selectInst g10382__7482
+selectInst g10383__5115
+selectInst g10398__1881
+selectInst g10379__7098
+selectInst g10397__8246
+selectInst {P_reg[0]}
+selectInst g10385__5122
+selectInst {P_reg[3]}
+selectInst {P_reg[2]}
+selectInst {P_reg[1]}
+selectInst g10386__2802
+selectInst g10381__1617
+selectInst {A_reg[0]}
+selectInst {A_reg[1]}
+selectInst {A_reg[2]}
+selectInst FE_DBTC1_load
+selectObject IO_Pin {M[0]}
+selectObject IO_Pin {M[1]}
+selectObject IO_Pin {M[2]}
+selectObject IO_Pin {M[3]}
+selectObject IO_Pin {Q[0]}
+selectObject IO_Pin {Q[1]}
+selectObject IO_Pin {Q[2]}
+selectObject IO_Pin {Q[3]}
+selectObject IO_Pin clk
+selectObject IO_Pin load
+selectObject IO_Pin reset
+selectObject IO_Pin {P[0]}
+selectObject IO_Pin {P[1]}
+selectObject IO_Pin {P[2]}
+selectObject IO_Pin {P[3]}
+selectObject IO_Pin {P[4]}
+selectObject IO_Pin {P[5]}
+selectObject IO_Pin {P[6]}
+selectObject IO_Pin {P[7]}
+deselectObject Net n_255
+deselectObject Net n_405
+deselectObject Net n_403
+deselectObject Net FE_DBTN1_load
+deselectObject Net n_407
+deselectObject Net n_327
+deselectObject Net n_332
+deselectObject Net n_337
+deselectObject Net n_262
+deselectObject Net n_331
+deselectObject Net n_333
+deselectObject Net n_334
+deselectObject Net n_1
+deselectObject Net n_336
+deselectObject Net n_4
+deselectObject Net n_3
+deselectObject Net n_26
+deselectObject Net n_30
+deselectObject Net n_27
+deselectObject Net n_28
+deselectObject Net n_241
+deselectObject Net n_10
+deselectObject Net n_214
+deselectObject Net n_247
+deselectObject Net n_8
+deselectObject Net n_200
+deselectObject Net n_36
+deselectObject Net n_235
+deselectObject Net n_446
+deselectObject Net n_275
+deselectObject Net n_448
+deselectObject Net n_21
+deselectObject Net n_20
+deselectObject Net n_39
+deselectObject Net n_38
+deselectObject Net n_58
+deselectObject Net n_56
+deselectObject Net n_76
+deselectObject Net Q_minus_one
+deselectObject Net n_355
+deselectObject Net n_40
+deselectObject Net n_48
+deselectObject Net n_69
+deselectObject Net n_70
+deselectObject Net n_75
+deselectObject Net n_236
+deselectObject Net n_50
+deselectObject Net n_41
+deselectObject Net n_77
+deselectObject Net n_37
+deselectObject Net n_71
+deselectObject Net n_67
+deselectObject Net n_59
+deselectObject Net n_238
+deselectObject Net n_237
+deselectObject Net n_91
+deselectObject Net n_192
+deselectObject Net n_124
+deselectObject Net n_257
+deselectObject Net n_308
+deselectObject Net n_96
+deselectObject Net n_92
+deselectObject Net n_276
+deselectObject Net n_80
+deselectObject Net n_52
+deselectObject Net n_53
+deselectObject Net n_239
+deselectObject Net n_68
+deselectObject Net n_87
+deselectObject Net n_359
+deselectObject Net n_44
+deselectObject Net n_227
+deselectObject Net n_277
+deselectObject Net n_93
+deselectObject Net n_193
+deselectObject Net n_307
+deselectObject Net n_97
+deselectObject Net n_98
+deselectObject Net n_309
+deselectObject Net n_231
+deselectObject Net n_240
+deselectObject Net n_390
+deselectObject Net n_389
+deselectObject Net n_388
+deselectObject Net n_243
+deselectObject Net n_313
+deselectObject Net n_34
+deselectObject Net n_330
+deselectObject Net n_328
+deselectObject Net n_323
+deselectObject Net n_242
+deselectObject Net n_322
+deselectObject Net n_314
+deselectObject Net n_311
+deselectObject Net n_60
+deselectObject Net n_393
+deselectObject Net n_391
+deselectObject Net n_335
+deselectObject Net n_245
+deselectObject Net n_338
+deselectObject Net n_352
+deselectObject Net n_194
+deselectObject Net n_278
+deselectObject Net n_232
+deselectObject Net n_329
+deselectObject Net n_356
+deselectObject Net n_326
+deselectObject Net n_90
+deselectObject Net n_86
+deselectObject Net n_85
+deselectObject Net n_392
+deselectObject Net n_246
+deselectInst g2
+deselectInst g10419__10514_dup10674
+deselectInst g10645
+deselectInst g10643
+deselectInst g10642
+deselectInst fopt10638
+deselectInst g10637
+deselectInst g10380__10636
+deselectInst g10368__10635
+deselectInst g10364__10634
+deselectInst g10633
+deselectInst g10451__10610
+deselectInst g10417__10608
+deselectInst g10607
+deselectInst g10387__10606
+deselectInst fopt10604
+deselectInst g36
+deselectInst g35
+deselectInst g10445__10596
+deselectInst g10399__10595
+deselectInst g10446__10594
+deselectInst g546_dup
+deselectInst g10447__10593
+deselectInst g10448__10592
+deselectInst g10372__10591
+deselectInst g10590
+deselectInst g10589
+deselectInst g10588
+deselectInst g118
+deselectInst g119
+deselectInst g117
+deselectInst g19
+deselectInst g18
+deselectInst g157
+deselectInst g155
+deselectInst g156
+deselectInst g154
+deselectInst g191
+deselectInst g189
+deselectInst g188
+deselectInst g48
+deselectInst g10572
+deselectInst g133
+deselectInst g10570
+deselectInst g544
+deselectInst g547
+deselectInst g533
+deselectInst g545
+deselectInst g532
+deselectInst g541
+deselectInst g536
+deselectInst g549
+deselectInst g552
+deselectInst g534
+deselectInst g531
+deselectInst g530
+deselectInst g542
+deselectInst g537
+deselectInst g548
+deselectInst g535
+deselectInst g529
+deselectInst fopt10563
+deselectInst g126
+deselectInst g124
+deselectInst g123
+deselectInst fopt10502
+deselectInst g10483
+deselectInst g10484
+deselectInst g10479
+deselectInst g10477
+deselectInst g10478
+deselectInst g10481
+deselectInst g10460__5477
+deselectInst g10458__7410
+deselectInst g10456__2883
+deselectInst g10467__4733
+deselectInst g10468__7482
+deselectInst g10454__6131
+deselectInst g10452__6783
+deselectInst g10453__5526
+deselectInst g10444__4319
+deselectInst g10449
+deselectInst g10443__5107
+deselectInst g10440__2398
+deselectInst g10441__5477
+deselectInst g10442__6417
+deselectInst g10439__2346
+deselectInst g10437__2883
+deselectInst g10438__9945
+deselectInst g10431__9315
+deselectInst g10432__6161
+deselectInst g10436__4733
+deselectInst {Count_reg[2]}
+deselectInst g10415__5115
+deselectInst {M_temp_reg[1]}
+deselectInst {M_temp_reg[0]}
+deselectInst {M_temp_reg[2]}
+deselectInst {M_temp_reg[3]}
+deselectInst g10433__7098
+deselectInst g10434__1705
+deselectInst g10435__2802
+deselectInst g10423__3680
+deselectInst g10424__6783
+deselectInst g10420__8428
+deselectInst g10421__4319
+deselectInst g10422__5477
+deselectInst g10405__6417
+deselectInst g10404__7410
+deselectInst g10409__2346
+deselectInst g10403__9315
+deselectInst Q_minus_one_reg
+deselectInst {Count_reg[0]}
+deselectInst g10382__7482
+deselectInst g10383__5115
+deselectInst g10398__1881
+deselectInst g10379__7098
+deselectInst g10397__8246
+deselectInst {P_reg[0]}
+deselectInst g10385__5122
+deselectInst {P_reg[3]}
+deselectInst {P_reg[2]}
+deselectInst {P_reg[1]}
+deselectInst g10386__2802
+deselectInst g10381__1617
+deselectInst {A_reg[0]}
+deselectInst {A_reg[1]}
+deselectInst {A_reg[2]}
+deselectInst FE_DBTC1_load
+deselectObject IO_Pin {M[0]}
+deselectObject IO_Pin {M[1]}
+deselectObject IO_Pin {M[2]}
+deselectObject IO_Pin {M[3]}
+deselectObject IO_Pin {Q[0]}
+deselectObject IO_Pin {Q[1]}
+deselectObject IO_Pin {Q[2]}
+deselectObject IO_Pin {Q[3]}
+deselectObject IO_Pin clk
+deselectObject IO_Pin load
+deselectObject IO_Pin reset
+deselectObject IO_Pin {P[0]}
+deselectObject IO_Pin {P[1]}
+deselectObject IO_Pin {P[2]}
+deselectObject IO_Pin {P[3]}
+deselectObject IO_Pin {P[4]}
+deselectObject IO_Pin {P[5]}
+deselectObject IO_Pin {P[6]}
+deselectObject IO_Pin {P[7]}
+selectObject Net reset
+selectObject Net load
+selectObject Net clk
+selectObject Net n_404
+selectObject Net n_255
+selectObject Net n_14
+selectObject Net n_229
+selectObject Net n_316
+selectObject Net n_317
+selectObject Net FE_DBTN0_reset
+selectObject Net n_6
+selectObject Net n_405
+selectObject Net n_318
+selectObject Net n_199
+selectObject Net n_403
+selectObject Net FE_DBTN1_load
+selectObject Net n_407
+selectObject Net n_79
+selectObject Net n_327
+selectObject Net n_332
+selectObject Net n_337
+selectObject Net n_262
+selectObject Net n_331
+selectObject Net n_333
+selectObject Net n_334
+selectObject Net n_5
+selectObject Net n_1
+selectObject Net n_336
+selectObject Net n_4
+selectObject Net n_3
+selectObject Net n_26
+selectObject Net n_30
+selectObject Net n_27
+selectObject Net n_28
+selectObject Net n_241
+selectObject Net n_9
+selectObject Net n_10
+selectObject Net n_214
+selectObject Net n_247
+selectObject Net n_8
+selectObject Net n_200
+selectObject Net n_36
+selectObject Net n_235
+selectObject Net n_446
+selectObject Net n_358
+selectObject Net n_275
+selectObject Net n_448
+selectObject Net n_22
+selectObject Net n_21
+selectObject Net n_20
+selectObject Net n_39
+selectObject Net n_51
+selectObject Net n_38
+selectObject Net n_58
+selectObject Net n_56
+selectObject Net n_76
+selectObject Net Q_minus_one
+selectObject Net n_355
+selectObject Net n_40
+selectObject Net n_48
+selectObject Net n_69
+selectObject Net n_70
+selectObject Net n_75
+selectObject Net n_236
+selectObject Net n_50
+selectObject Net n_41
+selectObject Net n_77
+selectObject Net n_37
+selectObject Net n_71
+selectObject Net n_67
+selectObject Net n_59
+selectObject Net n_238
+selectObject Net n_237
+selectObject Net n_91
+selectObject Net n_192
+selectObject Net n_124
+selectObject Net n_257
+selectObject Net n_308
+selectObject Net n_96
+selectObject Net n_92
+selectObject Net n_276
+selectObject Net n_80
+selectObject Net n_52
+selectObject Net n_53
+selectObject Net n_239
+selectObject Net n_68
+selectObject Net n_87
+selectObject Net n_359
+selectObject Net n_44
+selectObject Net n_42
+selectObject Net n_227
+selectObject Net n_277
+selectObject Net n_93
+selectObject Net n_193
+selectObject Net n_307
+selectObject Net n_97
+selectObject Net n_98
+selectObject Net n_309
+selectObject Net n_231
+selectObject Net n_240
+selectObject Net n_390
+selectObject Net n_389
+selectObject Net n_388
+selectObject Net n_243
+selectObject Net n_313
+selectObject Net n_34
+selectObject Net n_330
+selectObject Net n_328
+selectObject Net n_323
+selectObject Net n_242
+selectObject Net n_322
+selectObject Net n_314
+selectObject Net n_311
+selectObject Net n_60
+selectObject Net n_393
+selectObject Net n_391
+selectObject Net n_335
+selectObject Net n_245
+selectObject Net n_338
+selectObject Net n_352
+selectObject Net n_194
+selectObject Net n_278
+selectObject Net n_232
+selectObject Net n_329
+selectObject Net n_356
+selectObject Net n_326
+selectObject Net n_90
+selectObject Net n_86
+selectObject Net n_85
+selectObject Net n_392
+selectObject Net n_246
+selectInst g2
+selectInst g10419__10514_dup10674
+selectInst g10645
+selectInst g10644
+selectInst g10643
+selectInst g10642
+selectInst fopt10638
+selectInst g10637
+selectInst g10380__10636
+selectInst g10368__10635
+selectInst g10364__10634
+selectInst g10633
+selectInst g10451__10610
+selectInst g10417__10608
+selectInst g10607
+selectInst g10387__10606
+selectInst fopt10604
+selectInst g36
+selectInst g35
+selectInst g10445__10596
+selectInst g10399__10595
+selectInst g10446__10594
+selectInst g546_dup
+selectInst g10447__10593
+selectInst g10448__10592
+selectInst g10372__10591
+selectInst g10590
+selectInst g10589
+selectInst g10588
+selectInst g118
+selectInst g119
+selectInst g117
+selectInst g26
+selectInst g25
+selectInst g24
+selectInst g19
+selectInst g18
+selectInst g157
+selectInst g155
+selectInst g156
+selectInst g154
+selectInst g191
+selectInst g189
+selectInst g188
+selectInst g48
+selectInst g10572
+selectInst g133
+selectInst g10570
+selectInst g544
+selectInst g547
+selectInst g533
+selectInst g545
+selectInst g532
+selectInst g541
+selectInst g536
+selectInst g549
+selectInst g552
+selectInst g534
+selectInst g531
+selectInst g530
+selectInst g542
+selectInst g537
+selectInst g548
+selectInst g535
+selectInst g529
+selectInst fopt10563
+selectInst g131
+selectInst g126
+selectInst g124
+selectInst g123
+selectInst fopt10502
+selectInst g10483
+selectInst g10484
+selectInst g10479
+selectInst g10477
+selectInst g10478
+selectInst g10480
+selectInst g10481
+selectInst g10461__2398
+selectInst g10460__5477
+selectInst g10458__7410
+selectInst g10456__2883
+selectInst g10465__9315
+selectInst g10467__4733
+selectInst g10468__7482
+selectInst g10469__5115
+selectInst g10454__6131
+selectInst g10450__5122
+selectInst g10452__6783
+selectInst g10453__5526
+selectInst g10444__4319
+selectInst g10449
+selectInst g10443__5107
+selectInst g10440__2398
+selectInst g10441__5477
+selectInst g10442__6417
+selectInst g10439__2346
+selectInst g10437__2883
+selectInst g10438__9945
+selectInst g10431__9315
+selectInst g10432__6161
+selectInst g10436__4733
+selectInst {Count_reg[2]}
+selectInst g10413
+selectInst g10415__5115
+selectInst {M_temp_reg[1]}
+selectInst {M_temp_reg[0]}
+selectInst {M_temp_reg[2]}
+selectInst {M_temp_reg[3]}
+selectInst g10433__7098
+selectInst g10434__1705
+selectInst g10435__2802
+selectInst g10423__3680
+selectInst g10424__6783
+selectInst g10420__8428
+selectInst g10421__4319
+selectInst g10422__5477
+selectInst g10405__6417
+selectInst g10404__7410
+selectInst g10409__2346
+selectInst g10384__9945
+selectInst g10403__9315
+selectInst Q_minus_one_reg
+selectInst {Count_reg[0]}
+selectInst g10382__7482
+selectInst g10383__5115
+selectInst g10398__1881
+selectInst g10379__7098
+selectInst g10397__8246
+selectInst {P_reg[0]}
+selectInst g10385__5122
+selectInst {Count_reg[1]}
+selectInst {P_reg[3]}
+selectInst {P_reg[2]}
+selectInst {P_reg[1]}
+selectInst g10386__2802
+selectInst g10381__1617
+selectInst {A_reg[0]}
+selectInst {A_reg[1]}
+selectInst {A_reg[2]}
+selectInst FE_DBTC0_reset
+selectInst FE_DBTC1_load
+selectObject IO_Pin {M[0]}
+selectObject IO_Pin {M[1]}
+selectObject IO_Pin {M[2]}
+selectObject IO_Pin {M[3]}
+selectObject IO_Pin {Q[0]}
+selectObject IO_Pin {Q[1]}
+selectObject IO_Pin {Q[2]}
+selectObject IO_Pin {Q[3]}
+selectObject IO_Pin clk
+selectObject IO_Pin load
+selectObject IO_Pin reset
+selectObject IO_Pin {P[0]}
+selectObject IO_Pin {P[1]}
+selectObject IO_Pin {P[2]}
+selectObject IO_Pin {P[3]}
+selectObject IO_Pin {P[4]}
+selectObject IO_Pin {P[5]}
+selectObject IO_Pin {P[6]}
+selectObject IO_Pin {P[7]}
+deselectObject Net reset
+deselectObject Net clk
+deselectObject Net n_404
+deselectObject Net n_255
+deselectObject Net n_14
+deselectObject Net n_229
+deselectObject Net n_316
+deselectObject Net n_317
+deselectObject Net FE_DBTN0_reset
+deselectObject Net n_6
+deselectObject Net n_405
+deselectObject Net n_318
+deselectObject Net n_199
+deselectObject Net n_403
+deselectObject Net FE_DBTN1_load
+deselectObject Net n_407
+deselectObject Net n_79
+deselectObject Net n_327
+deselectObject Net n_332
+deselectObject Net n_337
+deselectObject Net n_262
+deselectObject Net n_331
+deselectObject Net n_333
+deselectObject Net n_334
+deselectObject Net n_5
+deselectObject Net n_1
+deselectObject Net n_336
+deselectObject Net n_4
+deselectObject Net n_3
+deselectObject Net n_26
+deselectObject Net n_30
+deselectObject Net n_27
+deselectObject Net n_28
+deselectObject Net n_241
+deselectObject Net n_9
+deselectObject Net n_10
+deselectObject Net n_214
+deselectObject Net n_247
+deselectObject Net n_8
+deselectObject Net n_200
+deselectObject Net n_36
+deselectObject Net n_235
+deselectObject Net n_446
+deselectObject Net n_358
+deselectObject Net n_275
+deselectObject Net n_448
+deselectObject Net n_22
+deselectObject Net n_21
+deselectObject Net n_20
+deselectObject Net n_39
+deselectObject Net n_51
+deselectObject Net n_38
+deselectObject Net n_58
+deselectObject Net n_56
+deselectObject Net n_76
+deselectObject Net Q_minus_one
+deselectObject Net n_355
+deselectObject Net n_40
+deselectObject Net n_48
+deselectObject Net n_69
+deselectObject Net n_70
+deselectObject Net n_75
+deselectObject Net n_236
+deselectObject Net n_50
+deselectObject Net n_41
+deselectObject Net n_77
+deselectObject Net n_37
+deselectObject Net n_71
+deselectObject Net n_67
+deselectObject Net n_59
+deselectObject Net n_238
+deselectObject Net n_237
+deselectObject Net n_91
+deselectObject Net n_192
+deselectObject Net n_124
+deselectObject Net n_257
+deselectObject Net n_308
+deselectObject Net n_96
+deselectObject Net n_92
+deselectObject Net n_276
+deselectObject Net n_80
+deselectObject Net n_52
+deselectObject Net n_53
+deselectObject Net n_239
+deselectObject Net n_68
+deselectObject Net n_87
+deselectObject Net n_359
+deselectObject Net n_44
+deselectObject Net n_42
+deselectObject Net n_227
+deselectObject Net n_277
+deselectObject Net n_93
+deselectObject Net n_193
+deselectObject Net n_307
+deselectObject Net n_97
+deselectObject Net n_98
+deselectObject Net n_309
+deselectObject Net n_231
+deselectObject Net n_240
+deselectObject Net n_390
+deselectObject Net n_389
+deselectObject Net n_388
+deselectObject Net n_243
+deselectObject Net n_313
+deselectObject Net n_34
+deselectObject Net n_330
+deselectObject Net n_328
+deselectObject Net n_323
+deselectObject Net n_242
+deselectObject Net n_322
+deselectObject Net n_314
+deselectObject Net n_311
+deselectObject Net n_60
+deselectObject Net n_393
+deselectObject Net n_391
+deselectObject Net n_335
+deselectObject Net n_245
+deselectObject Net n_338
+deselectObject Net n_352
+deselectObject Net n_194
+deselectObject Net n_278
+deselectObject Net n_232
+deselectObject Net n_329
+deselectObject Net n_356
+deselectObject Net n_326
+deselectObject Net n_90
+deselectObject Net n_86
+deselectObject Net n_85
+deselectObject Net n_392
+deselectObject Net n_246
+deselectInst g2
+deselectInst g10419__10514_dup10674
+deselectInst g10645
+deselectInst g10644
+deselectInst g10643
+deselectInst g10642
+deselectInst fopt10638
+deselectInst g10637
+deselectInst g10380__10636
+deselectInst g10368__10635
+deselectInst g10364__10634
+deselectInst g10633
+deselectInst g10451__10610
+deselectInst g10417__10608
+deselectInst g10607
+deselectInst g10387__10606
+deselectInst fopt10604
+deselectInst g36
+deselectInst g35
+deselectInst g10445__10596
+deselectInst g10399__10595
+deselectInst g10446__10594
+deselectInst g546_dup
+deselectInst g10447__10593
+deselectInst g10448__10592
+deselectInst g10372__10591
+deselectInst g10590
+deselectInst g10589
+deselectInst g10588
+deselectInst g118
+deselectInst g119
+deselectInst g117
+deselectInst g26
+deselectInst g25
+deselectInst g24
+deselectInst g19
+deselectInst g18
+deselectInst g157
+deselectInst g155
+deselectInst g156
+deselectInst g154
+deselectInst g191
+deselectInst g189
+deselectInst g188
+deselectInst g48
+deselectInst g10572
+deselectInst g133
+deselectInst g10570
+deselectInst g544
+deselectInst g547
+deselectInst g533
+deselectInst g545
+deselectInst g532
+deselectInst g541
+deselectInst g536
+deselectInst g549
+deselectInst g552
+deselectInst g534
+deselectInst g531
+deselectInst g530
+deselectInst g542
+deselectInst g537
+deselectInst g548
+deselectInst g535
+deselectInst g529
+deselectInst fopt10563
+deselectInst g131
+deselectInst g126
+deselectInst g124
+deselectInst g123
+deselectInst fopt10502
+deselectInst g10483
+deselectInst g10484
+deselectInst g10479
+deselectInst g10477
+deselectInst g10478
+deselectInst g10480
+deselectInst g10481
+deselectInst g10461__2398
+deselectInst g10460__5477
+deselectInst g10458__7410
+deselectInst g10456__2883
+deselectInst g10465__9315
+deselectInst g10467__4733
+deselectInst g10468__7482
+deselectInst g10469__5115
+deselectInst g10454__6131
+deselectInst g10450__5122
+deselectInst g10452__6783
+deselectInst g10453__5526
+deselectInst g10444__4319
+deselectInst g10449
+deselectInst g10443__5107
+deselectInst g10440__2398
+deselectInst g10441__5477
+deselectInst g10442__6417
+deselectInst g10439__2346
+deselectInst g10437__2883
+deselectInst g10438__9945
+deselectInst g10431__9315
+deselectInst g10432__6161
+deselectInst g10436__4733
+deselectInst {Count_reg[2]}
+deselectInst g10413
+deselectInst g10415__5115
+deselectInst {M_temp_reg[1]}
+deselectInst {M_temp_reg[0]}
+deselectInst {M_temp_reg[2]}
+deselectInst {M_temp_reg[3]}
+deselectInst g10433__7098
+deselectInst g10434__1705
+deselectInst g10435__2802
+deselectInst g10423__3680
+deselectInst g10424__6783
+deselectInst g10420__8428
+deselectInst g10421__4319
+deselectInst g10422__5477
+deselectInst g10405__6417
+deselectInst g10404__7410
+deselectInst g10409__2346
+deselectInst g10384__9945
+deselectInst g10403__9315
+deselectInst Q_minus_one_reg
+deselectInst {Count_reg[0]}
+deselectInst g10382__7482
+deselectInst g10383__5115
+deselectInst g10398__1881
+deselectInst g10379__7098
+deselectInst g10397__8246
+deselectInst {P_reg[0]}
+deselectInst g10385__5122
+deselectInst {Count_reg[1]}
+deselectInst {P_reg[3]}
+deselectInst {P_reg[2]}
+deselectInst {P_reg[1]}
+deselectInst g10386__2802
+deselectInst g10381__1617
+deselectInst {A_reg[0]}
+deselectInst {A_reg[1]}
+deselectInst {A_reg[2]}
+deselectInst FE_DBTC0_reset
+deselectInst FE_DBTC1_load
+deselectObject IO_Pin {M[0]}
+deselectObject IO_Pin {M[1]}
+deselectObject IO_Pin {M[2]}
+deselectObject IO_Pin {M[3]}
+deselectObject IO_Pin {Q[0]}
+deselectObject IO_Pin {Q[1]}
+deselectObject IO_Pin {Q[2]}
+deselectObject IO_Pin {Q[3]}
+deselectObject IO_Pin clk
+deselectObject IO_Pin load
+deselectObject IO_Pin reset
+deselectObject IO_Pin {P[0]}
+deselectObject IO_Pin {P[1]}
+deselectObject IO_Pin {P[2]}
+deselectObject IO_Pin {P[3]}
+deselectObject IO_Pin {P[4]}
+deselectObject IO_Pin {P[5]}
+deselectObject IO_Pin {P[6]}
+deselectObject IO_Pin {P[7]}
+selectObject Net load
+deselectObject Net load
+selectInst g542
+selectObject IO_Pin {M[0]}
+selectObject IO_Pin {M[1]}
+selectObject IO_Pin {M[2]}
+selectObject IO_Pin {M[3]}
+selectObject IO_Pin {Q[0]}
+selectObject IO_Pin {Q[1]}
+selectObject IO_Pin {Q[2]}
+selectObject IO_Pin {Q[3]}
+selectObject IO_Pin clk
+selectObject IO_Pin load
+deselectInst g542
+deselectObject IO_Pin {M[0]}
+deselectObject IO_Pin {M[1]}
+deselectObject IO_Pin {M[2]}
+deselectObject IO_Pin {M[3]}
+deselectObject IO_Pin {Q[0]}
+deselectObject IO_Pin {Q[1]}
+deselectObject IO_Pin {Q[2]}
+deselectObject IO_Pin {Q[3]}
+deselectObject IO_Pin clk
+deselectObject IO_Pin load
+selectObject IO_Pin {M[0]}
+selectObject IO_Pin {M[1]}
+selectObject IO_Pin {M[2]}
+selectObject IO_Pin {M[3]}
+selectObject IO_Pin {Q[0]}
+selectObject IO_Pin {Q[1]}
+selectObject IO_Pin {Q[2]}
+selectObject IO_Pin {Q[3]}
+selectObject IO_Pin clk
+selectObject IO_Pin load
+selectObject IO_Pin reset
+deselectObject IO_Pin {M[0]}
+deselectObject IO_Pin {M[1]}
+deselectObject IO_Pin {M[2]}
+deselectObject IO_Pin {M[3]}
+deselectObject IO_Pin {Q[0]}
+deselectObject IO_Pin {Q[1]}
+deselectObject IO_Pin {Q[2]}
+deselectObject IO_Pin {Q[3]}
+deselectObject IO_Pin clk
+deselectObject IO_Pin load
+deselectObject IO_Pin reset
+selectInst g131
+selectInst FE_DBTC0_reset
+deselectInst g131
+deselectInst FE_DBTC0_reset
+selectObject Net n_14
+selectObject Net n_229
+selectObject Net n_316
+selectObject Net n_317
+selectObject Net n_6
+selectObject Net n_405
+selectObject Net n_318
+selectObject Net n_403
+selectObject Net FE_DBTN1_load
+selectObject Net n_407
+selectObject Net n_79
+selectObject Net n_337
+selectObject Net n_262
+selectObject Net n_331
+selectObject Net n_336
+selectObject Net n_3
+selectObject Net n_26
+selectObject Net n_28
+selectObject Net n_241
+selectObject Net n_247
+selectObject Net n_36
+selectObject Net n_235
+selectObject Net n_446
+selectObject Net n_275
+selectObject Net n_39
+selectObject Net n_38
+selectObject Net n_58
+selectObject Net n_40
+selectObject Net n_48
+selectObject Net n_69
+selectObject Net n_50
+selectObject Net n_41
+selectObject Net n_37
+selectObject Net n_71
+selectObject Net n_67
+selectObject Net n_59
+selectObject Net n_238
+selectObject Net n_237
+selectObject Net n_91
+selectObject Net n_192
+selectObject Net n_257
+selectObject Net n_308
+selectObject Net n_92
+selectObject Net n_276
+selectObject Net n_80
+selectObject Net n_52
+selectObject Net n_53
+selectObject Net n_239
+selectObject Net n_68
+selectObject Net n_359
+selectObject Net n_44
+selectObject Net n_227
+selectObject Net n_277
+selectObject Net n_93
+selectObject Net n_193
+selectObject Net n_307
+selectObject Net n_97
+selectObject Net n_309
+selectObject Net n_231
+selectObject Net n_240
+selectObject Net n_390
+selectObject Net n_389
+selectObject Net n_243
+selectObject Net n_313
+selectObject Net n_34
+selectObject Net n_328
+selectObject Net n_323
+selectObject Net n_242
+selectObject Net n_322
+selectObject Net n_314
+selectObject Net n_311
+selectObject Net n_60
+selectObject Net n_393
+selectObject Net n_391
+selectObject Net n_335
+selectObject Net n_245
+selectObject Net n_338
+selectObject Net n_352
+selectObject Net n_194
+selectObject Net n_278
+selectObject Net n_232
+selectObject Net n_329
+selectObject Net n_356
+selectObject Net n_326
+selectObject Net n_90
+selectObject Net n_86
+selectObject Net n_85
+selectObject Net n_392
+selectObject Net n_246
+selectInst g2
+selectInst g10419__10514_dup10674
+selectInst g10645
+selectInst g10644
+selectInst g10643
+selectInst g10642
+selectInst fopt10638
+selectInst g10637
+selectInst g10380__10636
+selectInst g10368__10635
+selectInst g10364__10634
+selectInst g10451__10610
+selectInst g10417__10608
+selectInst g10387__10606
+selectInst fopt10604
+selectInst g36
+selectInst g35
+selectInst g10445__10596
+selectInst g10399__10595
+selectInst g546_dup
+selectInst g10448__10592
+selectInst g10590
+selectInst g10589
+selectInst g10588
+selectInst g118
+selectInst g119
+selectInst g117
+selectInst g26
+selectInst g25
+selectInst g24
+selectInst g19
+selectInst g18
+selectInst g157
+selectInst g155
+selectInst g156
+selectInst g154
+selectInst g191
+selectInst g189
+selectInst g188
+selectInst g48
+selectInst g10572
+selectInst g133
+selectInst g10570
+selectInst g544
+selectInst g547
+selectInst g533
+selectInst g545
+selectInst g532
+selectInst g541
+selectInst g549
+selectInst g534
+selectInst g531
+selectInst g530
+selectInst g542
+selectInst g537
+selectInst g548
+selectInst g535
+selectInst g529
+selectInst g126
+selectInst g124
+selectInst g123
+selectInst g10484
+selectInst g10477
+selectInst g10481
+selectInst g10460__5477
+selectInst g10468__7482
+selectInst g10450__5122
+selectInst g10452__6783
+selectInst g10453__5526
+selectInst g10444__4319
+selectInst g10443__5107
+selectInst g10441__5477
+selectInst g10437__2883
+selectInst g10438__9945
+selectInst g10431__9315
+selectInst g10432__6161
+selectInst g10436__4733
+selectInst {Count_reg[2]}
+selectInst g10415__5115
+selectInst {M_temp_reg[0]}
+selectInst {M_temp_reg[2]}
+selectInst g10433__7098
+selectInst g10434__1705
+selectInst g10435__2802
+selectInst g10423__3680
+selectInst g10420__8428
+selectInst g10421__4319
+selectInst g10422__5477
+selectInst g10405__6417
+selectInst g10404__7410
+selectInst g10384__9945
+selectInst g10403__9315
+selectInst Q_minus_one_reg
+selectInst {Count_reg[0]}
+selectInst g10382__7482
+selectInst g10383__5115
+selectInst g10379__7098
+selectInst g10397__8246
+selectInst {P_reg[0]}
+selectInst g10385__5122
+selectInst {Count_reg[1]}
+selectInst {P_reg[3]}
+selectInst {P_reg[2]}
+selectInst {P_reg[1]}
+selectInst g10386__2802
+selectInst {A_reg[0]}
+selectInst {A_reg[1]}
+selectInst {A_reg[2]}
+selectInst FE_DBTC1_load
+selectObject IO_Pin {Q[0]}
+selectObject IO_Pin {Q[1]}
+selectObject IO_Pin {Q[2]}
+selectObject IO_Pin {Q[3]}
+selectObject IO_Pin clk
+selectObject IO_Pin load
+selectObject IO_Pin reset
+selectObject IO_Pin {P[0]}
+selectObject IO_Pin {P[1]}
+selectObject IO_Pin {P[2]}
+selectObject IO_Pin {P[3]}
+selectObject IO_Pin {P[4]}
+selectObject IO_Pin {P[5]}
+selectObject IO_Pin {P[6]}
+selectObject IO_Pin {P[7]}
+deselectObject Net n_14
+deselectObject Net n_229
+deselectObject Net n_316
+deselectObject Net n_317
+deselectObject Net n_6
+deselectObject Net n_405
+deselectObject Net n_318
+deselectObject Net n_403
+deselectObject Net FE_DBTN1_load
+deselectObject Net n_407
+deselectObject Net n_79
+deselectObject Net n_337
+deselectObject Net n_262
+deselectObject Net n_331
+deselectObject Net n_336
+deselectObject Net n_3
+deselectObject Net n_26
+deselectObject Net n_28
+deselectObject Net n_241
+deselectObject Net n_247
+deselectObject Net n_36
+deselectObject Net n_235
+deselectObject Net n_446
+deselectObject Net n_275
+deselectObject Net n_39
+deselectObject Net n_38
+deselectObject Net n_58
+deselectObject Net n_40
+deselectObject Net n_48
+deselectObject Net n_69
+deselectObject Net n_50
+deselectObject Net n_41
+deselectObject Net n_37
+deselectObject Net n_71
+deselectObject Net n_67
+deselectObject Net n_59
+deselectObject Net n_238
+deselectObject Net n_237
+deselectObject Net n_91
+deselectObject Net n_192
+deselectObject Net n_257
+deselectObject Net n_308
+deselectObject Net n_92
+deselectObject Net n_276
+deselectObject Net n_80
+deselectObject Net n_52
+deselectObject Net n_53
+deselectObject Net n_239
+deselectObject Net n_68
+deselectObject Net n_359
+deselectObject Net n_44
+deselectObject Net n_227
+deselectObject Net n_277
+deselectObject Net n_93
+deselectObject Net n_193
+deselectObject Net n_307
+deselectObject Net n_97
+deselectObject Net n_309
+deselectObject Net n_231
+deselectObject Net n_240
+deselectObject Net n_390
+deselectObject Net n_389
+deselectObject Net n_243
+deselectObject Net n_313
+deselectObject Net n_34
+deselectObject Net n_328
+deselectObject Net n_323
+deselectObject Net n_242
+deselectObject Net n_322
+deselectObject Net n_314
+deselectObject Net n_311
+deselectObject Net n_60
+deselectObject Net n_393
+deselectObject Net n_391
+deselectObject Net n_335
+deselectObject Net n_245
+deselectObject Net n_338
+deselectObject Net n_352
+deselectObject Net n_194
+deselectObject Net n_278
+deselectObject Net n_232
+deselectObject Net n_329
+deselectObject Net n_356
+deselectObject Net n_326
+deselectObject Net n_90
+deselectObject Net n_86
+deselectObject Net n_85
+deselectObject Net n_392
+deselectObject Net n_246
+deselectInst g2
+deselectInst g10419__10514_dup10674
+deselectInst g10645
+deselectInst g10644
+deselectInst g10643
+deselectInst g10642
+deselectInst fopt10638
+deselectInst g10637
+deselectInst g10380__10636
+deselectInst g10368__10635
+deselectInst g10364__10634
+deselectInst g10451__10610
+deselectInst g10417__10608
+deselectInst g10387__10606
+deselectInst fopt10604
+deselectInst g36
+deselectInst g35
+deselectInst g10445__10596
+deselectInst g10399__10595
+deselectInst g546_dup
+deselectInst g10448__10592
+deselectInst g10590
+deselectInst g10589
+deselectInst g10588
+deselectInst g118
+deselectInst g119
+deselectInst g117
+deselectInst g26
+deselectInst g25
+deselectInst g24
+deselectInst g19
+deselectInst g18
+deselectInst g157
+deselectInst g155
+deselectInst g156
+deselectInst g154
+deselectInst g191
+deselectInst g189
+deselectInst g188
+deselectInst g48
+deselectInst g10572
+deselectInst g133
+deselectInst g10570
+deselectInst g544
+deselectInst g547
+deselectInst g533
+deselectInst g545
+deselectInst g532
+deselectInst g541
+deselectInst g549
+deselectInst g534
+deselectInst g531
+deselectInst g530
+deselectInst g542
+deselectInst g537
+deselectInst g548
+deselectInst g535
+deselectInst g529
+deselectInst g126
+deselectInst g124
+deselectInst g123
+deselectInst g10484
+deselectInst g10477
+deselectInst g10481
+deselectInst g10460__5477
+deselectInst g10468__7482
+deselectInst g10450__5122
+deselectInst g10452__6783
+deselectInst g10453__5526
+deselectInst g10444__4319
+deselectInst g10443__5107
+deselectInst g10441__5477
+deselectInst g10437__2883
+deselectInst g10438__9945
+deselectInst g10431__9315
+deselectInst g10432__6161
+deselectInst g10436__4733
+deselectInst {Count_reg[2]}
+deselectInst g10415__5115
+deselectInst {M_temp_reg[0]}
+deselectInst {M_temp_reg[2]}
+deselectInst g10433__7098
+deselectInst g10434__1705
+deselectInst g10435__2802
+deselectInst g10423__3680
+deselectInst g10420__8428
+deselectInst g10421__4319
+deselectInst g10422__5477
+deselectInst g10405__6417
+deselectInst g10404__7410
+deselectInst g10384__9945
+deselectInst g10403__9315
+deselectInst Q_minus_one_reg
+deselectInst {Count_reg[0]}
+deselectInst g10382__7482
+deselectInst g10383__5115
+deselectInst g10379__7098
+deselectInst g10397__8246
+deselectInst {P_reg[0]}
+deselectInst g10385__5122
+deselectInst {Count_reg[1]}
+deselectInst {P_reg[3]}
+deselectInst {P_reg[2]}
+deselectInst {P_reg[1]}
+deselectInst g10386__2802
+deselectInst {A_reg[0]}
+deselectInst {A_reg[1]}
+deselectInst {A_reg[2]}
+deselectInst FE_DBTC1_load
+deselectObject IO_Pin {Q[0]}
+deselectObject IO_Pin {Q[1]}
+deselectObject IO_Pin {Q[2]}
+deselectObject IO_Pin {Q[3]}
+deselectObject IO_Pin clk
+deselectObject IO_Pin load
+deselectObject IO_Pin reset
+deselectObject IO_Pin {P[0]}
+deselectObject IO_Pin {P[1]}
+deselectObject IO_Pin {P[2]}
+deselectObject IO_Pin {P[3]}
+deselectObject IO_Pin {P[4]}
+deselectObject IO_Pin {P[5]}
+deselectObject IO_Pin {P[6]}
+deselectObject IO_Pin {P[7]}
+selectObject Net n_14
+selectObject Net n_316
+selectObject Net n_317
+selectObject Net n_6
+selectObject Net n_318
+selectObject Net n_79
+selectInst g10644
+selectInst g26
+selectInst g25
+selectInst g24
+selectInst g10481
+selectInst g10450__5122
+selectInst g10384__9945
+selectInst {Count_reg[1]}
+deselectObject Net n_14
+deselectObject Net n_316
+deselectObject Net n_317
+deselectObject Net n_6
+deselectObject Net n_318
+deselectObject Net n_79
+deselectInst g10644
+deselectInst g26
+deselectInst g25
+deselectInst g24
+deselectInst g10481
+deselectInst g10450__5122
+deselectInst g10384__9945
+deselectInst {Count_reg[1]}
+selectObject Net n_14
+selectObject Net n_316
+selectObject Net n_317
+selectObject Net n_6
+selectObject Net n_318
+selectObject Net n_79
+selectInst g10644
+selectInst g26
+selectInst g25
+selectInst g24
+selectInst g10481
+selectInst g10450__5122
+selectInst g10384__9945
+selectInst {Count_reg[1]}
+deselectObject Net n_14
+deselectObject Net n_316
+deselectObject Net n_317
+deselectObject Net n_6
+deselectObject Net n_318
+deselectObject Net n_79
+deselectInst g10644
+deselectInst g26
+deselectInst g25
+deselectInst g24
+deselectInst g10481
+deselectInst g10450__5122
+deselectInst g10384__9945
+deselectInst {Count_reg[1]}
+selectInst g542
+selectObject IO_Pin {M[0]}
+selectObject IO_Pin {M[1]}
+selectObject IO_Pin {M[2]}
+selectObject IO_Pin {M[3]}
+selectObject IO_Pin {Q[0]}
+selectObject IO_Pin {Q[1]}
+selectObject IO_Pin {Q[2]}
+selectObject IO_Pin {Q[3]}
+selectObject IO_Pin clk
+selectObject IO_Pin load
+selectObject IO_Pin reset
+deselectInst g542
+deselectObject IO_Pin {M[0]}
+deselectObject IO_Pin {M[1]}
+deselectObject IO_Pin {M[2]}
+deselectObject IO_Pin {M[3]}
+deselectObject IO_Pin {Q[0]}
+deselectObject IO_Pin {Q[1]}
+deselectObject IO_Pin {Q[2]}
+deselectObject IO_Pin {Q[3]}
+deselectObject IO_Pin clk
+deselectObject IO_Pin load
+deselectObject IO_Pin reset
+selectObject Net reset
+selectObject Net load
+selectObject Net clk
+selectObject Net n_404
+selectObject Net n_255
+selectObject Net n_14
+selectObject Net n_229
+selectObject Net n_316
+selectObject Net n_317
+selectObject Net FE_DBTN0_reset
+selectObject Net n_6
+selectObject Net n_405
+selectObject Net n_318
+selectObject Net n_199
+selectObject Net n_403
+selectObject Net FE_DBTN1_load
+selectObject Net n_407
+selectObject Net n_79
+selectObject Net n_327
+selectObject Net n_332
+selectObject Net n_337
+selectObject Net n_262
+selectObject Net n_331
+selectObject Net n_333
+selectObject Net n_334
+selectObject Net n_5
+selectObject Net n_1
+selectObject Net n_336
+selectObject Net n_4
+selectObject Net n_3
+selectObject Net n_26
+selectObject Net n_30
+selectObject Net n_27
+selectObject Net n_28
+selectObject Net n_241
+selectObject Net n_9
+selectObject Net n_10
+selectObject Net n_214
+selectObject Net n_247
+selectObject Net n_8
+selectObject Net n_200
+selectObject Net n_36
+selectObject Net n_235
+selectObject Net n_446
+selectObject Net n_358
+selectObject Net n_275
+selectObject Net n_448
+selectObject Net n_22
+selectObject Net n_21
+selectObject Net n_20
+selectObject Net n_39
+selectObject Net n_51
+selectObject Net n_38
+selectObject Net n_58
+selectObject Net n_56
+selectObject Net n_76
+selectObject Net Q_minus_one
+selectObject Net n_355
+selectObject Net n_40
+selectObject Net n_48
+selectObject Net n_69
+selectObject Net n_70
+selectObject Net n_75
+selectObject Net n_236
+selectObject Net n_50
+selectObject Net n_41
+selectObject Net n_77
+selectObject Net n_37
+selectObject Net n_71
+selectObject Net n_67
+selectObject Net n_59
+selectObject Net n_238
+selectObject Net n_237
+selectObject Net n_91
+selectObject Net n_192
+selectObject Net n_124
+selectObject Net n_257
+selectObject Net n_308
+selectObject Net n_96
+selectObject Net n_92
+selectObject Net n_276
+selectObject Net n_80
+selectObject Net n_52
+selectObject Net n_53
+selectObject Net n_239
+selectObject Net n_68
+selectObject Net n_87
+selectObject Net n_359
+selectObject Net n_44
+selectObject Net n_42
+selectObject Net n_227
+selectObject Net n_277
+selectObject Net n_93
+selectObject Net n_193
+selectObject Net n_307
+selectObject Net n_97
+selectObject Net n_98
+selectObject Net n_309
+selectObject Net n_231
+selectObject Net n_240
+selectObject Net n_390
+selectObject Net n_389
+selectObject Net n_388
+selectObject Net n_243
+selectObject Net n_313
+selectObject Net n_34
+selectObject Net n_330
+selectObject Net n_328
+selectObject Net n_323
+selectObject Net n_242
+selectObject Net n_322
+selectObject Net n_314
+selectObject Net n_311
+selectObject Net n_60
+selectObject Net n_393
+selectObject Net n_391
+selectObject Net n_335
+selectObject Net n_245
+selectObject Net n_338
+selectObject Net n_352
+selectObject Net n_194
+selectObject Net n_278
+selectObject Net n_232
+selectObject Net n_329
+selectObject Net n_356
+selectObject Net n_326
+selectObject Net n_90
+selectObject Net n_86
+selectObject Net n_85
+selectObject Net n_392
+selectObject Net n_246
+selectInst g2
+selectInst g10419__10514_dup10674
+selectInst g10645
+selectInst g10644
+selectInst g10643
+selectInst g10642
+selectInst fopt10638
+selectInst g10637
+selectInst g10380__10636
+selectInst g10368__10635
+selectInst g10364__10634
+selectInst g10633
+selectInst g10451__10610
+selectInst g10417__10608
+selectInst g10607
+selectInst g10387__10606
+selectInst fopt10604
+selectInst g36
+selectInst g35
+selectInst g10445__10596
+selectInst g10399__10595
+selectInst g10446__10594
+selectInst g546_dup
+selectInst g10447__10593
+selectInst g10448__10592
+selectInst g10372__10591
+selectInst g10590
+selectInst g10589
+selectInst g10588
+selectInst g118
+selectInst g119
+selectInst g117
+selectInst g26
+selectInst g25
+selectInst g24
+selectInst g19
+selectInst g18
+selectInst g157
+selectInst g155
+selectInst g156
+selectInst g154
+selectInst g191
+selectInst g189
+selectInst g188
+selectInst g48
+selectInst g10572
+selectInst g133
+selectInst g10570
+selectInst g544
+selectInst g547
+selectInst g533
+selectInst g545
+selectInst g532
+selectInst g541
+selectInst g536
+selectInst g549
+selectInst g552
+selectInst g534
+selectInst g531
+selectInst g530
+selectInst g542
+selectInst g537
+selectInst g548
+selectInst g535
+selectInst g529
+selectInst fopt10563
+selectInst g131
+selectInst g126
+selectInst g124
+selectInst g123
+selectInst fopt10502
+selectInst g10483
+selectInst g10484
+selectInst g10479
+selectInst g10477
+selectInst g10478
+selectInst g10480
+selectInst g10481
+selectInst g10461__2398
+selectInst g10460__5477
+selectInst g10458__7410
+selectInst g10456__2883
+selectInst g10465__9315
+selectInst g10467__4733
+selectInst g10468__7482
+selectInst g10469__5115
+selectInst g10454__6131
+selectInst g10450__5122
+selectInst g10452__6783
+selectInst g10453__5526
+selectInst g10444__4319
+selectInst g10449
+selectInst g10443__5107
+selectInst g10440__2398
+selectInst g10441__5477
+selectInst g10442__6417
+selectInst g10439__2346
+selectInst g10437__2883
+selectInst g10438__9945
+selectInst g10431__9315
+selectInst g10432__6161
+selectInst g10436__4733
+selectInst {Count_reg[2]}
+selectInst g10413
+selectInst g10415__5115
+selectInst {M_temp_reg[1]}
+selectInst {M_temp_reg[0]}
+selectInst {M_temp_reg[2]}
+selectInst {M_temp_reg[3]}
+selectInst g10433__7098
+selectInst g10434__1705
+selectInst g10435__2802
+selectInst g10423__3680
+selectInst g10424__6783
+selectInst g10420__8428
+selectInst g10421__4319
+selectInst g10422__5477
+selectInst g10405__6417
+selectInst g10404__7410
+selectInst g10409__2346
+selectInst g10384__9945
+selectInst g10403__9315
+selectInst Q_minus_one_reg
+selectInst {Count_reg[0]}
+selectInst g10382__7482
+selectInst g10383__5115
+selectInst g10398__1881
+selectInst g10379__7098
+selectInst g10397__8246
+selectInst {P_reg[0]}
+selectInst g10385__5122
+selectInst {Count_reg[1]}
+selectInst {P_reg[3]}
+selectInst {P_reg[2]}
+selectInst {P_reg[1]}
+selectInst g10386__2802
+selectInst g10381__1617
+selectInst {A_reg[0]}
+selectInst {A_reg[1]}
+selectInst {A_reg[2]}
+selectInst FE_DBTC0_reset
+selectInst FE_DBTC1_load
+selectObject IO_Pin {M[0]}
+selectObject IO_Pin {M[1]}
+selectObject IO_Pin {M[2]}
+selectObject IO_Pin {M[3]}
+selectObject IO_Pin {Q[0]}
+selectObject IO_Pin {Q[1]}
+selectObject IO_Pin {Q[2]}
+selectObject IO_Pin {Q[3]}
+selectObject IO_Pin clk
+selectObject IO_Pin load
+selectObject IO_Pin reset
+selectObject IO_Pin {P[0]}
+selectObject IO_Pin {P[1]}
+selectObject IO_Pin {P[2]}
+selectObject IO_Pin {P[3]}
+selectObject IO_Pin {P[4]}
+selectObject IO_Pin {P[5]}
+selectObject IO_Pin {P[6]}
+selectObject IO_Pin {P[7]}
+deselectObject Net reset
+deselectObject Net load
+deselectObject Net clk
+deselectObject Net n_404
+deselectObject Net n_255
+deselectObject Net n_14
+deselectObject Net n_229
+deselectObject Net n_316
+deselectObject Net n_317
+deselectObject Net FE_DBTN0_reset
+deselectObject Net n_6
+deselectObject Net n_405
+deselectObject Net n_318
+deselectObject Net n_199
+deselectObject Net n_403
+deselectObject Net FE_DBTN1_load
+deselectObject Net n_407
+deselectObject Net n_79
+deselectObject Net n_327
+deselectObject Net n_332
+deselectObject Net n_337
+deselectObject Net n_262
+deselectObject Net n_331
+deselectObject Net n_333
+deselectObject Net n_334
+deselectObject Net n_5
+deselectObject Net n_1
+deselectObject Net n_336
+deselectObject Net n_4
+deselectObject Net n_3
+deselectObject Net n_26
+deselectObject Net n_30
+deselectObject Net n_27
+deselectObject Net n_28
+deselectObject Net n_241
+deselectObject Net n_9
+deselectObject Net n_10
+deselectObject Net n_214
+deselectObject Net n_247
+deselectObject Net n_8
+deselectObject Net n_200
+deselectObject Net n_36
+deselectObject Net n_235
+deselectObject Net n_446
+deselectObject Net n_358
+deselectObject Net n_275
+deselectObject Net n_448
+deselectObject Net n_22
+deselectObject Net n_21
+deselectObject Net n_20
+deselectObject Net n_39
+deselectObject Net n_51
+deselectObject Net n_38
+deselectObject Net n_58
+deselectObject Net n_56
+deselectObject Net n_76
+deselectObject Net Q_minus_one
+deselectObject Net n_355
+deselectObject Net n_40
+deselectObject Net n_48
+deselectObject Net n_69
+deselectObject Net n_70
+deselectObject Net n_75
+deselectObject Net n_236
+deselectObject Net n_50
+deselectObject Net n_41
+deselectObject Net n_77
+deselectObject Net n_37
+deselectObject Net n_71
+deselectObject Net n_67
+deselectObject Net n_59
+deselectObject Net n_238
+deselectObject Net n_237
+deselectObject Net n_91
+deselectObject Net n_192
+deselectObject Net n_124
+deselectObject Net n_257
+deselectObject Net n_308
+deselectObject Net n_96
+deselectObject Net n_92
+deselectObject Net n_276
+deselectObject Net n_80
+deselectObject Net n_52
+deselectObject Net n_53
+deselectObject Net n_239
+deselectObject Net n_68
+deselectObject Net n_87
+deselectObject Net n_359
+deselectObject Net n_44
+deselectObject Net n_42
+deselectObject Net n_227
+deselectObject Net n_277
+deselectObject Net n_93
+deselectObject Net n_193
+deselectObject Net n_307
+deselectObject Net n_97
+deselectObject Net n_98
+deselectObject Net n_309
+deselectObject Net n_231
+deselectObject Net n_240
+deselectObject Net n_390
+deselectObject Net n_389
+deselectObject Net n_388
+deselectObject Net n_243
+deselectObject Net n_313
+deselectObject Net n_34
+deselectObject Net n_330
+deselectObject Net n_328
+deselectObject Net n_323
+deselectObject Net n_242
+deselectObject Net n_322
+deselectObject Net n_314
+deselectObject Net n_311
+deselectObject Net n_60
+deselectObject Net n_393
+deselectObject Net n_391
+deselectObject Net n_335
+deselectObject Net n_245
+deselectObject Net n_338
+deselectObject Net n_352
+deselectObject Net n_194
+deselectObject Net n_278
+deselectObject Net n_232
+deselectObject Net n_329
+deselectObject Net n_356
+deselectObject Net n_326
+deselectObject Net n_90
+deselectObject Net n_86
+deselectObject Net n_85
+deselectObject Net n_392
+deselectObject Net n_246
+deselectInst g2
+deselectInst g10419__10514_dup10674
+deselectInst g10645
+deselectInst g10644
+deselectInst g10643
+deselectInst g10642
+deselectInst fopt10638
+deselectInst g10637
+deselectInst g10380__10636
+deselectInst g10368__10635
+deselectInst g10364__10634
+deselectInst g10633
+deselectInst g10451__10610
+deselectInst g10417__10608
+deselectInst g10607
+deselectInst g10387__10606
+deselectInst fopt10604
+deselectInst g36
+deselectInst g35
+deselectInst g10445__10596
+deselectInst g10399__10595
+deselectInst g10446__10594
+deselectInst g546_dup
+deselectInst g10447__10593
+deselectInst g10448__10592
+deselectInst g10372__10591
+deselectInst g10590
+deselectInst g10589
+deselectInst g10588
+deselectInst g118
+deselectInst g119
+deselectInst g117
+deselectInst g26
+deselectInst g25
+deselectInst g24
+deselectInst g19
+deselectInst g18
+deselectInst g157
+deselectInst g155
+deselectInst g156
+deselectInst g154
+deselectInst g191
+deselectInst g189
+deselectInst g188
+deselectInst g48
+deselectInst g10572
+deselectInst g133
+deselectInst g10570
+deselectInst g544
+deselectInst g547
+deselectInst g533
+deselectInst g545
+deselectInst g532
+deselectInst g541
+deselectInst g536
+deselectInst g549
+deselectInst g552
+deselectInst g534
+deselectInst g531
+deselectInst g530
+deselectInst g542
+deselectInst g537
+deselectInst g548
+deselectInst g535
+deselectInst g529
+deselectInst fopt10563
+deselectInst g131
+deselectInst g126
+deselectInst g124
+deselectInst g123
+deselectInst fopt10502
+deselectInst g10483
+deselectInst g10484
+deselectInst g10479
+deselectInst g10477
+deselectInst g10478
+deselectInst g10480
+deselectInst g10481
+deselectInst g10461__2398
+deselectInst g10460__5477
+deselectInst g10458__7410
+deselectInst g10456__2883
+deselectInst g10465__9315
+deselectInst g10467__4733
+deselectInst g10468__7482
+deselectInst g10469__5115
+deselectInst g10454__6131
+deselectInst g10450__5122
+deselectInst g10452__6783
+deselectInst g10453__5526
+deselectInst g10444__4319
+deselectInst g10449
+deselectInst g10443__5107
+deselectInst g10440__2398
+deselectInst g10441__5477
+deselectInst g10442__6417
+deselectInst g10439__2346
+deselectInst g10437__2883
+deselectInst g10438__9945
+deselectInst g10431__9315
+deselectInst g10432__6161
+deselectInst g10436__4733
+deselectInst {Count_reg[2]}
+deselectInst g10413
+deselectInst g10415__5115
+deselectInst {M_temp_reg[1]}
+deselectInst {M_temp_reg[0]}
+deselectInst {M_temp_reg[2]}
+deselectInst {M_temp_reg[3]}
+deselectInst g10433__7098
+deselectInst g10434__1705
+deselectInst g10435__2802
+deselectInst g10423__3680
+deselectInst g10424__6783
+deselectInst g10420__8428
+deselectInst g10421__4319
+deselectInst g10422__5477
+deselectInst g10405__6417
+deselectInst g10404__7410
+deselectInst g10409__2346
+deselectInst g10384__9945
+deselectInst g10403__9315
+deselectInst Q_minus_one_reg
+deselectInst {Count_reg[0]}
+deselectInst g10382__7482
+deselectInst g10383__5115
+deselectInst g10398__1881
+deselectInst g10379__7098
+deselectInst g10397__8246
+deselectInst {P_reg[0]}
+deselectInst g10385__5122
+deselectInst {Count_reg[1]}
+deselectInst {P_reg[3]}
+deselectInst {P_reg[2]}
+deselectInst {P_reg[1]}
+deselectInst g10386__2802
+deselectInst g10381__1617
+deselectInst {A_reg[0]}
+deselectInst {A_reg[1]}
+deselectInst {A_reg[2]}
+deselectInst FE_DBTC0_reset
+deselectInst FE_DBTC1_load
+deselectObject IO_Pin {M[0]}
+deselectObject IO_Pin {M[1]}
+deselectObject IO_Pin {M[2]}
+deselectObject IO_Pin {M[3]}
+deselectObject IO_Pin {Q[0]}
+deselectObject IO_Pin {Q[1]}
+deselectObject IO_Pin {Q[2]}
+deselectObject IO_Pin {Q[3]}
+deselectObject IO_Pin clk
+deselectObject IO_Pin load
+deselectObject IO_Pin reset
+deselectObject IO_Pin {P[0]}
+deselectObject IO_Pin {P[1]}
+deselectObject IO_Pin {P[2]}
+deselectObject IO_Pin {P[3]}
+deselectObject IO_Pin {P[4]}
+deselectObject IO_Pin {P[5]}
+deselectObject IO_Pin {P[6]}
+deselectObject IO_Pin {P[7]}
+selectObject Net n_14
+selectObject Net n_316
+selectObject Net n_317
+selectObject Net n_6
+selectObject Net n_318
+selectObject Net n_79
+selectInst g10644
+selectInst g26
+selectInst g25
+selectInst g24
+selectInst g10572
+selectInst g10481
+selectInst g10450__5122
+selectInst g10384__9945
+selectInst {Count_reg[1]}
+selectInst FE_DBTC1_load
+deselectObject Net n_14
+deselectObject Net n_316
+deselectObject Net n_317
+deselectObject Net n_6
+deselectObject Net n_318
+deselectObject Net n_79
+deselectInst g10644
+deselectInst g26
+deselectInst g25
+deselectInst g24
+deselectInst g10572
+deselectInst g10481
+deselectInst g10450__5122
+deselectInst g10384__9945
+deselectInst {Count_reg[1]}
+deselectInst FE_DBTC1_load
+selectObject Net n_9
+selectObject Net n_9
+selectObject Net n_9
+selectInst g2
+selectInst g10453__5526
+selectInst g10432__6161
+selectInst g10433__7098
+exit
